@@ -20,7 +20,7 @@
     align-items: center;
     padding: 200px 0;
     background-attachment: fixed;
-    background-image: url('./bf.jpeg');
+    background-image: url('../../../public/bf.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 
