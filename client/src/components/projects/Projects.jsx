@@ -24,8 +24,8 @@ const Projects = () => {
                                     </a>
                                     </div>
                                     <div className={style.project}>
-                                    <a href="https://wedevelop.vercel.app" target='_blank'>
-                                        <img src="wedev.png" alt="wedeveloper" />
+                                    <a href="https://matiasdehoyos.vercel.app" target='_blank'>
+                                        <img src="portfolio.png" alt="portfolio" />
                                         <h4>Portfolio</h4>
                                         <p>Página web que muestra información relevante, preoyectos y contacto de un profesional.</p>
                                     </a>

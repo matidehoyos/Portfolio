@@ -8,12 +8,11 @@
 }
 
 .imgPre img{
-    width: 460px;
-    height: 460px;
+    width: 400px;
+    height: 400px;
     filter: drop-shadow(20px -6px 20px transparent);
-    opacity: 1;
     position: relative;
-    left: -80px;
+    left: -40px;
     top: 60px;
 }
 
@@ -171,7 +170,7 @@
     position: relative;
     right: -130px;
     font-size: 24px;
-    color: #848484;
+    color: #636363;
 }
 
 .arrow {

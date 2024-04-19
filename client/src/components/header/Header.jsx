@@ -19,7 +19,7 @@ const Header = () => {
                         <p className={style.des}>Junior developer with a passion for creating visually stunning and <br/>user-friendly websites.</p>
                         
                         <div className={style.botones}>
-                        <button className={style.hire}>Hire me</button>
+                        <a href="#contact"><button className={style.hire}>Hire me</button></a>
                         <a href="https://drive.google.com/file/d/1t2_vNEdiFrSU70cCBypvux1nOaXq32wg/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><button className={style.cv}>Download cv <FaFile className={style.file}/></button></a>
                         </div>
                     
