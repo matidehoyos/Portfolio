@@ -175,4 +175,178 @@
 /* Estilos para dispositivos móviles ------------------------------- */
 
 @media only screen and (max-width: 680px) {
+
+    .container {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .pContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }   
+    
+    .primer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        background-attachment: inherit;
+        background-image: url('../../../public/bf.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .first {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 50px 20px;
+        color: #fff;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: left;
+        filter: drop-shadow(0px 0px 5px #000);
+        font-style: italic;
+        background-color: rgba(0,0,0,.3);
+    }
+    
+    .about {
+        width: 100%;
+        height: auto;
+        padding: 60px 0px;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .aboutBox {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-top: 60px;
+    }
+    
+    .parraf {
+        width: 40%;
+        padding: 24px 30px;
+        margin: 0;
+        margin-left: 120px;
+        border-radius: 12px;
+        box-shadow: -10px -10px 20px #c1c1c1;
+        position: relative;
+        top: 6px;
+        background-image: linear-gradient(to right bottom,#8e69ff, #f8f8f800);
+    }
+    
+    .second {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #222;
+        font-style: italic;
+        text-align: left;
+    }
+    
+    .skils {
+        width: 50%;
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .titu {
+        background-color: transparent;
+        color: #222;
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    .tech {
+        font-size: 18px;
+        font-size: 100;
+        color: #fff;
+        background-color: #4000ffc7;
+        padding: 4px 10px;
+        margin: 0px 4px;
+        border-radius: 6px;
+    }
+    
+    .backe {
+        font-size: 18px;
+        font-size: 100;
+        color: #fff;
+        background-color: #8000ffc7;
+        padding: 4px 10px;
+        margin: 0px 4px;
+        border-radius: 6px;
+    }
+    
+    .skills {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        white-space: nowrap;
+        color: #111;
+        animation: desplazamiento 30s ease-out infinite;
+      }
+      
+      @keyframes desplazamiento {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+    
+    
+    .tecno {
+        padding: 20px 0px;
+        margin: 0;
+        margin-top: 100px;
+        display: flex;
+        justify-content: start;
+        flex-wrap: nowrap;
+    }
+    
+    
+    .tecno p {
+        width: auto;
+        height: auto;
+        font-size: 20px;
+        font-weight: 700;
+        color: #5e5e5e;
+        padding: 0;
+        margin: 0;
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .tecno p img {
+        width: 20px;
+        height: 20px;
+        margin: 0;
+        padding: 0;
+        margin-right: 4px;
+    }
+    
+    
+    
 }
