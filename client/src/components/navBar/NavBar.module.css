@@ -1,0 +1,90 @@
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin: 0;
+    padding: 10px 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.2);
+    position: fixed;
+    z-index: 3000;
+}
+
+.container img {
+    width: 50px;
+    height: 50px;
+    object-fit: scale-down;
+}
+
+.menu {
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu nav {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    margin: 0px 17px;
+    padding: 0px;
+    text-align: center;
+    color: rgb(85, 85, 85);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu li a:hover {
+    color: #222;
+}
+  
+.cv button {
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    font-weight: 550;
+    color: #222;
+    background-color: #c4c4c4;
+    border-radius: 6px;
+    margin: 0;
+    padding: 8px 12px;
+    border: none;
+    outline: none;
+}
+
+.file {
+    color: #4f4f4f;
+}
+
+.cv button:hover .file {
+    color: #fff;
+}
+
+.cv button:hover {
+    color: #fff;
+    background-color: #8000ff;
+}
+
