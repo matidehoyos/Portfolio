@@ -168,3 +168,11 @@
     padding: 0;
     margin-right: 4px;
 }
+
+
+
+
+/* Estilos para dispositivos móviles ------------------------------- */
+
+@media only screen and (max-width: 680px) {
+}

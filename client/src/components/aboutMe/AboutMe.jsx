@@ -8,13 +8,13 @@ const AboutMe = () => {
         <div className={style.container}>
              <div className={style.pContainer} id='about'>
                                 <div className={style.primer}>
-                                  <p className={style.first}>Soy desarrollador de software con experiencia <br/> en la creación de soluciones tecnológicas innovadoras.</p>
+                                  <p className={style.first}>I am a software developer with experience <br/>creating innovative technological solutions.</p>
                                 </div>
                             </div>
                             <div className={style.about}>
                                 <div className={style.aboutBox}>
                                     <div className={style.parraf}>
-                                          <p className={style.second}>Autodidacta, proactivo y orientado a resultados, con una solida formación técnica, siempre buscando superar expectativas y encontrar soluciones creativas a los desafíos que se presentan. En constante crecimiento, abierto a aprender nuevas técnicas y tecnológias.</p>
+                                          <p className={style.second}>Self-motivated, proactive and results orientated, with a solid technical background and always looking to push myself to present more creative and challenging projects. Consitantly growing and open to learning new techniques and technologies.</p>
                                     </div>
                                     <div className={style.skils}>
                                         <p className={style.front}><span className={style.titu}>Frontend:</span><br/><span className={style.tech}>Javascript</span><span className={style.tech}>React.js</span><span className={style.tech}>Redux</span><span className={style.tech}>Bootstrap</span><span className={style.tech}>Css3</span><span className={style.tech}>Html5</span></p> 
