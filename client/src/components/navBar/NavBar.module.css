@@ -88,3 +88,116 @@
     background-color: #8000ff;
 }
 
+.menuResp {
+    display: none;
+}
+
+
+
+
+/* Estilos para dispositivos móviles ------------------------------- */
+
+@media only screen and (max-width: 680px) {
+
+    .container {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+      margin: 0;
+      position: fixed;
+      top: 0px;
+      z-index: 4000;
+      box-shadow: 0px 0px 20px rgba(0,0,0,.2);
+    }
+    
+    .cv {
+        display: none;
+    }
+
+    .container img {
+        width: 30px;
+        height: 30px;
+        object-fit: scale-down;
+        margin-top: 5px;
+    }
+    
+    .menu {
+      width: 100vw;
+      height: calc(100vh - 50px);
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: start;
+      background-color: #fff;
+      position: absolute;
+      top: 50px;
+      left: -800;
+      transition: .4s all;
+      z-index: 2000;
+      overflow-x: hidden;
+      border-top: 1px solid #e66300;
+    }
+  
+    .menu nav {
+      width: 100vw;
+    }
+    
+    .menu ul {
+      width: 100vw;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      gap: 15px 0;
+      padding: 0px;
+      padding-top: 80px;
+    }
+    
+    .menu ul li {
+      width: 100%;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: start;
+      align-items: start;
+    }
+    
+    .menu ul li a {
+      width: 100%;
+      text-decoration: none;
+      color: #111;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: .3px;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .menuResp { 
+      width: auto;
+      height: auto;
+      display: flex;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .menuResp button {
+      margin: 0;
+      padding: 0;
+      font-size: 24px;
+      transition: .3s all;
+      position: relative;
+      top: 3px;
+      color: #e66300;
+      background-color: transparent;
+      border: none;
+      outline: none;    }
+  }
+  
+  

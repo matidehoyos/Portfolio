@@ -187,3 +187,191 @@
         75% { transform: translateX(5px); }
         100% { transform: translateX(0px); }
       }
+
+
+
+
+
+
+
+
+/* Estilos para dispositivos móviles ------------------------------- */
+
+@media only screen and (max-width: 680px) {
+
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: start;
+        padding-top: 140px;
+    }
+    
+    .imgPre {
+        width: auto;
+        height: auto;
+        filter: drop-shadow(20px -6px 20px transparent);
+        position: relative;
+        top: -110px;
+        left: 100px;
+        margin: 0 auto;
+    }
+    
+    .imgPre img {
+        width: 200px;
+        height: 200px;
+        object-fit: scale-down;
+    }
+
+    .txtPre {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin-left: 24px;
+    }
+    
+    .txtPre h4 {
+        width: auto;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 16px;
+        color: #000;
+        letter-spacing: .3px;
+        padding: 0;
+        margin: 0;
+        filter: drop-shadow(-10px -5px 10px rgb(125, 125, 125));
+    }
+    
+    .txtPre h1 {
+        font-size: 38px;
+        font-weight: 500;
+        font-style: normal;
+        background-color: #009389;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+        filter: drop-shadow(0px 20px 10px rgba(0,0,0,.35));
+        letter-spacing: -.6px;
+        line-height: 40px;
+        word-spacing: -2px;
+        text-align: left;
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+    }
+    
+    .des {
+        font-size: 20px;
+        font-weight: 500;
+        color: #333;
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+        filter: drop-shadow(0px 5px 10px rgba(0,0,0,.4));
+    }
+    
+    .botones {
+        margin-top: 30px;
+    }
+    
+    .hire {
+        width: auto;
+        height: auto;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        background-color: rgb(132, 0, 255);
+        border-radius: 6px;
+        margin: 0;
+        margin-right: 10px;
+        padding: 14px 16px;
+        border: none;
+        outline: none;
+        box-shadow: -10px -4px 20px rgba(0,0,0,.35);
+    }
+    
+    .hire:hover {
+        background-color: transparent;
+        border: 1px solid #8000ff;
+        color: #8000ff;
+    }
+    
+    .cv {
+        width: auto;
+        height: auto;
+        font-size: 16px;
+        font-weight: 550;
+        color: #222;
+        background-color: #c4c4c4;
+        border-radius: 4px;
+        margin: 0;
+        padding: 8px 12px;
+        border: 1px solid #222;
+        outline: none;
+    }
+    
+    .file {
+        color: #4f4f4f;
+    }
+    
+    .cv:hover {
+        color: #eee;
+        background-color: #333;
+    }
+    
+    .redes {
+        width: auto;
+        height: auto;
+        margin: 0;
+        margin-top: 80px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    .redes nav {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .redes ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .redes li {
+        display: inline;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .redes li a {
+        text-decoration: none;
+        margin: 0px;
+        margin-right: 24px;
+        padding: 0px 9px;
+        padding-top: 8px;
+        text-align: center;
+        font-size: 24px;
+        color: rgb(29, 29, 29);
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.6);
+        cursor: pointer;
+    }
+    
+    .redes li a:hover {
+        background-color: #333;
+        color: #eee;
+    }
+
+    .scroll {
+        display: none;
+    }
+    
+}

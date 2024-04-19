@@ -70,15 +70,24 @@
    filter: drop-shadow(0px 0px 5px #000);
 }
 
-.project p {
+.desc {
    padding: 0px 30px;
-   padding-bottom: 30px;
+   padding-bottom: 20px;
    color: #fff;
    text-align: left;
    font-size: 18px;
    font-weight: 300;
    filter: drop-shadow(0px 0px 5px #000);
+}
 
+.tecno {
+   padding: 0px 30px;
+   padding-bottom: 30px;
+   color: #8000ff;
+   text-align: left;
+   font-size: 18px;
+   font-weight: 300;
+   filter: drop-shadow(0px 0px 5px #000);
 }
 
 
