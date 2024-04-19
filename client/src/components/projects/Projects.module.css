@@ -10,7 +10,7 @@
    display: flex;
    flex-direction: column;
    background-attachment: fixed;
-   background-image: url('bf.jpeg');
+   background-image: url('./bf.jpeg');
    background-size: cover;
    background-repeat: no-repeat;
 }
@@ -18,7 +18,7 @@
 .projects h3 {
    font-size: 26px;
    font-weight: 500;
-   color: #b9b9b9;
+   color: #ffffff;
    text-align: center;
    margin-bottom: 60px;
    filter: drop-shadow(0px 0px 5px #000);

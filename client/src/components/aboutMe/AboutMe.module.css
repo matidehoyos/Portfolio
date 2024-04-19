@@ -20,7 +20,7 @@
     align-items: center;
     padding: 200px 0;
     background-attachment: fixed;
-    background-image: url('bf.jpeg');
+    background-image: url('./bf.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -68,6 +68,7 @@
     box-shadow: -10px -10px 20px #c1c1c1;
     position: relative;
     top: 6px;
+    background-image: linear-gradient(to right bottom,#8e69ff, #f8f8f800);
 }
 
 .second {
