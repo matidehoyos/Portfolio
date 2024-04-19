@@ -1,6 +1,4 @@
 import style from './Footer.module.css'
-import { FaEnvelope, FaLinkedin, FaLongArrowAltRight } from "react-icons/fa";
-import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
 
 
 const Footer = () => {
