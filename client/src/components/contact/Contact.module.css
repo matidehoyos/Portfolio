@@ -55,3 +55,71 @@
     position: relative;
     top: 8px;
 }
+
+
+/* Estilos para dispositivos móviles ------------------------------- */
+
+@media only screen and (max-width: 680px) {
+
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 90px 0px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.container h5 {
+    width: auto;
+    font-size: 26px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #8000ff;
+    margin: 0;
+    padding: 50px 100px;
+    border-radius: 12px;
+}
+
+.arrow {
+    position: relative;
+    top: 5px;
+    transform: rotate(90deg);
+}
+
+.redes ul {
+    list-style-type: none;
+}
+
+.redes ul li {
+    display: flex;
+    align-items: center;
+}
+
+.redes a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+    padding: 0;
+    margin: 8px 0;
+}
+
+.redes a:hover {
+    color: #333;
+}
+
+.icon {
+    font-size: 22px;
+    color: #222;
+    padding: 0;
+    margin: 0;
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+}
+
+}

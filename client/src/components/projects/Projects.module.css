@@ -114,11 +114,12 @@
    }
    
    .projects h3 {
-      font-size: 26px;
-      font-weight: 500;
+      font-size: 24px;
+      font-weight: 400;
       color: #ffffff;
       text-align: center;
-      margin-bottom: 60px;
+      margin-top: 40px;
+      margin-bottom: 40px;
       filter: drop-shadow(0px 0px 5px #000);
    }
    
@@ -126,18 +127,19 @@
       width: 100%;
       height: auto;
       display: flex;
-      flex-wrap: wrap;
-      padding: 60px 0px;
+      flex-direction: column;
+      padding: 20px 0px;
       justify-content: center;
-      gap: 60px;
+      align-items: center;
+      gap: 40px;
    }
    
    .project {
-      width: 28%;
+      width: 84%;
       height: auto;
       display: flex;
       flex-direction: column;
-      border-radius: 20px;
+      border-radius: 12px;
       box-shadow: 0px 0px 20px rgba(256,256,256,.45);
       border: 2px solid rgba(256,256,256,.6);
       background-color: #111;
@@ -153,7 +155,7 @@
    
    .project img {
       width: 100%;
-      border-radius: 20px 20px 0px 0px;
+      border-radius: 12px 12px 0px 0px;
    }
    
    .project h4 {
@@ -162,24 +164,24 @@
       width: 100%;
       text-align: left;
       padding: 0px;
-      padding-left: 30px;
+      padding-left: 20px;
       margin: 10px 0px;
       color: #d6d6d6;
       filter: drop-shadow(0px 0px 5px #000);
    }
    
    .desc {
-      padding: 0px 30px;
+      padding: 0px 20px;
       padding-bottom: 20px;
       color: #fff;
       text-align: left;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 300;
       filter: drop-shadow(0px 0px 5px #000);
    }
    
    .tecno {
-      padding: 0px 30px;
+      padding: 0px 20px;
       padding-bottom: 30px;
       color: #8000ff;
       text-align: left;

@@ -15,3 +15,30 @@
     color: aliceblue;
     filter: drop-shadow(0px 0px 5px #000);
 }
+
+
+
+
+/* Estilos para dispositivos móviles ------------------------------- */
+
+@media only screen and (max-width: 680px) {
+
+    .container {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 20px 0px;
+        background-color: #111;
+    }
+    
+    .container p {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 200;
+        letter-spacing: 0px;
+        text-align: center;
+        color: aliceblue;
+        filter: drop-shadow(0px 0px 5px #000);
+    }
+    
+}
