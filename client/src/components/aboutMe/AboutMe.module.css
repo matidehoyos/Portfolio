@@ -221,7 +221,7 @@
     .about {
         width: 100%;
         height: auto;
-        padding: 60px 0px;
+        padding: 30px 20px;
         padding-bottom: 0;
         display: flex;
         flex-direction: column;
@@ -232,65 +232,68 @@
         width: 100%;
         height: auto;
         display: flex;
-        justify-content: start;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        padding-top: 60px;
+        padding-top: 0px;
     }
     
     .parraf {
-        width: 40%;
-        padding: 24px 30px;
+        width: 100%;
+        padding: 0;
         margin: 0;
-        margin-left: 120px;
-        border-radius: 12px;
-        box-shadow: -10px -10px 20px #c1c1c1;
+        margin-left: 0px;
+        border-radius: 0;
+        box-shadow: -10px -10px 20px transparent;
         position: relative;
-        top: 6px;
-        background-image: linear-gradient(to right bottom,#8e69ff, #f8f8f800);
+        top: 0;
+        background-image: none;
     }
     
     .second {
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 400;
-        line-height: 30px;
+        line-height: 24px;
         color: #222;
         font-style: italic;
         text-align: left;
+        padding: 0;
     }
     
     .skils {
-        width: 50%;
-        margin-left: 40px;
+        width: 100%;
+        margin-left: 0px;
         display: flex;
         flex-direction: column;
         gap: 30px;
+        margin-top: 30px;
     }
     
     .titu {
         background-color: transparent;
         color: #222;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 600;
     }
     
     .tech {
         font-size: 18px;
         font-size: 100;
-        color: #fff;
-        background-color: #4000ffc7;
-        padding: 4px 10px;
-        margin: 0px 4px;
-        border-radius: 6px;
+        color: #8000ff;
+        background-color: transparent;
+        padding: 0px 6px;
+        margin: 0px;
+        border-radius: 0px;
     }
     
     .backe {
         font-size: 18px;
         font-size: 100;
-        color: #fff;
-        background-color: #8000ffc7;
-        padding: 4px 10px;
-        margin: 0px 4px;
-        border-radius: 6px;
+        color: #4000ff;
+        padding: 0px 6px;
+        margin: 0;
+        border-radius: 0px;
+        background-color: transparent;
     }
     
     .skills {
@@ -317,9 +320,9 @@
     
     
     .tecno {
-        padding: 20px 0px;
+        padding: 10px 0px;
         margin: 0;
-        margin-top: 100px;
+        margin-top: 50px;
         display: flex;
         justify-content: start;
         flex-wrap: nowrap;

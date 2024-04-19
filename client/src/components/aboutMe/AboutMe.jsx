@@ -17,8 +17,8 @@ const AboutMe = () => {
                                           <p className={style.second}>Self-motivated, proactive and results orientated, with a solid technical background and always looking to push myself to present more creative and challenging projects. Consitantly growing and open to learning new techniques and technologies.</p>
                                     </div>
                                     <div className={style.skils}>
-                                        <p className={style.front}><span className={style.titu}>Frontend:</span><br/><span className={style.tech}>Javascript</span><span className={style.tech}>React.js</span><span className={style.tech}>Redux</span><span className={style.tech}>Bootstrap</span><span className={style.tech}>Css3</span><span className={style.tech}>Html5</span></p> 
-                                        <p className={style.back}><span className={style.titu}>Backend:</span><br/><span className={style.backe}>Node.js</span><span className={style.backe}>Express</span><span className={style.backe}>PostgreSql</span><span className={style.backe}>MongoDB</span><span className={style.backe}>Sequelize</span><span className={style.backe}>Mongoose</span></p> 
+                                        <p className={style.front}><span className={style.titu}>Frontend:</span><br/><span className={style.tech}>Javascript</span> <span className={style.tech}>React.js</span> <span className={style.tech}>Redux</span> <span className={style.tech}>Bootstrap</span> <span className={style.tech}>Css3</span> <span className={style.tech}>Html5</span></p> 
+                                        <p className={style.back}><span className={style.titu}>Backend:</span><br/><span className={style.backe}>Node.js</span> <span className={style.backe}>Express</span> <span className={style.backe}>PostgreSql</span> <span className={style.backe}>MongoDB</span> <span className={style.backe}>Sequelize</span> <span className={style.backe}>Mongoose</span></p> 
                                     </div>
                                 </div>
                                 <div className={style.skills}>
