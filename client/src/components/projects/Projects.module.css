@@ -1,6 +1,84 @@
 .container {
    width: 100%;
    height: auto;
-   background-color: bisque;
 }
+
+.projects {
+   width: 100%;
+   height: auto;
+   padding: 120px 0px;
+   display: flex;
+   flex-direction: column;
+   background-attachment: fixed;
+   background-image: url('bf.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.projects h3 {
+   font-size: 26px;
+   font-weight: 500;
+   color: #b9b9b9;
+   text-align: center;
+   margin-bottom: 60px;
+   filter: drop-shadow(0px 0px 5px #000);
+}
+
+.projectContainer {
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 60px 0px;
+   justify-content: center;
+   gap: 60px;
+}
+
+.project {
+   width: 28%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   border-radius: 20px;
+   box-shadow: 0px 0px 20px rgba(256,256,256,.45);
+   border: 2px solid rgba(256,256,256,.6);
+   background-color: #111;
+}
+
+.project:hover {
+   box-shadow: 0px 0px 50px rgba(256,256,256,.45);
+}
+
+.project a {
+   text-decoration: none;
+}
+
+.project img {
+   width: 100%;
+   border-radius: 20px 20px 0px 0px;
+}
+
+.project h4 {
+   font-size: 24px;
+   font-weight: 500;
+   width: 100%;
+   text-align: left;
+   padding: 0px;
+   padding-left: 30px;
+   margin: 10px 0px;
+   color: #d6d6d6;
+   filter: drop-shadow(0px 0px 5px #000);
+}
+
+.project p {
+   padding: 0px 30px;
+   padding-bottom: 30px;
+   color: #fff;
+   text-align: left;
+   font-size: 18px;
+   font-weight: 300;
+   filter: drop-shadow(0px 0px 5px #000);
+
+}
+
 

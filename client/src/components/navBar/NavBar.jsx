@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import style from './NavBar.module.css'
 import { FaFile } from "react-icons/fa";
 

@@ -1,22 +1,12 @@
-import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
-import { FaLinkedin, FaArrowDown, FaFile  } from 'react-icons/fa';
-import NavBar from '../navBar/NavBar';
-import style from './About.module.css'
-import Contact from '../contact/Contact';
-import Footer from '../footer/Footer';
-import Header from '../header/Header';
+import style from './AboutMe.module.css'
 
 
-const About = () => {
+const AboutMe = () => {
    
 
     return(
         <div className={style.container}>
-                <div className={style.grancontainer}>
-                    <NavBar />
-                    <div className={style.subcontainer}>
-                        <Header />
-                            <div className={style.pContainer} id='about'>
+             <div className={style.pContainer} id='about'>
                                 <div className={style.primer}>
                                   <p className={style.first}>Soy desarrollador de software con experiencia <br/> en la creación de soluciones tecnológicas innovadoras.</p>
                                 </div>
@@ -47,38 +37,8 @@ const About = () => {
                                             </div>
                                     </div> 
                             </div>
-                            <div className={style.projects} id='projects'>
-                                <h3>Projects</h3>
-                                <div className={style.projectContainer}>
-                                    <div className={style.project}>
-                                    <a href="https://electroauto.vercel.app" target='_blank'>
-                                        <img src="electroauto.png" alt="electroauto" />
-                                        <h4>Electroauto</h4>
-                                        <p>Responsive aplicación web ecommerce. Con varias vistas, incluyendo tienda online, y panel autoadministrable.</p>
-                                    </a>
-                                    </div>
-                                    <div className={style.project}>
-                                    <a href="https://wedevelop.vercel.app" target='_blank'>
-                                        <img src="wedev.png" alt="wedeveloper" />
-                                        <h4>WeDevelop</h4>
-                                        <p>Aplicación web autocotizadora. Con varias vistas, incluyendo un cuestionario a traves del cual se autocotiza el producto. Con panel autoadministrable.</p>
-                                    </a>
-                                    </div>
-                                    <div className={style.project}>
-                                    <a href="https://wedevelop.vercel.app" target='_blank'>
-                                        <img src="wedev.png" alt="wedeveloper" />
-                                        <h4>Portfolio</h4>
-                                        <p>Página web que muestra información relevante, preoyectos y contacto de un profesional.</p>
-                                    </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <Contact />
-                            <Footer />
-                        </div>
-                </div>
         </div>
     )
 }
 
-export default About;
+export default AboutMe;
