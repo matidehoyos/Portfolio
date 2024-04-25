@@ -30,12 +30,12 @@
    display: flex;
    flex-wrap: wrap;
    padding: 60px 0px;
-   justify-content: center;
+   justify-content: start;
    gap: 60px;
 }
 
 .project {
-   width: 28%;
+   width: 23%;
    height: auto;
    display: flex;
    flex-direction: column;
