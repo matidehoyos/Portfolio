@@ -42,11 +42,12 @@
    border-radius: 20px;
    box-shadow: 0px 0px 20px rgba(256,256,256,.45);
    border: 2px solid rgba(256,256,256,.6);
-   background-color: #111;
+   background-color: #181818;
 }
 
 .project:hover {
-   box-shadow: 0px 0px 50px rgba(256,256,256,.45);
+   box-shadow: 0px 0px 30px rgba(256,256,256,.45);
+   background-color: #080808;
 }
 
 .project a {
@@ -69,6 +70,7 @@
    color: #d6d6d6;
    filter: drop-shadow(0px 0px 5px #000);
 }
+
 
 .desc {
    padding: 0px 30px;
