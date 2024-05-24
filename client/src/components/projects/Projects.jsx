@@ -17,6 +17,14 @@ const Projects = () => {
                                     </a>
                                     </div>
                                     <div className={style.project}>
+                                    <a href="https://climappmdh.vercel.app" target='_blank'>
+                                        <img src="desk.png" alt="clima app" />
+                                        <h4>Weather app</h4>
+                                        <p className={style.desc}>Aplicación web del clima.</p>
+                                        <p className={style.tecno}>NodeJs, Express. <br/>ReactJs, Sass.<br/></p>
+                                    </a>
+                                    </div>
+                                    <div className={style.project}>
                                     <a href="https://wedevelop.vercel.app" target='_blank'>
                                         <img src="wedev.png" alt="wedeveloper" />
                                         <h4>WeDevelop</h4>
