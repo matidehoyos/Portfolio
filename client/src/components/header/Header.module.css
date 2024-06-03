@@ -8,12 +8,11 @@
 }
 
 .imgPre img{
-    width: 400px;
-    height: 400px;
+    width: 90%;
+    height: auto;
     filter: drop-shadow(20px -6px 20px transparent);
     position: relative;
-    left: -40px;
-    top: 60px;
+    top: 40px;
 }
 
 .txtPre {
