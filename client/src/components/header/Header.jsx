@@ -10,7 +10,7 @@ const Header = () => {
         <div className={style.container}>
 
                 <div className={style.imgPre}>
-                        <img src="yo.png" alt="foto mia" />
+                        <img src="hg.png" alt="foto mia" />
                 </div>
 
                 <div className={style.txtPre}>
