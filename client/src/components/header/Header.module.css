@@ -202,19 +202,19 @@
     .container {
         width: 100%;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         align-items: start;
-        padding-top: 120px;
+        padding: 120px 0px;
     }
     
     .imgPre {
         width: auto;
         height: auto;
         filter: drop-shadow(20px -6px 20px transparent);
-        position: relative;
-        top: -110px;
-        left: 100px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
         margin: 0 auto;
     }
     
@@ -228,15 +228,15 @@
         width: auto;
         display: flex;
         flex-direction: column;
-        margin-left: 24px;
+        margin-left: 20px;
     }
     
     .txtPre h4 {
         width: auto;
-        font-size: 22px;
-        font-weight: 500;
+        font-size: 20px;
+        font-weight: 400;
         line-height: 16px;
-        color: #000;
+        color: #111;
         letter-spacing: .3px;
         padding: 0;
         margin: 0;
@@ -244,17 +244,17 @@
     }
     
     .txtPre h1 {
-        font-size: 56px;
+        font-size: 40px;
         font-weight: 500;
         font-style: normal;
         background-color: #009389;
         background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin: 40px 0;
+        margin: 20px 0;
         padding: 0;
         filter: drop-shadow(0px 20px 10px rgba(0,0,0,.35));
-        letter-spacing: -.6px;
-        line-height: 50px;
+        letter-spacing: -1px;
+        line-height: 42px;
         word-spacing: -2px;
         text-align: left;
         font-family: "Rubik", sans-serif;
@@ -262,8 +262,9 @@
     }
     
     .des {
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 20px;
         color: #333;
         padding: 0;
         margin: 0;
@@ -272,35 +273,33 @@
     }
     
     .botones {
-        margin-top: 30px;
+        margin-top: 20px;
     }
     
     .hire {
         width: auto;
         height: auto;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 600;
         color: #fff;
-        background-color: rgb(132, 0, 255);
-        border-radius: 6px;
+        background-color: rgba(132, 0, 255, 0.944);
+        border-radius: 4px;
         margin: 0;
         margin-right: 10px;
         padding: 14px 16px;
-        border: none;
+        border: .5px solid #fff;
         outline: none;
         box-shadow: -10px -4px 20px rgba(0,0,0,.35);
     }
     
     .hire:hover {
-        background-color: transparent;
-        border: 1px solid #8000ff;
-        color: #8000ff;
+        color: #fff;
     }
     
     .cv {
         width: auto;
         height: auto;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 550;
         color: #222;
         background-color: #c4c4c4;
@@ -316,17 +315,16 @@
     }
     
     .cv:hover {
-        color: #eee;
-        background-color: #333;
+        color: #222;
     }
     
     .redes {
         width: auto;
         height: auto;
         margin: 0;
-        margin-top: 60px;
+        margin-top: 40px;
         padding: 0;
-        padding-left: 10px;
+        padding-left: 0px;
         display: flex;
         align-items: center;
         z-index: 1000;
@@ -354,20 +352,18 @@
     .redes li a {
         text-decoration: none;
         margin: 0px;
-        margin-right: 24px;
-        padding: 0px 9px;
+        margin-right: 18px;
+        padding: 0px 11px;
         padding-top: 8px;
         text-align: center;
-        font-size: 24px;
+        font-size: 20px;
         color: rgb(29, 29, 29);
         border-radius: 50%;
         box-shadow: 0px 0px 10px rgba(0,0,0,.6);
-        cursor: pointer;
     }
     
     .redes li a:hover {
-        background-color: #333;
-        color: #eee;
+        color: rgb(29, 29, 29);
     }
 
     .scroll {
