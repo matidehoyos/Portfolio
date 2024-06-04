@@ -205,8 +205,8 @@
         flex-direction: column-reverse;
         justify-content: center;
         align-items: start;
-        padding: 80px 0px;
-        padding-bottom: 30px;
+        padding: 125px 0px;
+        padding-bottom: 40px;
     }
     
     .imgPre {
@@ -214,15 +214,16 @@
         height: auto;
         filter: drop-shadow(-50px -6px 20px #949494);
         position: relative;
-        top: -20px;
+        top: -50px;
         right: 10px;
         display: flex;
         justify-content: end;
+        z-index: -200;
     }
     
     .imgPre img {
-        width: 300px;
-        height: 300px;
+        width: 270px;
+        height: 270px;
         object-fit: scale-down;
     }
 
@@ -248,16 +249,16 @@
     
     .txtPre h1 {
         font-size: 48px;
-        font-weight: 500;
+        font-weight: 600;
         font-style: normal;
-        background-color: #00504a;
+        background-color: #00837b;
         background-clip: text;
         -webkit-text-fill-color: transparent;
         margin: 24px 0;
-        padding: 0;
+        padding: 0.2em 0;
         filter: drop-shadow(0px 20px 10px rgba(0,0,0,.35));
         letter-spacing: -1px;
-        line-height: 46px;
+        line-height: .8;
         word-spacing: -2px;
         text-align: left;
         font-family: "Rubik", sans-serif;
