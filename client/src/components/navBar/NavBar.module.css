@@ -132,13 +132,13 @@
       justify-content: start;
       background-color: #fff;
       position: absolute;
-      top: 70px;
+      top: 60px;
       left: -800;
       transition: .4s all;
       z-index: 2000;
       overflow-x: hidden;
-      border-top: 1px solid #e66300;
-    }
+      border-top: 1px solid rgba(132, 0, 255, 0.944);
+        }
   
     .menu nav {
       width: 100vw;
@@ -194,7 +194,8 @@
       transition: .3s all;
       position: relative;
       top: 3px;
-      color: #e66300;
+      color: rgba(132, 0, 255, 0.944);
+      ;
       background-color: transparent;
       border: none;
       outline: none;    }
