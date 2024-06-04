@@ -137,7 +137,7 @@
       transition: .4s all;
       z-index: 2000;
       overflow-x: hidden;
-      border-top: 1px solid rgba(132, 0, 255, 0.944);
+      border-top: 1px solid transparent;
         }
   
     .menu nav {
@@ -189,16 +189,16 @@
     
     .menuResp button {
       margin: 0;
+      margin-right: 5px;
       padding: 0;
-      font-size: 30px;
+      font-size: 36px;
       transition: .3s all;
       position: relative;
       top: 3px;
       color: rgba(132, 0, 255, 0.944);
-      ;
       background-color: transparent;
       border: none;
       outline: none;    }
   }
-  
+
   
