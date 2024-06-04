@@ -202,25 +202,26 @@
     .container {
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: start;
         padding: 120px 0px;
     }
     
     .imgPre {
-        width: auto;
+        width: 100%;
         height: auto;
         filter: drop-shadow(20px -6px 20px transparent);
-        position: absolute;
-        top: 60px;
+        position: relative;
+        top: -30px;
         right: 10px;
-        margin: 0 auto;
+        display: flex;
+        justify-content: end;
     }
     
     .imgPre img {
-        width: 180px;
-        height: 180px;
+        width: 260px;
+        height: 260px;
         object-fit: scale-down;
     }
 
@@ -229,6 +230,7 @@
         display: flex;
         flex-direction: column;
         margin-left: 20px;
+        padding: 0;
     }
     
     .txtPre h4 {
@@ -275,7 +277,7 @@
     }
     
     .botones {
-        margin-top: 20px;
+        margin-top: 30px;
     }
     
     .hire {
@@ -327,11 +329,11 @@
         margin: 0;
         padding: 0;
         padding-left: 0px;
-        display: flex;
+        display: none;
         align-items: center;
         z-index: 1000;
         position: relative;
-        top: 50px;
+        top: 0px;
     }
     
     .redes nav {
