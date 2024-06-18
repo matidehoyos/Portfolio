@@ -20,7 +20,7 @@ const Header = () => {
                         
                         <div className={style.botones}>
                         <a href="#contact"><button className={style.hire}>Hire me</button></a>
-                        <a href="https://drive.google.com/file/d/1FcQ7oM9nwWlU97awJz_A3NTbj1iYuhpP/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className={style.cv}>Download CV <FaFile className={style.file}/></button></a>
+                        <a href="https://drive.google.com/file/d/1xH8GQhvoWL1M4Y73Pjkjuqr9dgMZfFOz/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className={style.cv}>Download CV <FaFile className={style.file}/></button></a>
                         </div>
                     
                         <div className={style.redes}>
