@@ -30,7 +30,7 @@ const NavBar = () => {
                 </nav>
             </div>
             <div className={style.cv}>
-            <a href="https://drive.google.com/file/d/1mrwKU6KvZJQTvRNWpyN25lUVCMW4jVDu/view" target="_blank" rel="noopener noreferrer"><button className={style.cv}>Download CV <FaFile className={style.file}/></button></a>
+            <a href="https://drive.google.com/file/d/1xya-_FDUzy_X4E_pwoiIKc56WLECwTby/view?usp=sharing" target="_blank" rel="noopener noreferrer"><button className={style.cv}>Download CV <FaFile className={style.file}/></button></a>
             </div>
             <div className={style.menuResp}>
               <button className={style.menuButton} onClick={handleShowMenu}><FiMenu /></button>
