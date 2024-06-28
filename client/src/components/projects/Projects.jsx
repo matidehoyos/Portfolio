@@ -9,7 +9,7 @@ const Projects = () => {
                                 <h3>Projects</h3>
                                 <div className={style.projectContainer}>
                                     <div className={style.project}>
-                                    <a href="https://electroauto.vercel.app" target='_blank'>
+                                    <a href="https://github.com/matidehoyos/Tienda-Electroauto" target='_blank'>
                                         <img src="electroauto.png" alt="electroauto" />
                                         <h4>Electroauto</h4>
                                         <p className={style.desc}>Aplicación web ecommerce. Con varias vistas, incluyendo tienda online, y panel autoadministrable.</p>
@@ -17,7 +17,7 @@ const Projects = () => {
                                     </a>
                                     </div>
                                     <div className={style.project}>
-                                    <a href="https://climappmdh.vercel.app" target='_blank'>
+                                    <a href="https://github.com/matidehoyos/weatherapp" target='_blank'>
                                         <img src="desk.png" alt="clima app" />
                                         <h4>WeatherApp</h4>
                                         <p className={style.desc}>Aplicación web del clima.</p>
@@ -25,7 +25,7 @@ const Projects = () => {
                                     </a>
                                     </div>
                                     <div className={style.project}>
-                                    <a href="https://wedevelop.vercel.app" target='_blank'>
+                                    <a href="https://github.com/Freetzen/WeDevelop" target='_blank'>
                                         <img src="wedev.png" alt="wedeveloper" />
                                         <h4>WeDevelop</h4>
                                         <p className={style.desc}>Aplicación web autocotizadora. Con varias vistas, incluyendo un cuestionario a traves del cual se autocotiza el producto. Con panel autoadministrable.</p>

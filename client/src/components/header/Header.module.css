@@ -299,7 +299,7 @@
     }
     
     .hire:hover {
-        color: #fff;
+        background-color: rgba(90, 0, 174, 0.944);
     }
     
     .cv {
