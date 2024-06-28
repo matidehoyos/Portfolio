@@ -86,9 +86,7 @@
 }
 
 .hire:hover {
-    background-color: transparent;
-    border: 1px solid #8000ff;
-    color: #8000ff;
+    background-color: rgba(90, 0, 174, 0.944);
 }
 
 .cv {
