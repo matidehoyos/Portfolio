@@ -9,7 +9,7 @@ const Projects = () => {
                                 <h3>Projects</h3>
                                 <div className={style.projectContainer}>
                                     <div className={style.project}>
-                                    <a href="https://github.com/matidehoyos/Tienda-Electroauto" target='_blank'>
+                                    <a href="https://electroauto.vercel.app" target='_blank'>
                                         <img src="electroauto.png" alt="electroauto" />
                                         <h4>Electroauto</h4>
                                         <p className={style.desc}>Aplicación web ecommerce. Con varias vistas, incluyendo tienda online, y panel autoadministrable.</p>
@@ -17,7 +17,15 @@ const Projects = () => {
                                     </a>
                                     </div>
                                     <div className={style.project}>
-                                    <a href="https://github.com/matidehoyos/weatherapp" target='_blank'>
+                                    <a href="https://rugir.vercel.app" target='_blank'>
+                                        <img src="rugir.png" alt="electroauto" />
+                                        <h4>Rugir</h4>
+                                        <p className={style.desc}>Sitio web para marca de alfombras. Muestra la información relevante del comercio.</p>
+                                        <p className={style.tecno}>Javascript, ReactJs, Css3.</p>
+                                    </a>
+                                    </div>
+                                    <div className={style.project}>
+                                    <a href="https://climappmdh.vercel.app/" target='_blank'>
                                         <img src="desk.png" alt="clima app" />
                                         <h4>WeatherApp</h4>
                                         <p className={style.desc}>Aplicación web del clima.</p>
