@@ -1,9 +1,0 @@
-.container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-    overflow-x: hidden;
-}
