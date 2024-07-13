@@ -197,7 +197,7 @@
     .name {
         width: 100%;
         color: #606060;
-        font-size: 32px;
+        font-size: 26px;
         font-weight: 500;
         line-height: 30px;
         letter-spacing: .6px;
@@ -209,12 +209,12 @@
     
     .rol {
         width: 100%;
-        color: #005853;
+        color: #656565;
         text-align: left;
         font-size: 20px;
         font-weight: 300;
         line-height: 23px;
-        letter-spacing: .8px;
+        letter-spacing: .6px;
         margin: 0;
         margin-top: 3px;
         padding: 0;
@@ -224,9 +224,9 @@
         width: 100%;
         color: #606060;
         text-align: left;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
-        line-height: 23px;
+        line-height: 21px;
         letter-spacing: .6px;
         padding: 0;
         margin: 0;
@@ -240,13 +240,12 @@
         width: 100%;
         color: #004d47;
         text-align: left;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
-        line-height: 30px;
-        letter-spacing: .6px;
+        line-height: 17px;
+        letter-spacing: .4px;
         padding: 0;
-        margin: 0;
-        margin-top: 5px;
+        margin: 8px 0px;
     }
     
     .butons {
@@ -254,14 +253,14 @@
         display: flex;
         justify-content: start;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     
     .butonWeb {
         display: inline-flex;
         align-items: center;
         padding: 8px 16px;
-        background-color: #004843;
+        background-color: #00484357;
         color: #cdcdcd;
         text-decoration: none;
         border-radius: 5px;
@@ -279,13 +278,13 @@
       }
     
     .imgPc {
-        width: 100%;
+        width: 80%;
         max-height: 180px;
         position: inherit;
         border: 1px solid #272727;
         border-radius: 2px;
         box-shadow: none;
-        opacity: .6;
+        opacity: .4;
         object-fit: cover;
         object-position: top;
         margin-top: 10px;
@@ -295,6 +294,7 @@
         width: 100%;
         top: inherit;
         right: inherit;
+        opacity: .5;
     }
     
     .imgMov {
