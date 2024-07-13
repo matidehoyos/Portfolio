@@ -21,7 +21,7 @@ const NavBar = () => {
         <div className={style.container}>
            
             <Link to="/" className={style.Link}>
-                <img src='../../../public/img.png' />
+                <img src='./img.png' />
             </Link>
            
             <div className={style.menu} onClick={ocultarMenu} style={isVisible ? { left: '0px' } : { left: '-800px' }} >
