@@ -43,7 +43,7 @@
 }
 
 .box:hover {
-   box-shadow: 0px 0px 100px #00938962;
+   box-shadow: 0px 0px 40px #00938962;
 }
 
 .box a {
@@ -66,10 +66,6 @@
    object-fit: cover;
    border-radius: 4px;
    filter: grayscale(0.4);
- }
- 
- .box:hover .imgPc {
-   transform: scale(3);
  }
  
  .rol {
