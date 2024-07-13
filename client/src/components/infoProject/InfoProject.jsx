@@ -22,9 +22,9 @@ function InfoProject() {
             <img className={style.imgPc} src={project.img} />
             <img className={style.imgMov} src={project.imgMov} />
             <div className={style.butons}>
-                <a href='' target="_blank" rel="noopener noreferrer" className={style.butonWeb}>
+                <a href={project.web} target="_blank" rel="noopener noreferrer" className={style.butonWeb}>
                     <FaExternalLinkAlt /> Visit website</a>         
-                <a href='' target="_blank" rel="noopener noreferrer" className={style.butonWeb}>
+                <a href={project.repository} target="_blank" rel="noopener noreferrer" className={style.butonWeb}>
                     <FaGithub /> Visit repository</a>  
             </div>
         </div>
