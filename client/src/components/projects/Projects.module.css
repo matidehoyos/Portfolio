@@ -6,6 +6,7 @@
    margin: 0;
    padding: 0 15%;
    overflow-x: hidden;
+   background-image: linear-gradient(to bottom, transparent, transparent, #000);
 }
 
 .titulo {

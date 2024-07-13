@@ -1,4 +1,7 @@
 import style from './AboutMe.module.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 import { IoLogoJavascript } from "react-icons/io";
 import { BiLogoTypescript } from "react-icons/bi";
 import { PiFileHtmlLight } from "react-icons/pi";
@@ -17,9 +20,14 @@ import { DiIllustrator } from "react-icons/di";
 
 
 const AboutMe = () => {
+    useEffect(() => {
+        AOS.init(); 
+      }, []);
+
+
     return(
         <div className={style.container}>
-             <div className={style.pContainer} id='about'>
+             <div className={style.pContainer} id='about' data-aos="fade-up" data-aos-duration="800">
                 <div className={style.primer}>
                     <div className={style.imgAbout}>
                         <img src="./about.png" alt="imagen mia" />
@@ -28,7 +36,7 @@ const AboutMe = () => {
                 </div>
             </div>
 
-            <div className={style.about}>
+            <div className={style.about} data-aos="fade-up" data-aos-duration="800">
                 <div className={style.aboutBox}>
                     <div className={style.parraf}>
                             <p className={style.second}>Self-motivated, proactive and results orientated, with a solid technical background and always looking to push myself to present more creative and challenging projects. Consitantly growing and open to learning new techniques and technologies.</p>

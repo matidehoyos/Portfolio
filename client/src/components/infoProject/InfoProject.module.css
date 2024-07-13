@@ -3,8 +3,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url('../../../public/bg1.png');
-    background-size: cover;
+    background-image: linear-gradient(to bottom, transparent, transparent, #000);
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -116,7 +115,7 @@
     position: absolute;
     right: 14%;
     border: 3px solid #272727;
-    border-radius: 4px;
+    border-radius: 6px;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
     opacity: .6;
     transition: all .4s ease-out;
@@ -134,7 +133,7 @@
     right: 44%;
     top: 315px;
     border: 3px solid #272727;
-    border-radius: 4px;
+    border-radius: 6px;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
     transition: all .4s ease-out;
 }

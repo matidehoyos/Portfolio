@@ -1,16 +1,22 @@
 import { Link } from 'react-router-dom';
 import style from './Projects.module.css'
 import projects from './DataProjects';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
+    
 const Projects = () => {
-   
+   useEffect(() => {
+        AOS.init(); 
+      }, []);
 
     return(
         <div className={style.container}>
-                <div className={style.titulo}>
+                <div className={style.titulo} data-aos="fade-up" data-aos-duration="800" > 
                     <h3>Projects</h3>
                 </div>
-                <div className={style.projectContainer}>
+                <div className={style.projectContainer} data-aos="fade-up" data-aos-duration="800">
                     {
                     projects.map((project, index) => (
                             <div className={style.box}>
