@@ -292,9 +292,9 @@
     }
     
     .imgPc:hover {
-        width: 42%;
-        z-index: 400;
-        opacity: 1;
+        width: 100%;
+        top: inherit;
+        right: inherit;
     }
     
     .imgMov {
@@ -308,10 +308,10 @@
     }
     
     .imgMov:hover {
-        width: 18%;
-        z-index: 400;
-        top: 160px;
-        right: 38%;
+        width: 30%;
+        z-index: inherit;
+        top: inherit;
+        right: inherit;
         opacity: 1;
     }
     
