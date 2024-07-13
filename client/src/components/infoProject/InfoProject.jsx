@@ -19,6 +19,7 @@ function InfoProject() {
                 <p className={style.date}>{project.date}</p>
                 <p className={style.name}>{project.name}</p>
                 <p className={style.rol}>{project.rol}</p>
+                <img src={`${BASE_URL}${project.img}`} className={style.imgPc} alt={project.name} />
                 <p className={style.detail}>{project.detail}</p>
                 <p className={style.tecno}>{project.technologies}</p>
                 <div className={style.butons}>
@@ -29,7 +30,6 @@ function InfoProject() {
                         <FaGithub /> Visit repository
                     </a>  
                 </div>
-                <img src={`${BASE_URL}${project.img}`} className={style.imgPc} alt={project.name} />
                 <img src={`${BASE_URL}${project.imgMov}`} className={style.imgMov} alt={project.name} />
             </div>
         </div>

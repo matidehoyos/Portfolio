@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 1,
-    name: "Rugir",
+    name: "RUGIR",
     rol: "Front end developer",
     date: "Jun 2024",
     detail: "Sitio web para marca de alfombras. Muestra la información relevante del comercio. Diseño responsive.",
@@ -13,7 +13,7 @@ const projects = [
   },
   {
     id: 2,
-    name: "Electroauto",
+    name: "ELECTROAUTO",
     rol: "Full stack developer",
     date: "Apr 2024",
     detail: "Aplicación web ecommerce. Con varias vistas, incluyendo tienda online, y panel autoadministrable. Diseño responsive.",
@@ -25,7 +25,7 @@ const projects = [
   },
   {
     id: 3,
-    name: "Weather App",
+    name: "WEATHER APP",
     rol: "Full stack developer",
     date: "May 2024",
     detail: "Aplicación web del clima. Consume datos de API externa. Diseño responsive.",
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     id: 4,
-    name: "WeDevelop",
+    name: "WEDEVELOP",
     rol: "Full stack developer",
     date: "Feb 2024",
     detail: "Aplicación web autocotizadora. Reviews de clientes, proyectos, mailer, pasarellas de pagos. Diseño responsive.",
@@ -49,7 +49,7 @@ const projects = [
   },
   {
     id: 5,
-    name: "Portfolio",
+    name: "PORTFOLIO",
     rol: "Full stack developer",
     date: "Abr 2024",
     detail: "Portfolio web responsive. Exhibición de proyectos.",

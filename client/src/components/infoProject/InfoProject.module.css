@@ -178,13 +178,13 @@
         justify-content: start;
         align-items: start;
         padding: 0px 4%;
-        padding-top: 120px;
+        padding-top: 90px;
         overflow: hidden;
     }   
     
     .date {
         width: 100%;
-        color: #6f6f6f;
+        color: #606060;
         font-size: 14px;
         font-weight: 500;
         letter-spacing: .6px;
@@ -194,50 +194,48 @@
     
     .name {
         width: 100%;
-        color: #b5b5b5;
-        font-size: 36px;
+        color: #606060;
+        font-size: 32px;
         font-weight: 500;
-        line-height: 40px;
+        line-height: 30px;
         letter-spacing: .6px;
         text-align: left;
-        margin: 0;
-        margin-top: 14px;
-        padding: 0;
-        z-index: 200;
-    }
-    
-    .rol {
-        width: 100%;
-        color: #00ffee;
-        text-align: left;
-        font-size: 18px;
-        font-weight: 300;
-        line-height: 30px;
-        letter-spacing: .8px;
         margin: 0;
         margin-top: 0px;
         padding: 0;
     }
     
+    .rol {
+        width: 100%;
+        color: #005853;
+        text-align: left;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 23px;
+        letter-spacing: .8px;
+        margin: 0;
+        margin-top: 3px;
+        padding: 0;
+    }
+    
     .detail {
-        width: 96%;
-        color: #6f6f6f;
+        width: 100%;
+        color: #606060;;
         text-align: left;
         font-size: 22px;
-        font-weight: 500;
-        line-height: 30px;
+        font-weight: 400;
+        line-height: 26px;
         letter-spacing: .6px;
         padding: 0;
         margin: 0;
-        margin-top: 10px;
-        z-index: 200;
+        margin-top: 12px;
         hyphens: auto;
         word-wrap: break-word;
     }
     
     .tecno {
         width: 100%;
-        color: #515151;
+        color: #004d47;
         text-align: left;
         font-size: 16px;
         font-weight: 400;
@@ -245,8 +243,7 @@
         letter-spacing: .6px;
         padding: 0;
         margin: 0;
-        margin-top: 10px;
-        z-index: 200;
+        margin-top: 5px;
     }
     
     .butons {
@@ -254,7 +251,7 @@
         display: flex;
         justify-content: start;
         align-items: center;
-        margin-top: 30px;
+        margin-top: 20px;
     }
     
     .butonWeb {
@@ -262,7 +259,7 @@
         align-items: center;
         padding: 8px 16px;
         background-color: #004843;
-        color: #fff;
+        color: #cdcdcd;
         text-decoration: none;
         border-radius: 5px;
         transition: background-color 0.3s ease;
@@ -271,7 +268,7 @@
       }
       
       .butonWeb:hover {
-        background-color: #002c29;
+        background-color: initial;
       }
       
       .butonWeb svg {
@@ -281,14 +278,12 @@
     .imgPc {
         width: 100%;
         position: inherit;
-        right: 0;
         border: 1px solid #272727;
-        border-radius: 4px;
-        box-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
-        opacity: .6;
-        transition: all .4s ease-out;
+        border-radius: 2px;
+        box-shadow: none;
+        opacity: .8;
         object-fit: cover;
-        margin-top: 30px;
+        margin-top: 10px;
     }
     
     .imgPc:hover {
@@ -298,13 +293,7 @@
     }
     
     .imgMov {
-        width: 30%;
-        position: inherit;
-        border: 3px solid #272727;
-        border-radius: 6px;
-        box-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
-        transition: all .4s ease-out;
-        margin-top: 20px;
+        display: none;
     }
     
     .imgMov:hover {
