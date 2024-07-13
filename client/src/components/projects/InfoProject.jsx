@@ -6,9 +6,13 @@ import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 function InfoProject() {
     const { id } = useParams();
-    const project = projects.find(
+    const project = projects.filter(
       (element) => Number(element.id) === Number(id)
     );
+
+
+
+    console.log(project);
 
 
   return (
