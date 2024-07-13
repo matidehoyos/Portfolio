@@ -28,7 +28,7 @@ const AboutMe = () => {
     return(
         <div className={style.container}>
              <div className={style.pContainer} id='about' data-aos="fade-up" data-aos-duration="800">
-                    <div className={style.imgAbout} data-aos="fade-up" data-aos-duration="800" >
+                    <div className={style.imgAbout} >
                         <img src="./about.png" alt="imagen mia" />
                     </div>
                     <p className={style.first}>I am a software developer with experience creating innovative technological solutions.</p>
