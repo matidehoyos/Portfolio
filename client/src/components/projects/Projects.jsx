@@ -19,7 +19,7 @@ const Projects = () => {
                 <div className={style.projectContainer} data-aos="fade-up" data-aos-duration="400">
                     {
                     projects.map((project, index) => (
-                            <div className={style.box} data-aos="fade-up" data-aos-duration="800">
+                            <div className={style.box}>
                                     <Link key={index} to={`/projects/${project.id}`}> 
                                             <img className={style.imgPc} src={project.img} />
                                             <h5>{project.name}</h5>
