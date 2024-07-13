@@ -28,20 +28,14 @@ const AboutMe = () => {
     return(
         <div className={style.container}>
              <div className={style.pContainer} id='about' data-aos="fade-up" data-aos-duration="800">
-                <div className={style.primer}>
-                    <div className={style.imgAbout}>
+                    <div className={style.imgAbout} data-aos="fade-up" data-aos-duration="800" >
                         <img src="./about.png" alt="imagen mia" />
                     </div>
-                    <p className={style.first}>I am a software developer with experience <br/>creating innovative technological solutions.</p>
-                </div>
+                    <p className={style.first}>I am a software developer with experience creating innovative technological solutions.</p>
             </div>
 
-            <div className={style.about} data-aos="fade-up" data-aos-duration="800">
-                <div className={style.aboutBox}>
-                    <div className={style.parraf}>
-                            <p className={style.second}>Self-motivated, proactive and results orientated, with a solid technical background and always looking to push myself to present more creative and challenging projects. Consitantly growing and open to learning new techniques and technologies.</p>
-                    </div>
-                </div>
+                <div className={style.about} data-aos="fade-up" data-aos-duration="800">
+                     <p className={style.second}>Self-motivated, proactive and results orientated, with a solid technical background and always looking to push myself to present more creative and challenging projects. Consitantly growing and open to learning new techniques and technologies.</p>
                  </div>
                 <div className={style.skills}>
                             <div className={style.tecno}>

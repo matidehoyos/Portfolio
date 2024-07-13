@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: transparent;
@@ -13,19 +13,12 @@
 .pContainer {
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-}   
-
-.primer {
-    width: 100%;
-    height: auto;
-    display: flex;
     justify-content: center;
-    align-items: center;
+    margin: 0;
     padding: 0px 14%;
     padding-top: 200px;
-}
+}   
 
 .imgAbout {
     width: auto;
@@ -40,42 +33,16 @@
     opacity: .9;
 }
 
-.first {
-    width: auto;
-    margin: 0;
-    padding: 0px;
-    padding-left: 20px;
-    color: #ffffff64;
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 38px;
-    letter-spacing: .6px;
-    text-align: left;
-    filter: drop-shadow(0px 0px 10px #003531);
-    font-style: italic;
-}
-
 .about {
     width: 64%;
+    height: auto;
     margin: 0 auto;
+    margin-top: 30px;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     overflow-x: hidden;
-}
-
-.aboutBox {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-.parraf {
-    width: 100%;
-    padding: 0;
-    padding-top: 20px;
-    margin: 0;
 }
 
 .second {
@@ -139,9 +106,13 @@
 
     .container {
         width: 100%;
-        height: auto;
+        height: 100vh;
         display: flex;
         flex-direction: column;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-image: linear-gradient(to bottom, transparent, transparent, #000);
     }
     
     .pContainer {
@@ -156,161 +127,99 @@
         height: auto;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        padding: 0;
-        background-attachment: inherit;
-        background-image: url('../../../public/bf.jpeg');
-        background-size: cover;
-        background-repeat: no-repeat;
+        padding: 0px 4%;
+        padding-top: 100px;
+    }
+    
+    .imgAbout {
+        width: auto;
+    }
+    
+    .imgAbout img {
+        width: 180px;
+        object-fit: scale-down;
+        border-radius: 50%;
+        background-color: #0091871c;
+        border: 1px solid #ffffff30;
+        opacity: .9;
     }
     
     .first {
-        width: 100%;
-        height: 100%;
+        width: auto;
         margin: 0;
-        padding: 120px 20px;
-        color: #fff;
-        font-size: 28px;
+        padding: 0px;
+        padding-left: 0px;
+        color: #ffffff64;
+        font-size: 20px;
         font-weight: 300;
-        line-height: 32px;
-        text-align: left;
-        filter: drop-shadow(0px 0px 5px #000);
+        line-height: 25px;
+        letter-spacing: .6px;
+        text-align: center;
+        filter: drop-shadow(0px 0px 10px #003531);
         font-style: italic;
-        background-color: rgba(0,0,0,.3);
     }
     
     .about {
         width: 100%;
-        height: auto;
-        padding: 30px 20px;
-        padding-bottom: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .aboutBox {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 0px;
-    }
-    
-    .parraf {
-        width: 100%;
-        padding: 0;
         margin: 0;
-        margin-left: 0px;
-        border-radius: 0;
-        box-shadow: -10px -10px 20px transparent;
-        position: relative;
-        top: 0;
-        background-image: none;
+        margin-top: 30px;
+        padding: 0 8%;
     }
     
     .second {
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 24px;
-        color: #222;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 27px;
+        letter-spacing: .6px;
+        color: #ffffff85;
         font-style: italic;
-        text-align: left;
-        padding: 0;
-    }
-    
-    .skils {
-        width: 100%;
-        margin-left: 0px;
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-        margin-top: 30px;
-    }
-    
-    .titu {
-        background-color: transparent;
-        color: #222;
-        font-size: 20px;
-        font-weight: 600;
-    }
-    
-    .tech {
-        font-size: 18px;
-        font-size: 100;
-        color: #8000ff;
-        background-color: transparent;
-        padding: 0px 6px;
-        margin: 0px;
-        border-radius: 0px;
-    }
-    
-    .backe {
-        font-size: 18px;
-        font-size: 100;
-        color: #4000ff;
-        padding: 0px 6px;
-        margin: 0;
-        border-radius: 0px;
-        background-color: transparent;
+        text-align: justify;
+        text-align-last: center;
     }
     
     .skills {
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
+        width: 50%;
         padding: 0;
-        display: flex;
-        flex-direction: column;
-        position: relative;
         white-space: nowrap;
-        color: #111;
-        animation: desplazamiento 30s ease-out infinite;
-      }
-      
-      @keyframes desplazamiento {
-        0% {
-          transform: translateX(100%);
-        }
-        100% {
-          transform: translateX(-100%);
-        }
-      }
+        overflow-x: hidden;
+        margin: 0 auto;
+        margin-top: 60px;
+        overflow: hidden;
+    }
+    
     
     
     .tecno {
-        padding: 10px 0px;
+        width: auto;
+        padding: 0;
         margin: 0;
-        margin-top: 50px;
         display: flex;
         justify-content: start;
         flex-wrap: nowrap;
+        animation: desplazamiento 20s linear infinite;
     }
     
+    @keyframes desplazamiento {
+        0% {
+            transform: translateX(100%);
+        }
+        100% {
+            transform: translateX(-160%);
+        }
+      }
     
     .tecno p {
         width: auto;
-        height: auto;
-        font-size: 20px;
-        font-weight: 700;
-        color: #5e5e5e;
+        font-size: 26px;
+        color: #515151;
         padding: 0;
         margin: 0;
-        margin-right: 30px;
+        margin-right: 34px;
         display: flex;
         align-items: center;
     }
-    
-    .tecno p img {
-        width: 20px;
-        height: 20px;
-        margin: 0;
-        padding: 0;
-        margin-right: 4px;
-    }
-    
     
     
 }

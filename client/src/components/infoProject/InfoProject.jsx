@@ -21,8 +21,6 @@ function InfoProject() {
                 <p className={style.rol}>{project.rol}</p>
                 <p className={style.detail}>{project.detail}</p>
                 <p className={style.tecno}>{project.technologies}</p>
-                <img src={`${BASE_URL}${project.img}`} className={style.imgPc} alt={project.name} />
-                <img src={`${BASE_URL}${project.imgMov}`} className={style.imgMov} alt={project.name} />
                 <div className={style.butons}>
                     <a href={project.web} target="_blank" rel="noopener noreferrer" className={style.butonWeb}>
                         <FaExternalLinkAlt /> Visit website
@@ -31,6 +29,8 @@ function InfoProject() {
                         <FaGithub /> Visit repository
                     </a>  
                 </div>
+                <img src={`${BASE_URL}${project.img}`} className={style.imgPc} alt={project.name} />
+                <img src={`${BASE_URL}${project.imgMov}`} className={style.imgMov} alt={project.name} />
             </div>
         </div>
     );
