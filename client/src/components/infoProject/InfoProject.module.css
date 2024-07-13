@@ -123,7 +123,7 @@
 }
 
 .imgPc:hover {
-    width: 40%;
+    width: 42%;
     z-index: 400;
     opacity: 1;
 }
@@ -131,8 +131,8 @@
 .imgMov {
     width: 12%;
     position: absolute;
-    right: 41%;
-    top: 360px;
+    right: 44%;
+    top: 315px;
     border: 3px solid #272727;
     border-radius: 4px;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
@@ -142,6 +142,7 @@
 .imgMov:hover {
     width: 18%;
     z-index: 400;
-    top: 200px;
+    top: 160px;
+    right: 38%;
     opacity: 1;
 }

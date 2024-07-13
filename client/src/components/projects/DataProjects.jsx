@@ -23,8 +23,8 @@ const projects = [
       "NodeJs · Express · PostgreSql · Sequelize · ReactJs · Redux · Css3 · Mercado Pago · Auth0",
     repository: "https://github.com/matidehoyos/Tienda-Electroauto",
     web: "https://electroauto.vercel.app/",
-    img: '../../../public/electro.png',
-    imgMov: '../../../public/ElectroMov.png',
+    img: './electro.png',
+    imgMov: './ElectroMov.png',
   },
   {
     id: 3,
