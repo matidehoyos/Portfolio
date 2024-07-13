@@ -152,7 +152,7 @@
    }
    
    .box {
-      width: 80%;
+      width: 92%;
       display: flex;
       flex-direction: column;
       padding: 10px;
@@ -191,7 +191,7 @@
     }
     
     .box:hover .imgPc {
-      transform: scale(3);
+      transform: none;
     }
     
     .rol {
