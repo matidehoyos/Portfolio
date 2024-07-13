@@ -19,8 +19,8 @@ function InfoProject() {
             <p className={style.rol}>{project.rol}</p>
             <p className={style.detail}>{project.detail}</p>
             <p className={style.tecno}>{project.technologies}</p>
-            <img className={style.imgPc} src={project.img} />
-            <img className={style.imgMov} src={project.imgMov} />
+            <img src={project.img} className={style.imgPc}  />
+            <img src={project.imgMov} className={style.imgMov}  />
             <div className={style.butons}>
                 <a href={project.web} target="_blank"  className={style.butonWeb}>
                     <FaExternalLinkAlt /> Visit website</a>         

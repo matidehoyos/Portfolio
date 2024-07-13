@@ -7,7 +7,7 @@ const projects = [
     detail:
       "Sitio web para marca de alfombras. Muestra la información relevante del comercio.",
     technologies: "Javascript · React · Css3",
-    repository: "https://github.com/matidehoyos/rugirTaild",
+    repository: "https://github.com/matidehoyos/rugirTailw",
     web: "https://rugirmdq.vercel.app/",
     img: './ruggir.png',
     imgMov: './rugirMov.png',
@@ -21,8 +21,8 @@ const projects = [
       "Aplicación web ecommerce. Con varias vistas, incluyendo tienda online, y panel autoadministrable.",
     technologies:
       "NodeJs · Express · PostgreSql · Sequelize · ReactJs · Redux · Css3 · Mercado Pago · Auth0",
-    repository: "https://github.com/matidehoyos/electroauto",
-    web: "https://elecroauto.vercel.app/",
+    repository: "https://github.com/matidehoyos/Tienda-Electroauto",
+    web: "https://electroauto.vercel.app/",
     img: './electro.png',
     imgMov: './ElectroMov.png',
   },
@@ -35,8 +35,8 @@ const projects = [
       "Aplicación web del clima..",
     technologies:
       "Javascript · NodeJs · Express · ReactJs · Sass",
-    repository: "https://github.com/matidehoyos/wheater app",
-    web: "https://climaap.vercel.app/",
+    repository: "https://github.com/matidehoyos/weatherapp",
+    web: "https://climappmdh.vercel.app/",
     img: './clima.png',
     imgMov: './climaMov.png',
   },
