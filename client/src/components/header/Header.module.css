@@ -156,6 +156,7 @@
         padding: 0 4%;
         overflow-x: hidden;
         align-items: center;
+        background-image: none;
       }
       
       .caja {
@@ -167,7 +168,6 @@
           padding: 0px 4%;
           padding-bottom: 0;
           overflow-x: hidden;
-       /*   background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0), rgba(0, 82, 105, 0.1), rgba(0, 82, 105, 0.189)); */
       }
       
       .imgPre {

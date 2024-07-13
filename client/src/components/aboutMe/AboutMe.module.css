@@ -115,6 +115,10 @@
 
 
 
+
+
+
+
 /* Estilos para dispositivos móviles ------------------------------- */
 
 @media only screen and (max-width: 680px) {
@@ -127,7 +131,7 @@
         margin: 0;
         padding: 0;
         overflow-x: hidden;
-        background-image: linear-gradient(to bottom, transparent, transparent, #000);
+        background-image: none;
     }
     
     .pContainer {
