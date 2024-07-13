@@ -156,7 +156,7 @@
         height: 100vh;
         padding: 0 4%;
         padding-top: 180px;
-        overflow-x: hidden;
+        overflow: hidden;
         background-image: none;
       }
       
@@ -172,7 +172,7 @@
         width: auto;
         height: auto;
         position: absolute;
-        top: 10%;
+        top: 14%;
     }
 
       .imgPre img {
