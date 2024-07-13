@@ -4,6 +4,7 @@ import { FaLinkedin } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { MdDescription } from 'react-icons/md';
 
 
 const Header = () => {
@@ -21,6 +22,9 @@ const Header = () => {
                                 <h4>I'm Matias De Hoyos</h4>
                                 <h1><span className={style.im}></span>Full Stack - <br/>FrontEnd Developer</h1>
                                 <p className={style.des}>Web developer with a passion for creating visually stunning and user-friendly websites.</p>               
+                                <div className={style.cv}>
+                                    <a href="https://drive.google.com/file/d/1sYzgf98QuJlBUoD-sYAcf2UbSA2C5A3i/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV <MdDescription className={style.file}/></a>
+                                </div>
                                 <div className={style.redes}>
                                     <nav>
                                         <ul>

@@ -121,6 +121,10 @@
 }
 
 
+.cv {
+    display: none;
+}
+
 
 
 
@@ -226,7 +230,7 @@
       
       .des {
           width: 88%;
-          font-size: 20px;
+          font-size: 22px;
           font-weight: 300;
           line-height: 22px;
           letter-spacing: .6px;
@@ -240,7 +244,7 @@
           width: auto;
           height: auto;
           margin: 0;
-          margin-top: 50px;
+          margin-top: 30px;
           padding: 0;
           display: flex;
           align-items: center;
@@ -281,5 +285,25 @@
       .redes li a:hover {
           background-color: #00938925;
           color: #fff;
+      }
+
+      .cv {
+        display: flex;
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+      }
+
+      .cv a {
+        text-decoration: none;
+        padding: 4px 12px;
+        color: #878787;
+        border: 1px solid #878787;
+        border-radius: 4px;
+      }
+
+      .cv a svg {
+        position: relative;
+        top: 3px;
       }
 }
