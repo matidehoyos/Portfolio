@@ -12,6 +12,7 @@ function App() {
   return (
     <>
     <NavBar />
+    
     <Routes>
         <Route path="/" element={<Header />}></Route>
         <Route path="/about" element={<AboutMe />}></Route>
