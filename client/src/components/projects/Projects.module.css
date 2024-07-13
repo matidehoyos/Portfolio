@@ -124,7 +124,7 @@
       flex-direction: column;
       margin: 0;
       padding: 0 4%;
-      padding-bottom: 60px;
+      padding-bottom: 100px;
       overflow-x: hidden;
       background-image: none;
    }
@@ -152,7 +152,7 @@
    }
    
    .box {
-      width: 90%;
+      width: 80%;
       display: flex;
       flex-direction: column;
       padding: 10px;
@@ -220,7 +220,7 @@
       }
    
    .box:hover .info {
-      display: block;
+      display: none;
    }
 }
 

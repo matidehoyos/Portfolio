@@ -137,7 +137,7 @@
     .pContainer {
         width: 100%;
         padding: 0 4%;
-        padding-top: 72px;
+        padding-top: 90px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -197,25 +197,26 @@
         margin: 0;
         width: 100%;
         height: auto;
-        font-size: 17px;
-        font-weight: 200;
+        font-size: 20px;
+        font-weight: 300;
         line-height: 24px;
         letter-spacing: .6px;
         color: #ffffff85;
         font-style: normal;
-        text-align: left;
-        text-align-last: left;
+        text-align: center;
+        text-align-last: inherit;
         hyphens: auto;
         word-wrap: break-word;
     }
     
     .skills {
-        width: 70%;
+        width: 90%;
         padding: 0;
         white-space: nowrap;
         overflow-x: hidden;
         margin: 0 auto;
-        margin-top: 30px;
+        position: absolute;
+        bottom: 40px;
         overflow: hidden;
     }
     
