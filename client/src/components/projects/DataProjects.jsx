@@ -9,8 +9,8 @@ const projects = [
     technologies: "Javascript · React · Css3",
     repository: "https://github.com/matidehoyos/rugirTaild",
     web: "https://rugirmdq.vercel.app/",
-    img: '../../../public/ruggir.png',
-    imgMov: '../../../public/rugirMov.png',
+    img: './ruggir.png',
+    imgMov: './rugirMov.png',
   },
   {
     id: 2,
@@ -23,8 +23,8 @@ const projects = [
       "NodeJs · Express · PostgreSql · Sequelize · ReactJs · Redux · Css3 · Mercado Pago · Auth0",
     repository: "https://github.com/matidehoyos/electroauto",
     web: "https://elecroauto.vercel.app/",
-    img: '../../../public/electro.png',
-    imgMov: '../../../public/ElectroMov.png',
+    img: './electro.png',
+    imgMov: './ElectroMov.png',
   },
   {
     id: 3,
@@ -37,8 +37,8 @@ const projects = [
       "Javascript · NodeJs · Express · ReactJs · Sass",
     repository: "https://github.com/matidehoyos/wheater app",
     web: "https://climaap.vercel.app/",
-    img: '../../../public/clima.png',
-    imgMov: '../../../public/climaMov.png',
+    img: './clima.png',
+    imgMov: './climaMov.png',
   },
  
 ];
