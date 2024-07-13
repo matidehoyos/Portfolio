@@ -125,7 +125,7 @@
 
     .container {
         width: 100%;
-        min-height: 100vh;
+        height: calc(100vh - 60px);
         display: flex;
         flex-direction: column;
         margin: 0;
@@ -159,7 +159,7 @@
     }
     
     .imgAbout img {
-        width: 180px;
+        width: 120px;
         object-fit: scale-down;
         border-radius: 50%;
         background-color: #0091871c;
@@ -168,15 +168,15 @@
     }
     
     .first {
-        width: 80%;
+        width: 100%;
         margin: 0;
         padding: 0px;
         padding-left: 0px;
         color: #ffffff64;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 300;
-        line-height: 25px;
-        letter-spacing: .6px;
+        line-height: 23px;
+        letter-spacing: .4px;
         text-align: center;
         filter: drop-shadow(0px 0px 10px #003531);
         font-style: italic;
@@ -188,7 +188,8 @@
         width: 100%;
         height: auto;
         margin: 0;
-        padding: 0 8%;
+        margin-top: 24px;
+        padding: 0 4%;
     }
     
     .second {
@@ -196,20 +197,20 @@
         margin: 0;
         width: 100%;
         height: auto;
-        font-size: 22px;
-        font-weight: 300;
-        line-height: 27px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
         letter-spacing: .6px;
         color: #ffffff85;
         font-style: normal;
         text-align: justify;
-        margin-top: 30px;
+        text-align-last: left;
         hyphens: auto;
         word-wrap: break-word;
     }
     
     .skills {
-        width: 50%;
+        width: 70%;
         padding: 0;
         white-space: nowrap;
         overflow-x: hidden;
