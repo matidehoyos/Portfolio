@@ -47,6 +47,18 @@ const projects = [
     img: 'wedev.png',
     imgMov: 'wedevv.jpeg',
   },
+  {
+    id: 5,
+    name: "Portfolio",
+    rol: "Full stack developer",
+    date: "Abr 2024",
+    detail: "Portfolio web responsive. Exhibición de proyectos.",
+    technologies: "Javascript · ReactJs · CSS3",
+    repository: "https://github.com/matidehoyos/portfolio",
+    web: "https://matiasdehoyos.vercel.app/",
+    img: 'portfolio.png',
+    imgMov: 'portfolioMov.png',
+  },
 ];
 
 export default projects;
