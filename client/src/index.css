@@ -7,6 +7,7 @@
   height: auto;
 }
 
+
 body {
   margin: 0;
   padding: 0;
@@ -15,7 +16,6 @@ body {
   width: 100vw;
   min-height: 100vh;
 }
-
 button {
   cursor: pointer;
 }
@@ -24,5 +24,17 @@ button {
   :root {
     color: #213547;
     background-color: #ffffff;
+  }
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    place-items: center;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #111;
+    color: #111;
   }
 }
