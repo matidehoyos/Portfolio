@@ -7,16 +7,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    pointer-events: none;
+    background-color: rgba(0, 0, 0, .2);
 }
 
 .pContainer {
@@ -46,6 +37,7 @@
     border-radius: 50%;
     background-color: #0091871c;
     border: 1px solid #ffffff30;
+    opacity: .9;
 }
 
 .first {
@@ -54,16 +46,17 @@
     padding: 0px;
     padding-left: 20px;
     color: #ffffff64;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 300;
     line-height: 38px;
+    letter-spacing: .6px;
     text-align: left;
     filter: drop-shadow(0px 0px 10px #003531);
     font-style: italic;
 }
 
 .about {
-    width: 60%;
+    width: 64%;
     margin: 0 auto;
     padding: 0;
     display: flex;
@@ -81,54 +74,56 @@
 .parraf {
     width: 100%;
     padding: 0;
-    padding-top: 60px;
+    padding-top: 20px;
     margin: 0;
 }
 
 .second {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 300;
     line-height: 34px;
-    letter-spacing: .8px;
-    color: #ffffff7c;
+    letter-spacing: .6px;
+    color: #ffffff85;
     font-style: italic;
     text-align: justify;
     text-align-last: center;
 }
 
 .skills {
-    width: auto;
+    width: 30%;
     padding: 0;
     white-space: nowrap;
     overflow-x: hidden;
-    animation: desplazamiento 25s linear infinite;
+    margin: 0 auto;
     margin-top: 100px;
-  }
-  
-  @keyframes desplazamiento {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
+    overflow: hidden;
+}
+
 
 
 .tecno {
-    width: 60%;
+    width: auto;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: start;
     flex-wrap: nowrap;
+    animation: desplazamiento 20s linear infinite;
 }
 
+@keyframes desplazamiento {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-160%);
+    }
+  }
 
 .tecno p {
     width: auto;
-    font-size: 32px;
-    color: #ffffff64;
+    font-size: 26px;
+    color: #515151;
     padding: 0;
     margin: 0;
     margin-right: 34px;

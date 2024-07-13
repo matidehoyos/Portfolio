@@ -19,7 +19,6 @@ import { DiIllustrator } from "react-icons/di";
 const AboutMe = () => {
     return(
         <div className={style.container}>
-             <div className={style.overlay}></div>
              <div className={style.pContainer} id='about'>
                 <div className={style.primer}>
                     <div className={style.imgAbout}>
@@ -35,24 +34,24 @@ const AboutMe = () => {
                             <p className={style.second}>Self-motivated, proactive and results orientated, with a solid technical background and always looking to push myself to present more creative and challenging projects. Consitantly growing and open to learning new techniques and technologies.</p>
                     </div>
                 </div>
-                    <div className={style.skills}>
-                                <div className={style.tecno}>
-                                    <p><IoLogoJavascript /></p>
-                                    <p><BiLogoTypescript /></p>
-                                    <p><IoLogoNodejs /></p>
-                                    <p><FaReact /></p>
-                                    <p><MdStorage /></p>
-                                    <p><SiPostgresql /></p>
-                                    <p><SiExpress /></p>
-                                    <p><FaBootstrap /></p>
-                                    <p><GrMysql /></p>
-                                    <p><PiFileHtmlLight /></p>
-                                    <p><PiFileCssLight /></p>
-                                    <p><FaFigma /></p>
-                                    <p><DiIllustrator /></p>
-                                </div>
-                        </div> 
                  </div>
+                <div className={style.skills}>
+                            <div className={style.tecno}>
+                                <p><IoLogoJavascript /></p>
+                                <p><BiLogoTypescript /></p>
+                                <p><IoLogoNodejs /></p>
+                                <p><FaReact /></p>
+                                <p><MdStorage /></p>
+                                <p><SiPostgresql /></p>
+                                <p><SiExpress /></p>
+                                <p><FaBootstrap /></p>
+                                <p><GrMysql /></p>
+                                <p><PiFileHtmlLight /></p>
+                                <p><PiFileCssLight /></p>
+                                <p><FaFigma /></p>
+                                <p><DiIllustrator /></p>
+                            </div>
+                    </div> 
         </div>
     )
 }

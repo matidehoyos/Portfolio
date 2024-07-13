@@ -8,8 +8,6 @@ const Header = () => {
 
     return(
         <div className={style.container}>
-            <div className={style.subcontainer}>
-                <div className={style.caja}>
                         <div className={style.imgPre}>
                                 <img src="yo.png" alt="foto mia" />
                         </div>
@@ -17,7 +15,7 @@ const Header = () => {
                         <div className={style.txtPre}>
                                 <h4>I'm Matias De Hoyos</h4>
                                 <h1><span className={style.im}></span>Full Stack - <br/>FrontEnd Developer</h1>
-                                <p className={style.des}>Web developer with a passion for creating visually stunning <br/>and user-friendly websites.</p>               
+                                <p className={style.des}>Web developer with a passion for creating visually stunning and user-friendly websites.</p>               
                                 <div className={style.redes}>
                                     <nav>
                                         <ul>
@@ -29,8 +27,6 @@ const Header = () => {
                                 </div>
                         </div>
                 </div>
-            </div>
-        </div> 
            )
 }
 
