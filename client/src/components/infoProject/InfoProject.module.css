@@ -183,13 +183,15 @@
     }   
     
     .date {
-        width: 100%;
+        width: auto;
         color: #606060;
         font-size: 14px;
         font-weight: 500;
         letter-spacing: .6px;
         margin: 0;
         padding: 0;
+        position: absolute;
+        right: 4%;
     }
     
     .name {
@@ -220,17 +222,18 @@
     
     .detail {
         width: 100%;
-        color: #606060;;
+        color: #606060;
         text-align: left;
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 400;
-        line-height: 26px;
+        line-height: 23px;
         letter-spacing: .6px;
         padding: 0;
         margin: 0;
         margin-top: 12px;
         hyphens: auto;
         word-wrap: break-word;
+        text-shadow: 0px 0px 4px #000;
     }
     
     .tecno {
@@ -277,12 +280,14 @@
     
     .imgPc {
         width: 100%;
+        max-height: 180px;
         position: inherit;
         border: 1px solid #272727;
         border-radius: 2px;
         box-shadow: none;
-        opacity: .8;
+        opacity: .6;
         object-fit: cover;
+        object-position: top;
         margin-top: 10px;
     }
     

@@ -54,9 +54,10 @@
 }
 
 .box h5 {
-   font-size: 26px;
+   font-size: 20px;
+   line-height: 20px;
    font-weight: 400;
-   color: #ffffffb0;
+   color: #b5b5b5;
    margin: 0;
    padding: 0;
 }
@@ -72,12 +73,12 @@
  }
  
  .rol {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     text-align: left;
     padding: 0px;
-    margin: 0px 0px;
-    color: #ffffff;
+    margin: 0;
+    color: #777777;
    }
    
    .info { 
@@ -87,7 +88,7 @@
       top: 0;
       left: 0px;
       margin: 0 auto;
-      padding: 140px 0;
+      padding: 136px 0;
       display: none;
       background-color: rgba(0,0,0,.95);
       color: #fff;
