@@ -35,7 +35,7 @@ const AboutMe = () => {
             </div>
 
                 <div className={style.about} data-aos="fade-up" data-aos-duration="800">
-                     <p className={style.second}>Self-motivated, proactive and results orientated, always looking to push myself to present more creative and challenging projects. Consitantly growing and open to learning new techniques and technologies.</p>
+                     <p className={style.second}>Self-motivated, proactive and results orientated, always looking to push myself to present more creative and challenging projects. Consistently growing and open to learning new techniques and technologies.</p>
                  </div>
                 <div className={style.skills}>
                             <div className={style.tecno}>
