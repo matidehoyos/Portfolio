@@ -49,6 +49,18 @@ const projects = [
   },
   {
     id: 5,
+    name: "POKEMON APP",
+    rol: "Full stack developer",
+    date: "Jan 2024",
+    detail: "Aplicación web que consume datos de API externa y los guarda en base de datos para luego listarlos a traves de filtros combinados. Diseño responsive.",
+    technologies: "Javascript · NodeJs · Express · ReactJs · PostgreSql",
+    repository: "https://github.com/matidehoyos/Pokemon-proyecto",
+    web: "",
+    img: 'poke.png',
+    imgMov: 'pokeMov.png',
+  },
+  {
+    id: 6,
     name: "PORTFOLIO",
     rol: "Full stack developer",
     date: "Abr 2024",
