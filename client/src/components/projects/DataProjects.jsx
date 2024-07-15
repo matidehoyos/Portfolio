@@ -55,7 +55,7 @@ const projects = [
     detail: "Aplicación web que consume datos de API externa y los guarda en base de datos para luego listarlos a traves de filtros combinados. Diseño responsive.",
     technologies: "Javascript · NodeJs · Express · ReactJs · PostgreSql",
     repository: "https://github.com/matidehoyos/Pokemon-proyecto",
-    web: "",
+    web: "https://matiasdehoyos.vercel.app/projects",
     img: 'poke.png',
     imgMov: 'pokeMov.png',
   },
