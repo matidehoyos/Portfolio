@@ -60,7 +60,7 @@ const projects = [
     imgMov: 'pokeMov.png',
   },
   {
-    id: 5,
+    id: 7,
     name: "PORTFOLIO",
     rol: "Full stack developer",
     date: "Abr 2024",
@@ -72,7 +72,7 @@ const projects = [
     imgMov: 'portfolioMov.png',
   },
   {
-    id: 7,
+    id: 5,
     name: "Rick&Morty",
     rol: "Full stack developer",
     date: "Nov 2023",
