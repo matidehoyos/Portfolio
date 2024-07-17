@@ -71,6 +71,18 @@ const projects = [
     img: 'portfolio.png',
     imgMov: 'portfolioMov.png',
   },
+  {
+    id: 7,
+    name: "Rick&Morty",
+    rol: "Full stack developer",
+    date: "Nov 2023",
+    detail: "App web sobre Rick & Morty. Consume datos de Api externa, los filtra y muestra segun gustos del usuario.",
+    technologies: "Javascript · NodeJs · ReactJs · CSS3",
+    repository: "https://github.com/matidehoyos/RickyMorty",
+    web: "https://rickymortymdh.vercel.app/home",
+    img: 'rm.png',
+    imgMov: 'portfolioMov.png',
+  },
 ];
 
 export default projects;
