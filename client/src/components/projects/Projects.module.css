@@ -41,7 +41,7 @@
    border: 1px solid #2f2f2f;
    position: relative;
    overflow: hidden;
-   transition: all .4s ease;
+   transition: all .6s ease;
 }
 
 .box:hover {
@@ -63,6 +63,10 @@
    padding: 0;
 }
 
+.box:hover .imgPc {
+   filter: grayscale(0);
+}
+
 
 .imgPc {
    transition: transform 1.5s ease-out;
@@ -70,7 +74,7 @@
    height: 200px;
    object-fit: cover;
    border-radius: 4px;
-   filter: grayscale(0.4);
+   filter: grayscale(.8);
  }
  
  .rol {
