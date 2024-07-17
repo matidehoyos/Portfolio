@@ -113,24 +113,25 @@
   }
 
 .imgPc {
-    width: 36%;
+    width: 40%;
+    height: 50%;
     position: absolute;
     right: 14%;
     border: 3px solid #272727;
     border-radius: 6px;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
-    opacity: .8;
+    opacity: .6;
     transition: all .4s ease-out;
 }
 
 .imgPc:hover {
-    width: 42%;
     z-index: 4;
     opacity: 1;
 }
 
 .imgMov {
     width: 12%;
+    max-height: 480px;
     position: absolute;
     right: 44%;
     top: 315px;
@@ -139,6 +140,7 @@
     border-radius: 6px;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
     transition: all .4s ease-out;
+    display: none;
 }
 
 .imgMov:hover {
