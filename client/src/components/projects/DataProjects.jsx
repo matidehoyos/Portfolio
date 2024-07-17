@@ -79,7 +79,7 @@ const projects = [
     detail: "App web sobre Rick & Morty. Consume datos de Api externa, los filtra y muestra segun gustos del usuario.",
     technologies: "Javascript · NodeJs · ReactJs · CSS3",
     repository: "https://github.com/matidehoyos/RickyMorty",
-    web: "https://rickymortymdh.vercel.app/home",
+    web: "https://rickymortymdh.vercel.app/",
     img: 'rm.png',
     imgMov: 'portfolioMov.png',
   },
