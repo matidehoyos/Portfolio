@@ -125,6 +125,8 @@
 }
 
 .imgPc:hover {
+    width: 80%;
+    height: auto;
     z-index: 4;
     opacity: 1;
 }
