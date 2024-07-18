@@ -79,7 +79,7 @@ const projects = [
     detail: "Aplicación web autocotizadora. Reviews de clientes, proyectos, mailer, pasarellas de pagos. Diseño responsive.",
     technologies: "Javascript · NodeJs · Express · ReactJs · MongoDB",
     repository: "https://github.com/Freetzen/WeDevelop",
-    web: "",
+    web: "https://github.com/Freetzen/WeDevelop",
     img: 'wedev.png',
     imgMov: 'wedevv.jpeg',
   },
