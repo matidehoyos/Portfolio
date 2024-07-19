@@ -1,18 +1,6 @@
 const projects = [
   {
     id: 1,
-    name: "RUGIR",
-    rol: "Front end developer",
-    date: "Jun 2024",
-    detail: "Sitio web para marca de alfombras. Muestra la información relevante del comercio. Diseño responsive.",
-    technologies: "Javascript · React · Css3",
-    repository: "https://github.com/matidehoyos/rugirTailw",
-    web: "https://rugirmdq.vercel.app/",
-    img: 'r.png',
-    imgMov: 'rugirMov.png',
-  },
-  {
-    id: 2,
     name: "ELECTROAUTO",
     rol: "Full stack developer",
     date: "Apr 2024",
@@ -22,6 +10,18 @@ const projects = [
     web: "https://electroauto.vercel.app/",
     img: 'e.png',
     imgMov: 'e.png',
+  },
+  {
+    id: 2,
+    name: "RUGIR",
+    rol: "Front end developer",
+    date: "Jun 2024",
+    detail: "Sitio web para marca de alfombras. Muestra la información relevante del comercio. Diseño responsive. Mobile first.",
+    technologies: "Javascript · React · Css3",
+    repository: "https://github.com/matidehoyos/rugirTailw",
+    web: "https://rugirmdq.vercel.app/",
+    img: 'r.png',
+    imgMov: 'rugirMov.png',
   },
   {
     id: 3,
