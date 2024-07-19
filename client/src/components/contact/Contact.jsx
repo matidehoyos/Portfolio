@@ -33,7 +33,7 @@ const Contact = () => {
                         </ul>
                     </nav>
             </div>
-            <div className={style.menu} data-aos="fade-up" data-aos-duration="800"  >
+            <div className={style.menu}  >
                                 <nav>
                                     <ul>
                                         <li><Link to="/projects">Projects</Link></li>
