@@ -138,7 +138,7 @@
     .pContainer {
         width: 100%;
         padding: 0 4%;
-        padding-top: 40px;
+        padding-top: 60px;
         display: flex;
         display: flex;
         flex-direction: row-reverse;
@@ -151,12 +151,12 @@
     }
     
     .imgAbout img {
-        width: 180px;
+        width: 160px;
         object-fit: scale-down;
         border-radius: none;
         background-color: #00918751;
         border: none;
-        opacity: .35;
+        opacity: .65;
         mask-image: linear-gradient(to left bottom,#000 10%, transparent);
         position: absolute;
         right: 4%;
@@ -184,7 +184,7 @@
         width: 92%;
         height: auto;
         margin: 0 auto;
-        margin-top: 30px;
+        margin-top: 50px;
         padding: 0;
         padding-bottom: 0px;
         background-color: transparent;
@@ -256,7 +256,7 @@
             width: auto;
             height: auto;
             margin: 0;
-            margin-top: 0px;
+            margin-top: 24px;
             padding-left: 4%;
             background-color: transparent;
               }
