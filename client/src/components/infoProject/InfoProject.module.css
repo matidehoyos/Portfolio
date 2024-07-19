@@ -174,7 +174,6 @@
         background-image: none;
         margin: 0;
         padding: 0;
-        padding-bottom: 20px;
         overflow-x: hidden;
         background-color: #111;
     }
@@ -186,7 +185,7 @@
         justify-content: start;
         align-items: start;
         padding: 0px 4%;
-        padding-top: 100px;
+        padding-top: 90px;
         overflow: hidden;
     }   
     
@@ -204,8 +203,8 @@
     
     .name {
         width: 100%;
-        color: #606060;
-        font-size: 24px;
+        color: #929292;
+        font-size: 26px;
         font-weight: 500;
         line-height: 30px;
         letter-spacing: .6px;
@@ -222,7 +221,7 @@
         font-size: 18px;
         font-weight: 300;
         line-height: 18px;
-        letter-spacing: .6px;
+        letter-spacing: .4px;
         margin: 0;
         margin-top: 0px;
         padding: 0;
@@ -287,22 +286,22 @@
     
     .imgPc {
         width: 100%;
-        max-height: 180px;
+        max-height: 145px;
         position: inherit;
         border: 1px solid #272727;
         border-radius: 2px;
         box-shadow: none;
-        opacity: .9;
+        opacity: .78;
         object-fit: fill;
-        object-position: top;
         margin-top: 10px;
+        mask: linear-gradient(to bottom, #11111100, #111111 70%, #11111100);
     }
     
     .imgPc:hover {
         width: 100%;
         top: inherit;
         right: inherit;
-        opacity: .9;
+        opacity: 1;
     }
     
     .imgMov {

@@ -106,6 +106,10 @@
       transition: all 0.7s ease;
 }
 
+.menu {
+   display: none;
+}
+
 
 
 
@@ -229,5 +233,31 @@
    .box:hover .info {
       display: none;
    }
+
+   .menu {
+      display: block;
+      width: auto;
+      height: auto;
+      margin: 0 auto;
+      margin-top: 52px;
+      background-color: transparent;
+        }
+    
+    .menu ul li {
+      list-style: none;
+      display: inline;
+    }
+    
+    .menu ul li a {
+      text-decoration: none;
+      color: #00ffee9c;
+      font-size: 22px;
+      font-weight: 300;
+      letter-spacing: .8px;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      margin-right: 16px;
+  }
 }
 
