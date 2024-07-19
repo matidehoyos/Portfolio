@@ -19,7 +19,7 @@ const Header = () => {
                         </div>
 
                         <div className={style.txtPre} data-aos="fade-up" data-aos-duration="800">
-                                <h4>I'm Matias De Hoyos</h4>
+                                <p className={style.mati}>I'm Matias De Hoyos</p>
                                 <h1><span className={style.im}></span>Full Stack - <br/>FrontEnd Developer</h1>
                                 <p className={style.des}>Web developer with a passion for creating visually stunning and user-friendly websites.</p>               
                                 <div className={style.cv}>
