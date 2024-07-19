@@ -27,7 +27,7 @@ button {
     place-items: center;
     width: 100vw;
     height: auto;
-    background-color: #000;
-    color: #111;
+    background-color: #222;
+    color: #222;
   }
 }
