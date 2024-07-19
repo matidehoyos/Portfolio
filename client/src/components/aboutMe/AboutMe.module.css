@@ -138,9 +138,10 @@
     .pContainer {
         width: 100%;
         padding: 0 4%;
-        padding-top: 75px;
+        padding-top: 40px;
         display: flex;
         display: flex;
+        flex-direction: row-reverse;
         justify-content: start;
         align-items: start;
     }   
@@ -150,22 +151,23 @@
     }
     
     .imgAbout img {
-        width: 160px;
+        width: 180px;
         object-fit: scale-down;
         border-radius: none;
         background-color: #00918751;
         border: none;
         opacity: .65;
+        mask-image: linear-gradient(to left bottom,#000 10%, transparent);
         position: absolute;
-        mask-image: linear-gradient(to right bottom,#000 10%, transparent);
+        right: 4%;
     }
     
     .first {
-        width: 80%;
+        width: 74%;
         margin: 0;
         padding: 0px;
-        margin-left: 140px;
-        margin-top: 80px;
+        margin-left: 0px;
+        margin-top: 110px;
         color: #8d8d8d;
         font-size: 17px;
         font-weight: 250;
@@ -182,11 +184,11 @@
         width: 94%;
         height: auto;
         margin: 0 auto;
-        margin-top: 60px;
-        padding: 30px 0;
+        margin-top: 40px;
+        padding: 26px 0;
         padding-bottom: 50px;
         padding-left: 4%;
-        background-color: #141414;
+        background-color: #131313;
         border-radius: 8px;
     }
     
@@ -195,9 +197,9 @@
         margin: 0;
         width: 92%;
         height: auto;
-        font-size: 20px;
+        font-size: 19px;
         font-weight: 300;
-        line-height: 19px;
+        line-height: 18px;
         letter-spacing: .6px;
         background-color: transparent;
         background-image: linear-gradient(to bottom,#bcbcbc 30%,#5a5a5a);
@@ -258,8 +260,8 @@
             width: auto;
             height: auto;
             margin: 0;
-            margin-top: 32px;
-            padding-left: 6%;
+            margin-top: 20px;
+            padding-left: 4%;
             background-color: transparent;
               }
           
@@ -271,7 +273,7 @@
           .menu ul li a {
             text-decoration: none;
             color: #00ffee9c;
-            font-size: 22px;
+            font-size: 18px;
             font-weight: 300;
             letter-spacing: .8px;
             text-align: center;
