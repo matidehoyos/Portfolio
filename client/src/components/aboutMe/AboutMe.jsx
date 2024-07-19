@@ -55,7 +55,7 @@ const AboutMe = () => {
                                 <p><DiIllustrator /></p>
                             </div>
                     </div> 
-                            <div className={style.menu}  >
+                            <div className={style.menu} data-aos="fade-up" data-aos-duration="800"  >
                                 <nav>
                                     <ul>
                                         <li><Link to="/projects">Projects</Link></li>

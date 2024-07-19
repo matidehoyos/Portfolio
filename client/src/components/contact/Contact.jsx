@@ -4,6 +4,7 @@ import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
     useEffect(() => {
@@ -32,6 +33,16 @@ const Contact = () => {
                         </ul>
                     </nav>
             </div>
+            <div className={style.menu} data-aos="fade-up" data-aos-duration="800"  >
+                                <nav>
+                                    <ul>
+                                        <li><Link to="/projects">Projects</Link></li>
+                                        <li><Link to="/contact">Contact</Link></li>
+                                        <li><Link to="/">Home</Link></li>
+                                        <li><Link to="/about">About</Link></li>
+                                    </ul>
+                                </nav>
+                </div>
         </div>
     )
 }
