@@ -33,7 +33,7 @@ img {
   background-image: url('../public/bg1.jpeg');
   background-size: cover;
   background-attachment: initial;
-  background-color: rgb(15, 15, 15);
+  background-color: #111;
 }
 
 * {
@@ -43,7 +43,7 @@ img {
 }
 
 body {
-  color: rgb(32, 32, 32);
+  color: #111;
   overflow: hidden;
   width: 100vw;
   height: 100vh;
