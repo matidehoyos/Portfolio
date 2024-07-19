@@ -1,5 +1,5 @@
 import style from './InfoProject.module.css';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import projects from '../projects/DataProjects';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
@@ -31,6 +31,16 @@ function InfoProject() {
                     </a>  
                 </div>
                 <img src={`${BASE_URL}${project.imgMov}`} className={style.imgMov} alt={project.name} />
+                <div className={style.menu}  >
+                                <nav>
+                                    <ul>
+                                        <li><Link to="/">Home</Link></li>
+                                        <li><Link to="/about">About</Link></li>
+                                        <li><Link to="/projects">Projects</Link></li>
+                                        <li><Link to="/contact">Contact</Link></li>
+                                    </ul>
+                                </nav>
+                </div>
             </div>
         </div>
     );

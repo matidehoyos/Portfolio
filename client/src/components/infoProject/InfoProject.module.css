@@ -153,6 +153,10 @@
     opacity: 1;
 }
 
+.menu {
+    display: none;
+}
+
 
 
 
@@ -316,4 +320,31 @@
         opacity: 1;
     }
     
+
+    .menu {
+        display: block;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 20px;
+          }
+      
+      .menu ul li {
+        list-style: none;
+        display: inline;
+      }
+      
+      .menu ul li a {
+        text-decoration: none;
+        color: #00ffee9c;
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: .8px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin-right: 12px;
+    }
 }    
