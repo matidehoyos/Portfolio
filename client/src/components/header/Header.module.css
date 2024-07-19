@@ -73,6 +73,10 @@
     margin-top: 20px;
 }
 
+.menu {
+    display: none;
+}
+
 .redes {
     width: auto;
     height: auto;
@@ -253,6 +257,7 @@
         }
 
         .menu {
+            display: block;
             width: auto;
             height: auto;
             margin: 0 auto;
