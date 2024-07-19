@@ -167,11 +167,11 @@
         margin: 0;
         padding: 0px;
         margin-left: 0px;
-        margin-top: 95px;
+        margin-top: 85px;
         color: #8d8d8d;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 250;
-        line-height: 18px;
+        line-height: 16px;
         letter-spacing: .4px;
         text-align: left;
         filter: drop-shadow(0px 0px 5px #000000);
@@ -184,7 +184,7 @@
         width: 92%;
         height: auto;
         margin: 0 auto;
-        margin-top: 50px;
+        margin-top: 36px;
         padding: 0;
         padding-bottom: 0px;
         background-color: transparent;
@@ -256,7 +256,7 @@
             width: auto;
             height: auto;
             margin: 0;
-            margin-top: 30px;
+            margin-top: 20px;
             padding-left: 4%;
             background-color: transparent;
               }
