@@ -176,6 +176,7 @@
         padding: 0;
         padding-bottom: 20px;
         overflow-x: hidden;
+        background-color: #111;
     }
     
     .subcontainer {
@@ -185,7 +186,7 @@
         justify-content: start;
         align-items: start;
         padding: 0px 4%;
-        padding-top: 90px;
+        padding-top: 100px;
         overflow: hidden;
     }   
     
@@ -204,7 +205,7 @@
     .name {
         width: 100%;
         color: #606060;
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 500;
         line-height: 30px;
         letter-spacing: .6px;
@@ -218,23 +219,23 @@
         width: 100%;
         color: #656565;
         text-align: left;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 300;
-        line-height: 23px;
+        line-height: 18px;
         letter-spacing: .6px;
         margin: 0;
-        margin-top: 3px;
+        margin-top: 0px;
         padding: 0;
     }
     
     .detail {
-        width: 100%;
+        width: 98%;
         color: #606060;
         text-align: left;
         font-size: 18px;
         font-weight: 400;
-        line-height: 21px;
-        letter-spacing: .6px;
+        line-height: 20px;
+        letter-spacing: .5px;
         padding: 0;
         margin: 0;
         margin-top: 12px;
@@ -245,9 +246,9 @@
     
     .tecno {
         width: 100%;
-        color: #004d47;
+        color: #005e56;
         text-align: left;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 17px;
         letter-spacing: .4px;
@@ -267,12 +268,12 @@
         display: inline-flex;
         align-items: center;
         padding: 8px 16px;
-        background-color: #00484357;
+        background-color: #00776f57;
         color: #cdcdcd;
         text-decoration: none;
         border-radius: 5px;
         transition: background-color 0.3s ease;
-        margin-right: 15px;
+        margin-right: 10px;
         font-size: 16px;
       }
       
@@ -285,14 +286,14 @@
       }
     
     .imgPc {
-        width: 80%;
+        width: 100%;
         max-height: 180px;
         position: inherit;
         border: 1px solid #272727;
         border-radius: 2px;
         box-shadow: none;
-        opacity: .4;
-        object-fit: cover;
+        opacity: .9;
+        object-fit: fill;
         object-position: top;
         margin-top: 10px;
     }
@@ -301,7 +302,7 @@
         width: 100%;
         top: inherit;
         right: inherit;
-        opacity: .5;
+        opacity: .9;
     }
     
     .imgMov {
