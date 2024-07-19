@@ -129,7 +129,7 @@
       flex-direction: column;
       margin: 0;
       padding: 0 4%;
-      padding-bottom: 100px;
+      padding-bottom: 50px;
       overflow-x: hidden;
       background-image: none;
       background-color: #111;
@@ -137,7 +137,7 @@
    
    .titulo {
       width: auto;
-      margin-top: 100px;
+      margin-top: 90px;
    }
    
    .titulo h3 {
@@ -152,26 +152,26 @@
       display: flex;
       flex-wrap: wrap;
       padding: 0;
-      margin-top: 50px;
+      margin-top: 40px;
       justify-content: center;
       align-items: center;
    }
    
    .box {
-      width: 92%;
+      width: 72%;
       display: flex;
       flex-direction: column;
-      padding: 10px;
-      margin-bottom: 22px;
-      background-color: #0d0d0d;
+      padding: 5px;
+      margin-bottom: 0px;
+      background-color: #010b0e;
       border-radius: 6x;
-      border: 1px solid #000000;
+      border: 1px solid #343434;
       position: relative;
       overflow: hidden;
    }
    
    .box:hover {
-      box-shadow: 0px 0px 100px #00938962;
+      box-shadow: inherit;
    }
    
    .box a {
@@ -179,8 +179,8 @@
    }
    
    .box h5 {
-      font-size: 22px;
-      font-weight: 400;
+      font-size: 20px;
+      font-weight: 300;
       color: #ffffffb0;
       margin: 0;
       padding: 0;
@@ -193,20 +193,21 @@
       height: auto;
       object-fit: scale-down;
       border-radius: 4px;
-      filter: grayscale(0.4);
+      filter: grayscale(0.3);
     }
     
     .box:hover .imgPc {
       transform: none;
+      filter: grayscale(0.3);
     }
     
     .rol {
-       font-size: 18px;
+       font-size: 16px;
        font-weight: 300;
        text-align: left;
        padding: 0px;
        margin: 0;
-       color: #ffffffdc;
+       color: #999999dc;
       }
       
       .info { 
