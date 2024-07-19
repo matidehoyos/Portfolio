@@ -138,7 +138,7 @@
     .pContainer {
         width: 100%;
         padding: 0 4%;
-        padding-top: 40px;
+        padding-top: 30px;
         display: flex;
         display: flex;
         flex-direction: row-reverse;
@@ -182,15 +182,14 @@
     }
     
     .about {
-        width: 94%;
+        width: 96%;
         height: auto;
         margin: 0 auto;
         margin-top: 40px;
-        padding: 22px 0;
-        padding-bottom: 50px;
+        padding: 0;
+        padding-bottom: 0px;
         padding-left: 2%;
-        background-color: #121212;
-        border-radius: 8px;
+        background-color: transparent;
     }
     
     .second {
@@ -214,17 +213,14 @@
     }
     
     .skills {
-        width: 84%;
+        width: 68%;
         padding: 0;
         white-space: nowrap;
         overflow-x: hidden;
         margin: 0;
-        margin-left: 6%;
-        margin-top: 0px;
+        margin-left: 10%;
+        margin-top: 5px;
         overflow: hidden;
-        background-image: linear-gradient(to right, #121212, #131313,#121212);
-        position: relative;
-        top: -26px;
     }
     
     .tecno {
@@ -248,7 +244,7 @@
     
       .tecno p {
           width: auto;
-          font-size: 20px;
+          font-size: 18px;
           color: #313131;
           padding: 0;
           margin: 0;
@@ -262,7 +258,7 @@
             width: auto;
             height: auto;
             margin: 0;
-            margin-top: 20px;
+            margin-top: 30px;
             padding-left: 4%;
             background-color: transparent;
               }
