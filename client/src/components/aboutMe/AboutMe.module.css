@@ -141,7 +141,7 @@
         padding-top: 100px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
     }   
     
     .primer {
@@ -160,7 +160,7 @@
     }
     
     .imgAbout img {
-        width: 180px;
+        width: 140px;
         object-fit: scale-down;
         border-radius: 50%;
         background-color: #0091871c;
@@ -170,22 +170,22 @@
     }
     
     .first {
-        width: 90%;
+        width: 78%;
         margin: 0;
         padding: 0px;
         padding-left: 0px;
         color: #ffffff64;
         font-size: 16px;
-        font-weight: 400;
-        line-height: 19px;
+        font-weight: 100;
+        line-height: 18px;
         letter-spacing: .4px;
-        text-align: center;
+        text-align: left;
         filter: drop-shadow(0px 0px 10px #000000);
         font-style: italic;
         hyphens: auto;
         word-wrap: break-word;
         position: absolute;
-        top: 244px;
+        top: 214px;
     }
     
     .about {
@@ -193,24 +193,24 @@
         height: auto;
         margin: 0;
         margin-top: 24px;
-        padding: 0 7%;
+        padding: 0 4%;
     }
     
     .second {
         padding: 0;
         margin: 0;
-        width: 100%;
+        width: 92%;
         height: auto;
-        font-size: 20px;
-        font-weight: 700;
-        line-height: 24px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21px;
         letter-spacing: .6px;
         background-color: transparent;
-        background-image: linear-gradient(to bottom,#808080 30%,#eaeaea);
+        background-image: linear-gradient(to bottom,#ffffff64 30%,#aaaaaa);
       background-clip: text;
       -webkit-text-fill-color: transparent;
-        font-style: normal;
-        text-align: center;
+        font-style: oblique;
+        text-align: left;
         text-align-last: inherit;
         hyphens: auto;
         word-wrap: break-word;
@@ -226,8 +226,6 @@
         position: inherit;
         overflow: hidden;
     }
-    
-    
     
     .tecno {
         width: auto;
@@ -251,7 +249,7 @@
     .tecno p {
         width: auto;
         font-size: 22px;
-        color: #515151;
+        color: #aaaaaa;
         padding: 0;
         margin: 0;
         margin-right: 34px;
