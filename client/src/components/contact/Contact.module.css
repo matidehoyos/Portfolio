@@ -164,7 +164,9 @@
         background-image: none;
         padding: 0;
         margin: 0;
-        margin-top: 8px;
+        margin-top: 0px;
+        position: relative;
+        top: -14px;
         }
     
     .redes nav {
@@ -213,7 +215,7 @@
         width: auto;
         height: auto;
         margin: 0 auto;
-        margin-top: 38px;
+        margin-top: 20px;
         background-color: transparent;
           }
       
