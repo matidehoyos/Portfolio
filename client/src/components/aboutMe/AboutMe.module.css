@@ -156,7 +156,7 @@
         border-radius: none;
         background-color: #00918751;
         border: none;
-        opacity: .65;
+        opacity: .55;
         mask-image: linear-gradient(to left bottom,#000 10%, transparent);
         position: absolute;
         right: 4%;
