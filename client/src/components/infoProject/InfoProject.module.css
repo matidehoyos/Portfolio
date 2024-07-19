@@ -189,7 +189,7 @@
         justify-content: start;
         align-items: start;
         padding: 0px 4%;
-        padding-top: 90px;
+        padding-top: 70px;
         overflow: hidden;
     }   
     
@@ -208,10 +208,10 @@
     .name {
         width: 100%;
         color: #929292;
-        font-size: 26px;
+        font-size: 24px;
         font-weight: 500;
         line-height: 30px;
-        letter-spacing: .6px;
+        letter-spacing: .5px;
         text-align: left;
         margin: 0;
         margin-top: 0px;
@@ -222,9 +222,9 @@
         width: 100%;
         color: #656565;
         text-align: left;
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 300;
-        line-height: 18px;
+        line-height: 16px;
         letter-spacing: .4px;
         margin: 0;
         margin-top: 0px;
@@ -232,7 +232,7 @@
     }
     
     .detail {
-        width: 98%;
+        width: 100%;
         color: #606060;
         text-align: left;
         font-size: 18px;
@@ -241,7 +241,7 @@
         letter-spacing: .5px;
         padding: 0;
         margin: 0;
-        margin-top: 12px;
+        margin-top: 10px;
         hyphens: auto;
         word-wrap: break-word;
         text-shadow: 0px 0px 4px #000;
@@ -251,12 +251,12 @@
         width: 100%;
         color: #005e56;
         text-align: left;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
-        line-height: 17px;
+        line-height: 16px;
         letter-spacing: .4px;
         padding: 0;
-        margin: 8px 0px;
+        margin: 24px 0px;
     }
     
     .butons {
@@ -264,20 +264,21 @@
         display: flex;
         justify-content: start;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     
     .butonWeb {
         display: inline-flex;
         align-items: center;
-        padding: 8px 16px;
+        padding: 6px 12px;
         background-color: #00776f57;
         color: #cdcdcd;
         text-decoration: none;
         border-radius: 5px;
         transition: background-color 0.3s ease;
         margin-right: 10px;
-        font-size: 16px;
+        font-size: 14px;
+        letter-spacing: .6px;
       }
       
       .butonWeb:hover {
@@ -290,15 +291,15 @@
     
     .imgPc {
         width: 100%;
-        max-height: 145px;
+        max-height: 135px;
         position: inherit;
-        border: 1px solid #272727;
+        border: 1px solid #555555;
         border-radius: 2px;
         box-shadow: none;
-        opacity: .78;
+        opacity: .98;
         object-fit: fill;
         margin-top: 10px;
-        mask: linear-gradient(to bottom, #11111100, #111111 70%, #11111100);
+        box-shadow: 0px 0px 10px #000;
     }
     
     .imgPc:hover {
@@ -328,7 +329,7 @@
         margin: 0;
         padding: 0;
         position: absolute;
-        bottom: 20px;
+        bottom: 25px;
           }
       
       .menu ul li {

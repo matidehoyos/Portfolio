@@ -133,7 +133,7 @@
       flex-direction: column;
       margin: 0;
       padding: 0 4%;
-      padding-bottom: 50px;
+      padding-bottom: 80px;
       overflow-x: hidden;
       background-image: none;
       background-color: #111;
@@ -240,7 +240,7 @@
       width: auto;
       height: auto;
       margin: 0 auto;
-      margin-top: 52px;
+      margin-top: 38px;
       background-color: transparent;
         }
     
@@ -253,7 +253,7 @@
       text-decoration: none;
       color: #00ffee9c;
       font-size: 18px;
-      font-weight: 300;
+      font-weight: 400;
       letter-spacing: .6px;
       text-align: center;
       padding: 0;
