@@ -1,5 +1,5 @@
 import './App.css'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes  } from 'react-router-dom'
 import AboutMe from './components/aboutMe/AboutMe'
 import NavBar from './components/navBar/NavBar'
 import Projects from './components/projects/Projects'
@@ -11,6 +11,7 @@ function App() {
 
   return (
     <>
+
     <NavBar />
     
     <Routes>
