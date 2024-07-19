@@ -125,19 +125,20 @@
 
     .container {
         width: 100%;
-        height: calc(100vh - 60px);
+        height: 100vh;
         display: flex;
         flex-direction: column;
         margin: 0;
         padding: 0;
         overflow: hidden;
         background-image: none;
+        background-color: #111;
     }
     
     .pContainer {
         width: 100%;
         padding: 0 4%;
-        padding-top: 90px;
+        padding-top: 100px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -159,29 +160,32 @@
     }
     
     .imgAbout img {
-        width: 120px;
+        width: 180px;
         object-fit: scale-down;
         border-radius: 50%;
         background-color: #0091871c;
         border: 1px solid #ffffff30;
-        opacity: .9;
+        opacity: .6;
+        mask-image: linear-gradient(to bottom,#000 10%, transparent);
     }
     
     .first {
-        width: 100%;
+        width: 90%;
         margin: 0;
         padding: 0px;
         padding-left: 0px;
         color: #ffffff64;
-        font-size: 18px;
-        font-weight: 300;
-        line-height: 23px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
         letter-spacing: .4px;
         text-align: center;
-        filter: drop-shadow(0px 0px 10px #003531);
+        filter: drop-shadow(0px 0px 10px #000000);
         font-style: italic;
         hyphens: auto;
         word-wrap: break-word;
+        position: absolute;
+        top: 244px;
     }
     
     .about {
@@ -189,7 +193,7 @@
         height: auto;
         margin: 0;
         margin-top: 24px;
-        padding: 0 4%;
+        padding: 0 7%;
     }
     
     .second {
@@ -198,10 +202,13 @@
         width: 100%;
         height: auto;
         font-size: 20px;
-        font-weight: 300;
+        font-weight: 700;
         line-height: 24px;
         letter-spacing: .6px;
-        color: #ffffff85;
+        background-color: transparent;
+        background-image: linear-gradient(to bottom,#808080 30%,#eaeaea);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
         font-style: normal;
         text-align: center;
         text-align-last: inherit;
@@ -210,13 +217,13 @@
     }
     
     .skills {
-        width: 90%;
+        width: 70%;
         padding: 0;
         white-space: nowrap;
         overflow-x: hidden;
         margin: 0 auto;
-        position: absolute;
-        bottom: 20px;
+        margin-top: 50px;
+        position: inherit;
         overflow: hidden;
     }
     
