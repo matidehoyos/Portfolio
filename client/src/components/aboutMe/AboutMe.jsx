@@ -15,6 +15,7 @@ import { SiPostgresql } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { FaFigma } from "react-icons/fa";
 import { DiIllustrator } from "react-icons/di";
+import { Link } from 'react-router-dom';
 
 
 
@@ -54,6 +55,16 @@ const AboutMe = () => {
                                 <p><DiIllustrator /></p>
                             </div>
                     </div> 
+                            <div className={style.menu}  >
+                                <nav>
+                                    <ul>
+                                        <li><Link to="/">Home</Link></li>
+                                        <li><Link to="/projects">Projects</Link></li>
+                                        <li><Link to="/contact">Contact</Link></li>
+                                    </ul>
+                                </nav>
+                          </div>
+                    
         </div>
     )
 }

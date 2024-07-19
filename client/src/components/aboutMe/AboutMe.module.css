@@ -113,7 +113,9 @@
     align-items: center;
 }
 
-
+.menu {
+    display: none;
+}
 
 
 
@@ -126,7 +128,6 @@
     .container {
         width: 100%;
         min-height: 100vh;
-        display: flex;
         flex-direction: column;
         margin: 0;
         padding: 0;
@@ -137,22 +138,12 @@
     .pContainer {
         width: 100%;
         padding: 0 4%;
-        padding-top: 80px;
+        padding-top: 75px;
         display: flex;
-        flex-direction: column;
+        display: flex;
+        justify-content: start;
         align-items: start;
     }   
-    
-    .primer {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0px 4%;
-        padding-top: 0px;
-    }
     
     .imgAbout {
         width: auto;
@@ -161,38 +152,42 @@
     .imgAbout img {
         width: 160px;
         object-fit: scale-down;
-        border-radius: 30px 50px 4px 4px;
-        background-color: #00918704;
+        border-radius: none;
+        background-color: #00918751;
         border: none;
         opacity: .65;
-        mask-image: linear-gradient(to bottom,#000 10%, transparent);
+        position: absolute;
+        mask-image: linear-gradient(to right bottom,#000 10%, transparent);
     }
     
     .first {
-        width: 90%;
+        width: 80%;
         margin: 0;
         padding: 0px;
-        padding-left: 0px;
-        color: #bdb2b2;
-        font-size: 20px;
+        margin-left: 140px;
+        margin-top: 80px;
+        color: #8d8d8d;
+        font-size: 17px;
         font-weight: 250;
         line-height: 18px;
         letter-spacing: .4px;
         text-align: left;
-        filter: drop-shadow(0px 0px 10px #000000);
+        filter: drop-shadow(0px 0px 5px #000000);
         font-style: italic;
         hyphens: auto;
         word-wrap: break-word;
-        position: absolute;
-        top: 200px;
     }
     
     .about {
-        width: 100%;
+        width: 94%;
         height: auto;
-        margin: 0;
-        margin-top: 44px;
-        padding: 0 4%;
+        margin: 0 auto;
+        margin-top: 60px;
+        padding: 30px 0;
+        padding-bottom: 50px;
+        padding-left: 4%;
+        background-color: #141414;
+        border-radius: 8px;
     }
     
     .second {
@@ -201,8 +196,8 @@
         width: 92%;
         height: auto;
         font-size: 20px;
-        font-weight: 250;
-        line-height: 21px;
+        font-weight: 300;
+        line-height: 19px;
         letter-spacing: .6px;
         background-color: transparent;
         background-image: linear-gradient(to bottom,#bcbcbc 30%,#5a5a5a);
@@ -216,14 +211,16 @@
     }
     
     .skills {
-        width: 72%;
+        width: 90%;
         padding: 0;
         white-space: nowrap;
         overflow-x: hidden;
-        margin: 0;
-        margin-top: 30px;
-        position: inherit;
+        margin: 0 auto;
+        margin-top: 0px;
         overflow: hidden;
+        background-image: linear-gradient(to right, #141414, #151515,#141414);
+        position: relative;
+        top: -26px;
     }
     
     .tecno {
@@ -245,16 +242,41 @@
         }
       }
     
-    .tecno p {
-        width: auto;
-        font-size: 20px;
-        color: #5a5a5a;
-        padding: 0;
-        margin: 0;
-        margin-right: 14px;
-        display: flex;
-        align-items: center;
-    }
-    
-    
+      .tecno p {
+          width: auto;
+          font-size: 20px;
+          color: #313131;
+          padding: 0;
+          margin: 0;
+          margin-right: 14px;
+          display: flex;
+          align-items: center;
+        }
+        
+        .menu {
+            display: block;
+            width: auto;
+            height: auto;
+            margin: 0;
+            margin-top: 32px;
+            padding-left: 6%;
+            background-color: transparent;
+              }
+          
+          .menu ul li {
+            list-style: none;
+            display: inline;
+          }
+          
+          .menu ul li a {
+            text-decoration: none;
+            color: #00ffee9c;
+            font-size: 22px;
+            font-weight: 300;
+            letter-spacing: .8px;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            margin-right: 16px;
+        }
 }
