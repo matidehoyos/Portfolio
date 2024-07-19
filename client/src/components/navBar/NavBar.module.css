@@ -118,7 +118,7 @@
       z-index: 4000;
       box-shadow: none;
       background-image: none;
-      background-color: transparent;
+      background-color: #111;
       padding-bottom: 4px;
       border-bottom: 0.5px solid #7979790e;
     }
