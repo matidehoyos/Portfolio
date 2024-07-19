@@ -185,14 +185,14 @@
         width: 92%;
         height: auto;
         margin: 0 auto;
-        margin-top: 50px;
+        margin-top: 40px;
         padding: 0;
         padding-bottom: 0px;
         background-color: transparent;
     }
     
     .second {
-        padding: 0;
+        padding: 10px 0;
         margin: 0;
         width: 100%;
         height: auto;
