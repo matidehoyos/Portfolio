@@ -124,6 +124,10 @@
         background-image: none;
         background-color: #111;
      }
+
+     .box {
+        border: none;
+     }
     
     .caja {
         display: flex;
@@ -205,6 +209,7 @@
         font-size: 20px;
         font-weight: 300;
         letter-spacing: .4px;
+        border: none;
       }
       
       .redes a:hover {
