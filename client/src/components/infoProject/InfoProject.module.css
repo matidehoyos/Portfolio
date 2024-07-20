@@ -114,7 +114,6 @@
 
 
 .imgLink {
-    background-color: red;
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -298,10 +297,16 @@
       .butonWeb svg {
         margin-right: 6px;
       }
+
+    .imgLink {
+        width: 100%;
+        height: auto;
+    }
     
     .imgPc {
         width: 100%;
-        max-height: 170px;
+        height: auto;
+        max-height: 200px;
         position: inherit;
         border: 1px solid #555555;
         border-radius: 2px;
