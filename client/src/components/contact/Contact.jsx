@@ -15,23 +15,25 @@ const Contact = () => {
 
     return(
         <div className={style.container} id="contact">
-            <div className={style.caja} data-aos="fade-up" data-aos-duration="800">
-                <div className={style.imgAbout}>
-                            <img src="./about.png" alt="imagen mia" />
+            <div className={style.box}>
+                <div className={style.caja} data-aos="fade-up" data-aos-duration="800">
+                    <div className={style.imgAbout}>
+                                <img src="./about.png" alt="imagen mia" />
+                    </div>
+                    <p>
+                        Please send me an email to schedule a meeting. I am currently available. Open to hearing your proposal.
+                    </p>
                 </div>
-                <p>
-                    Please send me an email to schedule a meeting. I am currently available. Open to hearing your proposal.
-                </p>
-            </div>
-            <div className={style.redes} data-aos="fade-up" data-aos-duration="800" >
-                    <nav>
-                         <ul>
-                              <li><a target="_blank" href='mailto:mati.dehoyosmdp@gmail.com'><FaEnvelope className={style.icon}/>Email</a></li>
-                              <li><a href='https://www.linkedin.com/in/matias-de-hoyos-802bb4212/' target='_blank'><FaLinkedin className={style.icon}/>LinkedIn</a></li>
-                              <li><a href='https://github.com/matidehoyos' target='_blank'><AiFillGithub className={style.icon}/>GitHub</a></li>
-                              <li><a target="_blank" href='https://www.instagram.com/matiasdehoyos/'><AiFillInstagram className={style.icon}/>Instagram</a></li>
-                        </ul>
-                    </nav>
+                <div className={style.redes} data-aos="fade-up" data-aos-duration="800" >
+                        <nav>
+                            <ul>
+                                <li><a target="_blank" href='mailto:mati.dehoyosmdp@gmail.com'><FaEnvelope className={style.icon}/>mati.dehoyosmdp@gmail.com</a></li>
+                                <li><a href='https://www.linkedin.com/in/matias-de-hoyos-802bb4212/' target='_blank'><FaLinkedin className={style.icon}/>LinkedIn</a></li>
+                                <li><a href='https://github.com/matidehoyos' target='_blank'><AiFillGithub className={style.icon}/>GitHub</a></li>
+                                <li><a target="_blank" href='https://www.instagram.com/matiasdehoyos/'><AiFillInstagram className={style.icon}/>Instagram</a></li>
+                            </ul>
+                        </nav>
+                </div>
             </div>
             <div className={style.menu}  >
                                 <nav>

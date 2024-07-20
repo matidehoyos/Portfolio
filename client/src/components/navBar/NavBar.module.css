@@ -1,7 +1,6 @@
 .container {
     width: 72%;
     height: auto;
-    /*background-image: linear-gradient(to right, #000 60%, transparent);*/
     margin: 0;
     margin-left: 14%;
     padding: 10px 0;
@@ -11,8 +10,7 @@
     align-items: center;
     position: fixed;
     z-index: 3000;
-    background-color: transparent;
-    border-bottom: 1px solid #4545450d;
+    background-color: #111;
 }
 
 .container img {
@@ -56,13 +54,13 @@
     margin: 0px 17px;
     padding: 0px;
     text-align: center;
-    color: rgb(130, 130, 130);
+    color: #27fff1aa;
     font-size: 18px;
     font-weight: 500;
 }
 
 .menu li a:hover {
-    filter: drop-shadow(0px 10px 5px #27fff1aa);
+    filter: drop-shadow(0px 10px 5px );
 }
 
 .cv {

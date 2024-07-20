@@ -3,10 +3,10 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, transparent, transparent, #000);
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color: transparent;
 }
 
 .subcontainer {
@@ -112,21 +112,30 @@
     margin-right: 8px;
   }
 
+
+.imgLink {
+    background-color: red;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
 .imgPc {
-    width: 40%;
-    height: 50%;
     position: absolute;
     right: 14%;
+    top: 160px;
+    width: 40%;
+    height: 50%;
     border: 3px solid #272727;
     border-radius: 6px;
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 1);
-    opacity: .9;
-    transition: all .4s ease-out;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    opacity: .8;
+    transition: all 0.4s ease;
 }
 
 .imgPc:hover {
-    width: 70%;
-    height: 70%;
+    width: 58%;
+    height: auto;
     z-index: 4000;
     opacity: 1;
 }

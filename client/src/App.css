@@ -1,10 +1,12 @@
 #root {
   width: 100vw;
+  min-height: 100vh;
   height: auto;
   margin: 0;
   padding: 0;
   font-family: "Kanit", sans-serif;
-  background-image: url('../public/bg1.png');
+  background-image: linear-gradient(to bottom, #111 , #050505);
+  background-color: #111;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -15,9 +17,6 @@
   box-sizing: border-box;
 }
 
-img {
-  pointer-events: none;
-}
 
 
 
@@ -30,10 +29,7 @@ img {
   margin: 0;
   padding: 0;
   font-family: "Kanit", sans-serif;
-  background-image: url('../public/bg1.jpeg');
-  background-size: cover;
-  background-attachment: initial;
-  background-color: #222;
+  background-color: #111;
 }
 
 * {
@@ -43,8 +39,8 @@ img {
 }
 
 body {
-  color: #222;
-  background-color: #222;
+  color: #111;
+  background-color: #111;
   overflow: hidden;
   width: 100vw;
   height: 100vh;
