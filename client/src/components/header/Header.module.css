@@ -119,10 +119,11 @@
     color: #ffffff81;
     border-radius: 50%;
     cursor: pointer;
+    transition: all 0.4s ease;
 }
 
 .redes li a:hover {
-    background-color: #00938925;
+    border: 0.3px solid #fff;
     color: #fff;
 }
 
