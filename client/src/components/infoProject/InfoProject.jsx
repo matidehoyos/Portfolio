@@ -29,7 +29,6 @@ function InfoProject() {
                         <FaGithub /> Visit repository
                     </a>  
                 </div>
-                <img src={`${BASE_URL}${project.imgMov}`} className={style.imgMov} alt={project.name} />
                 <div className={style.menu}  >
                                 <nav>
                                     <ul>

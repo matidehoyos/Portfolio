@@ -1,5 +1,16 @@
 const projects = [
   {
+    id: 0,
+    name: "MODO DIGITAL",
+    rol: "Front end developer",
+    date: "Aug 2024",
+    detail: "Página web responsive, mobile first. Tipo institucional, muestra la información relevante de la institución y su producto.",
+    technologies: "ReactJs · Tailwind · Html5 · Vercel · Visual studio",
+    repository: "https://github.com/matidehoyos/modo",
+    web: "https://mododigital.vercel.app/",
+    img: 'modo.png',
+  },
+  {
     id: 1,
     name: "ELECTROAUTO",
     rol: "Full stack developer",
@@ -9,7 +20,6 @@ const projects = [
     repository: "https://github.com/matidehoyos/Tienda-Electroauto",
     web: "https://electroauto.vercel.app/",
     img: 'e.png',
-    imgMov: 'e.png',
   },
   {
     id: 2,
@@ -21,7 +31,6 @@ const projects = [
     repository: "https://github.com/matidehoyos/rugirTailw",
     web: "https://rugirmdq.vercel.app/",
     img: 'r.png',
-    imgMov: 'rugirMov.png',
   },
   {
     id: 3,
@@ -33,7 +42,6 @@ const projects = [
     repository: "https://github.com/matidehoyos/Pokemon-proyecto",
     web: "https://pokemonmdh.vercel.app/",
     img: 'poke.png',
-    imgMov: 'pokeMov.png',
   },
   {
     id: 4,
@@ -45,7 +53,6 @@ const projects = [
     repository: "https://github.com/matidehoyos/RickyMorty",
     web: "https://rickymortymdh.vercel.app/",
     img: 'rm.png',
-    imgMov: 'portfolioMov.png',
   },
   {
     id: 5,
@@ -57,7 +64,6 @@ const projects = [
     repository: "https://github.com/matidehoyos/weatherapp",
     web: "https://climappmdh.vercel.app/",
     img: 'c.png',
-    imgMov: 'climaMov.png',
   },
   {
     id: 6,
@@ -69,7 +75,6 @@ const projects = [
     repository: "https://github.com/matidehoyos/portfolio",
     web: "https://matiasdehoyos.vercel.app/",
     img: 'p.png',
-    imgMov: 'portfolioMov.png',
   },
   {
     id: 7,
@@ -81,7 +86,6 @@ const projects = [
     repository: "https://github.com/Freetzen/WeDevelop",
     web: "https://github.com/Freetzen/WeDevelop",
     img: 'wedev.png',
-    imgMov: 'wedevv.jpeg',
   },
 ];
 
