@@ -48,18 +48,6 @@ const projects = [
     imgP: 'poke.png',
   },
   {
-    id: 4,
-    name: "Rick&Morty",
-    rol: "Full stack developer",
-    date: "Nov 2023",
-    detail: "App web sobre Rick & Morty. Consume datos de Api externa, los filtra y muestra segun gustos del usuario.",
-    technologies: "Javascript · NodeJs · ReactJs · CSS3",
-    repository: "https://github.com/matidehoyos/RickyMorty",
-    web: "https://rickymortymdh.vercel.app/",
-    img: 'r.jpeg',
-    img: 'rm.png',
-  },
-  {
     id: 5,
     name: "WEATHER APP",
     rol: "Full stack developer",
@@ -70,6 +58,18 @@ const projects = [
     web: "https://climappmdh.vercel.app/",
     img: 'c.jpeg',
     imgP: 'c.png',
+  },
+  {
+    id: 4,
+    name: "Rick&Morty",
+    rol: "Full stack developer",
+    date: "Nov 2023",
+    detail: "App web sobre Rick & Morty. Consume datos de Api externa, los filtra y muestra segun gustos del usuario.",
+    technologies: "Javascript · NodeJs · ReactJs · CSS3",
+    repository: "https://github.com/matidehoyos/RickyMorty",
+    web: "https://rickymortymdh.vercel.app/",
+    img: 'r.jpeg',
+    imgP: 'rm.png',
   },
   {
     id: 6,
@@ -92,7 +92,8 @@ const projects = [
     technologies: "Javascript · NodeJs · Express · ReactJs · MongoDB",
     repository: "https://github.com/Freetzen/WeDevelop",
     web: "https://github.com/Freetzen/WeDevelop",
-    img: 'wedev.png',
+    img: 'w.jpeg',
+    imgP: 'wedev.png',
   },
 ];
 
