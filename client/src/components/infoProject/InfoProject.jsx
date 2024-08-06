@@ -18,7 +18,7 @@ function InfoProject() {
                 <p className={style.date}>{project.date}</p>
                 <p className={style.name}>{project.name}</p>
                 <p className={style.rol}>{project.rol}</p>
-                <a href={project.web} target="_blank"  className={style.imgLink}><img src={`${BASE_URL}${project.img}`} className={style.imgPc} alt={project.name} /></a>
+                <a href={project.web} target="_blank"  className={style.imgLink}><img src={`${BASE_URL}${project.imgP}`} className={style.imgPc} alt={project.name} /></a>
                 <p className={style.detail}>{project.detail}</p>
                 <p className={style.tecno}>{project.technologies}</p>
                 <div className={style.butons}>
