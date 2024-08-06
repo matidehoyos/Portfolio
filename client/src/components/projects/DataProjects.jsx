@@ -8,7 +8,8 @@ const projects = [
     technologies: "ReactJs · Tailwind · Html5 · Vercel · Visual studio",
     repository: "https://github.com/matidehoyos/modo",
     web: "https://mododigital.vercel.app/",
-    img: 'modo.png',
+    img: 'modo.jpeg',
+    imgP: 'modod.png',
   },
   {
     id: 1,
@@ -20,6 +21,7 @@ const projects = [
     repository: "https://github.com/matidehoyos/rugirTailw",
     web: "https://rugirmdq.vercel.app/",
     img: 'RUGIR.jpeg',
+    imgP: 'rug.png',
   },
   {
     id: 2,
@@ -30,7 +32,8 @@ const projects = [
     technologies: "NodeJs · Express · PostgreSql · Sequelize · ReactJs · Redux · Css3 · Mercado Pago · Auth0",
     repository: "https://github.com/matidehoyos/Tienda-Electroauto",
     web: "https://electroauto.vercel.app/",
-    img: 'e.png',
+    img: 'ele.jpeg',
+    imgP: 'e.png',
   },
   {
     id: 3,
