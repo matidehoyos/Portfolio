@@ -30,7 +30,7 @@ const projects = [
     technologies: "Javascript · React · Css3",
     repository: "https://github.com/matidehoyos/rugirTailw",
     web: "https://rugirmdq.vercel.app/",
-    img: 'r.png',
+    img: 'RUGIR.jpeg',
   },
   {
     id: 3,
