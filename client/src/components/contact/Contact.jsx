@@ -15,6 +15,7 @@ const Contact = () => {
 
     return(
         <div className={style.container} id="contact">
+            <p className={style.contactMe} data-aos="fade-right" data-aos-duration="800" id='about'>CONTACT ME</p>
             <div className={style.box}>
                 <div className={style.caja}>
                     <div className={style.imgAbout}>

@@ -175,14 +175,14 @@
           margin: 0;
           padding: 0;
           position: relative;
-          top: -50px;
+          top: -40px;
           display: flex;
           flex-direction: column;
       }
       
       .texto h1 {
-          font-size: 38px;
-          font-weight: 700;
+          font-size: 30px;
+          font-weight: 800;
           margin: 0;
           margin-top: 0;
           padding: 0;
@@ -193,7 +193,7 @@
           font-family: "Rubik", sans-serif;
           font-optical-sizing: auto;
           color: transparent;
-          background: url('galaxy.jpg') repeat;
+          background: url('../../../public/galaxy.jpg') repeat;
           background-size: cover;
           -webkit-background-clip: text;
           background-clip: text;
@@ -223,10 +223,10 @@
       }
       
       .des {
-          width: 90%;
-          font-size: 18px;
+          width: 96%;
+          font-size: 20px;
           font-weight: 500;
-          line-height: 20px;
+          line-height: 21px;
           letter-spacing: .5px;
           color: #454545;
           padding: 0;
@@ -242,6 +242,7 @@
           margin: 0 auto;
           margin-top: 40px;
           padding: 0;
+          display: none;
       }
       
       .redes li {
