@@ -1,45 +1,49 @@
 import { Link } from 'react-router-dom';
-import style from './Projects.module.css'
+import style from './Projects.module.css';
 import projects from './DataProjects';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
-    
 const Projects = () => {
-   useEffect(() => {
-        AOS.init(); 
-      }, []);
+    useEffect(() => {
+        AOS.init();
+    }, []);
 
-    return(
+    return (
         <div className={style.container}>
-                <div className={style.titulo} data-aos="fade-up" data-aos-duration="800" > 
-                    <h3>Projects</h3>
-                </div>
-                <div className={style.projectContainer} data-aos="fade-up" data-aos-duration="800">
-                    {
-                    projects.map((project, index) => (
-                            <div className={style.box}>
-                                    <Link key={index} to={`/projects/${project.id}`}> 
-                                            <img className={style.imgPc} src={project.img} />
-                                            <h5>{project.name}</h5>
-                                            <p className={style.rol}>{project.rol}</p>
-                                            <p className={style.info}>More info</p>
-                                    </Link> 
+            <p className={style.titulo} data-aos="fade-right" data-aos-duration="800" id='projects'>
+                Projects
+            </p>
+            <div className={style.projectContainer} data-aos="fade-up" data-aos-duration="800">
+                {projects.map((project, index) => (
+                    <div className={style.box} key={index}>
+                        <div className={style.caja}>
+                            <p className={style.date}>{project.date}</p>
+                            <p className={style.number}>PROJECT {project.id}</p>
+                            <p className={style.titu}>{project.titulo}</p>
+                            <p className={style.detalle}>{project.detail}</p>
+                            <p className={style.tecno}>{project.technologies}</p>
+                            <div className={style.butons}>
+                                <a href={project.web}  target="_blank" rel="noopener noreferrer" className={style.butonWeb}>
+                                    <FaExternalLinkAlt /><span>Visit</span> website
+                                </a>         
+                                <a href={project.repository} target="_blank" rel="noopener noreferrer" className={style.butonWeb}>
+                                    <FaGithub /><span>Visit</span> repository
+                                </a>  
                             </div>
-                    ))}
-                </div>
-                <div className={style.menu}  >
-                                <nav>
-                                    <ul>
-                                        <li><Link to="/contact">Contact</Link></li>
-                                        <li><Link to="/">Home</Link></li>
-                                        <li><Link to="/about">About</Link></li>
-                                    </ul>
-                                </nav>
-                          </div>
+                        </div>
+                        <div className={style.imgPc}>
+                            <a href={project.web} target="_blank" rel="noopener noreferrer">
+                                <img  src={project.img} alt={project.name} />
+                            </a>
+                        </div>
+                    </div>
+                ))}
+            </div>
         </div>
-    )
+    );
 }
 
 export default Projects;

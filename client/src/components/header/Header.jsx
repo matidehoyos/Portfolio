@@ -16,25 +16,11 @@ const Header = () => {
     return (
         <div className={style.container}>
             <div className={style.imgPre} data-aos="fade-up" data-aos-duration="800">
-                <img src="yo.png" alt="foto mia" />
+                <img src="nav.png" alt="foto mia" />
             </div>
-
-            <div className={style.txtPre} data-aos="fade-up" data-aos-duration="800">
-                <p className={style.mati}>I'm Matias De Hoyos</p>
-                <h1><span className={style.im}></span>Full Stack<br />FrontEnd Developer</h1>
+            <div className={style.texto} data-aos="fade-up" data-aos-duration="800">
+                <h1><span className={style.rol}>Full Stack - Frontend</span><br/><span className={style.dev}>Developer</span></h1>
                 <p className={style.des}>Web developer with a passion for creating visually stunning and user-friendly websites.</p>
-                <div className={style.cv}>
-                    <a href="https://drive.google.com/file/d/1sYzgf98QuJlBUoD-sYAcf2UbSA2C5A3i/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV <MdDescription className={style.file} /></a>
-                </div>
-                <div className={style.menu} >
-                    <nav>
-                        <ul>
-                            <li><Link to="/about">About</Link></li>
-                            <li><Link to="/projects">Projects</Link></li>
-                            <li><Link to="/contact">Contact</Link></li>
-                        </ul>
-                    </nav>
-                </div>
                 <div className={style.redes}>
                     <nav>
                         <ul>
