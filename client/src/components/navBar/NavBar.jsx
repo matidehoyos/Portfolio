@@ -33,13 +33,13 @@ const NavBar = () => {
 
     return (
         <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`}>
-            <Link to="/" className={style.link}>
+            <a href='#header' className={style.link}>
                 <img src='./nav.png' alt="Logo" />
                 <div className={style.txt}>
                     <h6>Matias De Hoyos</h6>
                     <p>Web developer</p>
                 </div>
-            </Link>
+            </a>
             <div className={style.menu} onClick={ocultarMenu} style={isVisible ? { left: '0px' } : { left: '-800px' }}>
                 <nav>
                     <ul>

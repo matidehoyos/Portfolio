@@ -27,10 +27,10 @@ const Projects = () => {
                             <p className={style.tecno}>{project.technologies}</p>
                             <div className={style.butons}>
                                 <a href={project.web}  target="_blank" rel="noopener noreferrer" className={style.butonWeb}>
-                                    <FaExternalLinkAlt /><span>Visit</span> website
+                                    <FaExternalLinkAlt />Website
                                 </a>         
                                 <a href={project.repository} target="_blank" rel="noopener noreferrer" className={style.butonWeb}>
-                                    <FaGithub /><span>Visit</span> repository
+                                    <FaGithub />Repository
                                 </a>  
                             </div>
                         </div>

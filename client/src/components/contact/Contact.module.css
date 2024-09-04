@@ -22,12 +22,17 @@
 }
 
 .box {
+    width: 70%;
     display: flex;
     flex-direction: column;
+    border: 1px solid rgb(51, 4, 95);
+    margin: 0 auto;
+    margin-top: 60px;
+
 }
 
 .caja {
-    width: 1000px;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,7 +89,7 @@
     align-items: center;
     padding: 8px 16px;
     background-color: #000;
-    border: 0.3px solid #161616;
+    border: 0.3px solid rgb(51, 4, 95);
     color: #d4d4d4;
     text-decoration: none;
     border-radius: 5px;

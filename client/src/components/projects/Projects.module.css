@@ -20,32 +20,34 @@
 .projectContainer {
    width: 100%;
    display: flex;
-   flex-direction: column;
    justify-content: center;
-   align-items: center;
-   gap: 20px;
+   align-items: stretch;
+   flex-wrap: wrap;
+   gap: 25px;
    margin-top: 100px;
 }
 
 .box {
-   width: 68%;
+   width: 43%;
    display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: stretch;
    gap: 0;
-   margin-bottom: 80px;
-   padding: 40px 0;
+   padding: 20px 0;
    background-color: rgba(59, 0, 107, 0.21);
    border: 1px solid #282828;
 }
 
 .box:nth-child(2n) {
-   flex-direction: row-reverse;
-   gap: 60px;
+   flex-direction: row;
+   gap: 0;
 }
 
 .caja {
-   width: 48%;
+   width: 60%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
 }
 
 .date {
@@ -142,13 +144,16 @@
 
 .imgPc {
    width: auto;
+   height: 360px;
+   overflow: hidden;
 }
 
 .imgPc img {
-   width: 440px;
+   width: 200px;
    height: 100%;
    transition: all .8s ease;
    object-fit: cover;
+   object-position: top;
    outline: 3px solid #1c1c1c;
 }
 

@@ -14,7 +14,7 @@ const Header = () => {
     }, []);
 
     return (
-        <div className={style.container}>
+        <div className={style.container} id='header'>
             <div className={style.imgPre} data-aos="fade-up" data-aos-duration="800">
                 <img src="nav.png" alt="foto mia" />
             </div>

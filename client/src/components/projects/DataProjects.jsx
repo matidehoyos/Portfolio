@@ -9,7 +9,7 @@ const projects = [
     technologies: "NodeJs · Express · PostgreSql · Sequelize · ReactJs · Redux · Css3 · Mercado Pago · Auth0",
     repository: "https://github.com/matidehoyos/Tienda-Electroauto",
     web: "https://electroauto.vercel.app/",
-    img: 'electro.jpeg',
+    img: 'elec.png',
     imgP: 'e.png',
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     technologies: "ReactJs · Tailwind · Html5 · Vercel · Visual studio",
     repository: "https://github.com/matidehoyos/modo",
     web: "https://mododigital.vercel.app/",
-    img: 'modo.jpeg',
+    img: 'modo.png',
     imgP: 'modod.png',
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     technologies: "Javascript · React · Css3",
     repository: "https://github.com/matidehoyos/rugirTailw",
     web: "https://rugirmdq.vercel.app/",
-    img: 'rug.jpeg',
+    img: 'rugir.png',
     imgP: 'rug.png',
   },
   {
@@ -48,7 +48,7 @@ const projects = [
     technologies: "Javascript · NodeJs · Express · ReactJs · Redux · PostgreSql",
     repository: "https://github.com/matidehoyos/Pokemon-proyecto",
     web: "https://pokemonmdh.vercel.app/",
-    img: 'poke.jpeg',
+    img: 'poke.jpg',
     imgP: 'poke.png',
   },
   {
@@ -87,7 +87,7 @@ const projects = [
     technologies: "Javascript · ReactJs · CSS3",
     repository: "https://github.com/matidehoyos/portfolio",
     web: "https://matiasdehoyos.vercel.app/",
-    img: 'port.jpeg',
+    img: 'portfolio.png',
     imgP: 'p.png',
   },
   {
