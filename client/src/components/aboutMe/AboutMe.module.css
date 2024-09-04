@@ -165,16 +165,7 @@
         align-items: start;
         margin: 0;
         padding: 0;
-    }
-    
-    .pContainer {
-        width: auto;
-        display: flex;
-        align-items: center;
-        justify-content: start;
-        margin: 0;
-        padding: 0;
-    }   
+    } 
     
     .aboutMe {
         width: auto;
@@ -191,62 +182,60 @@
     .texto {
         width: auto;
         height: auto;
-        margin: 0 auto;
-        margin-top: 40px;
+        margin: 0;
+        margin-top: 60px;
         padding: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        gap: 0;
     }
     
     .imgTxt {
-        width: 100%;
-        display: flex;
-        justify-content: end;
-
+        width: auto;
     }
     
     .imgTxt img {
-        width: 180px;
+        width: 240px;
         height: auto;
         object-fit: scale-down;
         opacity: .6;
+        mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 10%, transparent);
     }
     
     .txt {
         width: auto;
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         justify-content: start;
         position: relative;
-        top: -80px;
+        top: -100px;
         padding: 0 20px;
     }
     
     .why {
-        font-size: 26px;
+        font-size: 30px;
         font-weight: 500;
         letter-spacing: .8px;
-        line-height: 30px;
+        line-height: 34px;
         word-spacing: -1.6px;
-        color: #fff;
+        color: #d8d8d8;
+        text-align: center;
     }
     
     .first {
         width: auto;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 21px;
         letter-spacing: .5px;
-        text-align: left;
+        text-align: center;
         margin: 0;
         margin-top: 10px;
         padding: 0;
-        color: #a3a3a3;
-        filter: drop-shadow(0px 0px 7px #000);
+        color: #a5a5a5;
     }
     
     .second {
@@ -255,11 +244,11 @@
         font-weight: 500;
         line-height: 24px;
         letter-spacing: .8px;
-        text-align: left;
+        text-align: center;
         margin: 0;
-        margin-top: 10px;
+        margin-top: 20px;
         padding: 0;
-        color: #c7c7c7;
+        color: rgb(70, 0, 128);
         filter: drop-shadow(0px 0px 7px #000);
     }
     
