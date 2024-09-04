@@ -1,7 +1,7 @@
 
 #root {
   background-color: #000;
-  background-image: url('bgHeader.png');
+  background-image: url('../public/bgHeader.png');
   background-repeat: no-repeat;
   background-size: contain;
 }
