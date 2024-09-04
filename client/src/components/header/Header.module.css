@@ -150,12 +150,13 @@
 
     .container {
         width: auto;  
-        min-height: 100vh;
+        min-height: auto;
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: center;
         padding: 0;
+        padding-bottom: 90px;
         margin: 0;
       }
       
