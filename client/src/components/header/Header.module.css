@@ -47,7 +47,7 @@
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     color: transparent;
-    background: url('galaxy.jpg') repeat;
+    background: url('../../../public/galaxy.jpg') repeat;
     background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
