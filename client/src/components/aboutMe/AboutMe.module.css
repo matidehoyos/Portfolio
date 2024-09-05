@@ -168,7 +168,7 @@
     } 
     
     .aboutMe {
-        width: auto;
+        width: 50%;
         font-size: 24px;
         font-weight: 700;
         letter-spacing: .8px;
@@ -193,7 +193,9 @@
     }
     
     .imgTxt {
-        width: auto;
+        width: 100%;
+        display: flex;
+        justify-content: start;
     }
     
     .imgTxt img {
@@ -208,7 +210,7 @@
         width: auto;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
         justify-content: start;
         position: relative;
         top: -100px;
@@ -216,22 +218,22 @@
     }
     
     .why {
-        font-size: 30px;
+        font-size: 26px;
         font-weight: 500;
         letter-spacing: .8px;
-        line-height: 34px;
+        line-height: 26px;
         word-spacing: -1.6px;
         color: #d8d8d8;
-        text-align: center;
+        text-align: left;
     }
     
     .first {
-        width: auto;
-        font-size: 18px;
+        width: 84%;
+        font-size: 20px;
         font-weight: 400;
         line-height: 21px;
         letter-spacing: .5px;
-        text-align: center;
+        text-align: left;
         margin: 0;
         margin-top: 10px;
         padding: 0;
@@ -239,16 +241,16 @@
     }
     
     .second {
-        width: auto;
-        font-size: 22px;
-        font-weight: 500;
+        width: 84%;
+        font-size: 24px;
+        font-weight: 400;
         line-height: 24px;
         letter-spacing: .8px;
-        text-align: center;
+        text-align: left;
         margin: 0;
-        margin-top: 20px;
+        margin-top: 10px;
         padding: 0;
-        color: rgb(70, 0, 128);
+        color: #a5a5a5;
         filter: drop-shadow(0px 0px 7px #000);
     }
     
@@ -264,7 +266,7 @@
     }
     
     .conocimientos h6 {
-        color: #898989;
+        color: rgb(97, 0, 176);
         font-size: 22px;
         font-weight: 400;
         margin-bottom: 30px;

@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import style from './NavBar.module.css';
 import { FiMenu } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
+import { MdClose } from 'react-icons/md';
 
 const NavBar = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -50,7 +51,7 @@ const NavBar = () => {
                 </nav>
             </div>
             <div className={style.menuResp}>
-                <button className={style.menuButton} onClick={handleShowMenu}><FiMenu /></button>
+                <button className={style.menuButton} onClick={handleShowMenu}>{isVisible ? <MdClose /> : <FiMenu />}</button>
             </div>
         </div>
     );

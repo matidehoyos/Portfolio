@@ -207,11 +207,11 @@
       width: auto;
       text-decoration: none;
       color: #eeeeee;
-      font-size: 22px;
-      font-weight: 500;
-      letter-spacing: .3px;
+      font-size: 32px;
+      font-weight: 400;
+      letter-spacing: .6px;
       text-align: center;
-      padding: 0 20px;
+      padding: 0;
       margin: 0;
     }
     

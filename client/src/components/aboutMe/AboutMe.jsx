@@ -36,7 +36,7 @@ const AboutMe = () => {
                     </div>
                     <div className={style.txt} >
                         <h5 className={style.why}>Why Hire Me for Your<br/>Next Project?</h5>
-                        <p className={style.first}>I am a software developer with experience<br/>creating innovative technological solutions.</p>
+                        <p className={style.first}>I am a software developer with experience creating innovative technological solutions.</p>
                         <p className={style.second}>Self-motivated, proactive and results orientated, always looking to push myself to present more creative and challenging projects. Consistently growing and open to learning new techniques and technologies.</p> 
                     </div>
                 </div>

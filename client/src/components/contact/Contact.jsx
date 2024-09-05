@@ -1,5 +1,5 @@
 import style from './Contact.module.css'
-import { FaEnvelope, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaEnvelope, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -16,13 +16,13 @@ const Contact = () => {
     return(
         <div className={style.container} id="contact">
             <p className={style.contactMe} data-aos="fade-right" data-aos-duration="800" id='about'>CONTACT ME</p>
-            <div className={style.box}>
+            <div className={style.box} data-aos="fade-up" data-aos-duration="800">
                 <div className={style.caja}>
                     <div className={style.imgAbout}>
                                 <img src="./about.png" alt="imagen mia" />
                     </div>
                     <p>
-                        Please send me an email to schedule a meeting.<br/>I am currently available.<br/>Open to hearing your proposal.
+                        Please send me an email to schedule a meeting. I am currently available. Open to hearing your proposal.
                     </p>
                 </div>
                 <div className={style.redes}>

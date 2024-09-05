@@ -182,12 +182,11 @@
       flex-direction: column;
       align-items: start;
       justify-content: start;
-      padding-top: 80px;
-      padding-bottom: 80px;
+      padding-top: 80px 0;
    }
    
    .titulo {
-      width: auto;
+      width: 50%;
       font-size: 24px;
       font-weight: 700;
       letter-spacing: .8px;
@@ -205,20 +204,21 @@
       justify-content: center;
       align-items: center;
       gap: 20px;
-      margin-top: 35px;
+      margin-top: 80px;
    }
    
    .box {
-      width: 90%;
+      width: 84%;
       display: flex;
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
       gap: 0;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
       padding: 8px;
-      background-color: rgba(0, 0, 0, 0.275);
-      border: 1px solid #858585;
+      background-color: rgb(0, 0, 0);
+      border: 1px solid #ffffff;
+      filter: drop-shadow(0px 0px 15px #343434);
    }
 
    .box:nth-child(2n) {
@@ -237,17 +237,17 @@
    
    .number {
       font-size: 16px;
-      font-weight: 400;
+      font-weight: 500;
       line-height: 23px;
       letter-spacing: .7px;
-      color: #9e9e9e;
+      color: #797979;
    }
    
    .titu {
       font-size: 20px;
       font-weight: 600;
       letter-spacing: .7px;
-      color: #9f9f9f;
+      color: #bcbcbc;
       margin: 0;
    }
    
@@ -263,11 +263,11 @@
    
    .tecno {
       width: 100%;
-      color: rgb(66, 0, 121);
+      color: rgb(94, 0, 171);
       text-align: left;
-      font-size: 15px;
-      font-weight: 600;
-      line-height: 20px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 21px;
       letter-spacing: .6px;
       padding: 0;
       margin: 0;
@@ -288,13 +288,13 @@
       align-items: center;
       padding: 6px 14px;
       color: rgb(75, 0, 136);
-      box-shadow: 0px 20px 100px transparent;
-      background-color: #060606;
+      box-shadow: none;
+      background-color: #686868;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 0px;
       transition: background-color 0.3s ease;
       margin-right: 10px;
-      border: 1px solid #404040;
+      border: 1px solid #b5b5b5;
     }
 
     .butonWeb span {
@@ -302,8 +302,8 @@
     }
     
     .butonWeb:hover {
-      background-color: #070707;
-      outline: 1px solid #5c5c5c;
+      background-color: #686868;
+      outline: none;
     }
     
     .butonWeb svg {
@@ -312,7 +312,7 @@
    
    .imgPc {
       width: 100%;
-      height: 130px;
+      height: 110px;
       overflow: hidden;
    }
    
@@ -322,6 +322,7 @@
       object-fit: cover;
       object-position: top;
       outline: none;
+      filter: grayscale(.7);
    }
    
    .imgPc img:hover {

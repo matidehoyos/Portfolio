@@ -16,9 +16,9 @@ const Projects = () => {
             <p className={style.titulo} data-aos="fade-right" data-aos-duration="800" id='projects'>
                 Projects
             </p>
-            <div className={style.projectContainer} data-aos="fade-up" data-aos-duration="800">
+            <div className={style.projectContainer}>
                 {projects.map((project, index) => (
-                    <div className={style.box} key={index}>
+                    <div className={style.box} key={index} data-aos="fade-up" data-aos-duration="800">
                         <div className={style.caja}>
                             <p className={style.date}>{project.date}</p>
                             <p className={style.number}>PROJECT {project.id}</p>
