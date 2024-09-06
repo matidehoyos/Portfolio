@@ -18,7 +18,7 @@ const Projects = () => {
             </p>
             <div className={style.projectContainer}>
                 {projects.map((project, index) => (
-                    <div className={style.box} key={index} data-aos="fade-up" data-aos-duration="800">
+                    <div className={style.boxPc} key={index} data-aos="fade-up" data-aos-duration="800">
                         <div className={style.caja}>
                             <p className={style.date}>{project.date}</p>
                             <p className={style.number}>PROJECT {project.id}</p>
@@ -38,6 +38,32 @@ const Projects = () => {
                             <a href={project.web} target="_blank" rel="noopener noreferrer">
                                 <img  src={project.img} alt={project.name} />
                             </a>
+                        </div>
+                    </div>
+                ))}
+                {projects.map((project, index) => (
+                    <div className={style.boxMov} key={index} data-aos="fade-up" data-aos-duration="800">
+                        <div className={style.caja}>
+                            <div className={style.data}>
+                                <p className={style.number}>PROJECT {project.id}</p>
+                                <p className={style.date}>{project.date}</p>
+                            </div>
+                            <p className={style.titu}>{project.titulo}</p>
+                            <div className={style.imgPc}>
+                                <a href={project.web} target="_blank" rel="noopener noreferrer">
+                                    <img  src={project.img} alt={project.name} />
+                                </a>
+                            </div>
+                            <p className={style.detalle}>{project.detail}</p>
+                            <p className={style.tecno}>{project.technologies}</p>
+                            <div className={style.butons}>
+                                <a href={project.web}  target="_blank" rel="noopener noreferrer" className={style.butonWeb}>
+                                    <FaExternalLinkAlt />Website
+                                </a>         
+                                <a href={project.repository} target="_blank" rel="noopener noreferrer" className={style.butonWeb}>
+                                    <FaGithub />Repository
+                                </a>  
+                            </div>
                         </div>
                     </div>
                 ))}
