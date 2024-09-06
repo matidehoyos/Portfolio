@@ -14,7 +14,7 @@ const Projects = () => {
     return (
         <div className={style.container}>
             <p className={style.titulo} data-aos="fade-right" data-aos-duration="800" id='projects'>
-                Projects
+                PROJECTS
             </p>
             <div className={style.projectContainer}>
                 {projects.map((project, index) => (
