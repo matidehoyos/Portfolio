@@ -21,10 +21,10 @@
 .aboutMe {
     width: 26%;
     font-size: 28px;
-    font-weight: 900;
+    font-weight: 400;
     letter-spacing: 2px;
-    background-color: rgb(42, 0, 77);
-    color: #000;
+    background-color: #4a0a70;
+    color: #fff;
     padding: 10px 20px;
     text-align: right;
 }
@@ -61,39 +61,31 @@
 
 .why {
     font-size: 42px;
-    font-weight: 500;
     letter-spacing: .6px;
     line-height: 40px;
     word-spacing: -2.6px;
-    color: #fff;
 }
 
 .first {
     width: auto;
     font-size: 22px;
-    font-weight: 400;
     line-height: 26px;
     letter-spacing: .8px;
     text-align: left;
     margin: 0;
     margin-top: 25px;
     padding: 0;
-    color: #8e8e8e;
-    filter: drop-shadow(0px 0px 7px #000);
 }
 
 .second {
     width: auto;
     font-size: 28px;
-    font-weight: 400;
     line-height: 32px;
     letter-spacing: .8px;
     text-align: left;
     margin: 0;
     margin-top: 25px;
     padding: 0;
-    color: #7d7d7d;
-    filter: drop-shadow(0px 0px 7px #000);
 }
 
 .conocimientos {
@@ -107,9 +99,7 @@
 }
 
 .conocimientos h6 {
-    color: #898989;
     font-size: 36px;
-    font-weight: 400;
     margin-bottom: 70px;
 }
 
@@ -170,13 +160,11 @@
     .aboutMe {
         width: 58%;
         font-size: 24px;
-        font-weight: 700;
+        font-weight: 400;
         letter-spacing: .8px;
-        background-color: rgb(69, 0, 125);
-        color: #c4c4c4;
         padding: 10px;
         text-align: right;
-        box-shadow: 10px 10px 10px rgb(42, 0, 77);
+        box-shadow: 5px 5px 10px rgb(44, 0, 80);
     }
     
     .texto {

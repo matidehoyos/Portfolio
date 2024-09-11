@@ -1,10 +1,37 @@
+:root {
+  --background-color-light: #fff;
+  --background-color-dark: #000;
+  --text-color-light: #000;
+  --text-color-dark: #fff;
+}
 
-#root {
-  background-color: #000;
+.light-theme {
+  background-image: url('../public/bgLight.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  --background-color: var(--background-color-light);
+  --text-color: var(--text-color-light);
+}
+
+.dark-theme {
   background-image: url('../public/bgHeader.png');
   background-repeat: no-repeat;
   background-size: contain;
+  --background-color: var(--background-color-dark);
+  --text-color: var(--text-color-dark);
 }
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.link {
+  color: var(--text-color);
+}
+
+
+
 
 
 @media only screen and (max-width: 680px) {

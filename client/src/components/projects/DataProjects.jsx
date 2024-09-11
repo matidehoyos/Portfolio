@@ -48,7 +48,7 @@ const projects = [
     technologies: "Javascript · NodeJs · Express · ReactJs · Redux · PostgreSql",
     repository: "https://github.com/matidehoyos/Pokemon-proyecto",
     web: "https://pokemonmdh.vercel.app/",
-    img: 'poke.jpg',
+    img: 'pokk.png',
     imgP: 'poke.png',
   },
   {
@@ -61,7 +61,7 @@ const projects = [
     technologies: "Javascript · NodeJs · Express · ReactJs · Sass",
     repository: "https://github.com/matidehoyos/weatherapp",
     web: "https://climappmdh.vercel.app/",
-    img: 'clima.jpeg',
+    img: 'clim.png',
     imgP: 'c.png',
   },
   {
@@ -74,7 +74,7 @@ const projects = [
     technologies: "Javascript · NodeJs · ReactJs · CSS3",
     repository: "https://github.com/matidehoyos/RickyMorty",
     web: "https://rickymortymdh.vercel.app/",
-    img: 'rik.jpeg',
+    img: 'rik.png',
     imgP: 'rm.png',
   },
   {
@@ -87,7 +87,7 @@ const projects = [
     technologies: "Javascript · ReactJs · CSS3",
     repository: "https://github.com/matidehoyos/portfolio",
     web: "https://matiasdehoyos.vercel.app/",
-    img: 'portfolio.png',
+    img: 'port.png',
     imgP: 'p.png',
   },
   {

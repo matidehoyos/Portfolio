@@ -13,10 +13,10 @@
  .contactMe {
     width: 26%;
     font-size: 28px;
-    font-weight: 900;
+    font-weight: 400;
     letter-spacing: 2px;
-    background-color: rgb(42, 0, 77);
-    color: #000;
+    background-color: #4a0a70;
+    color: #fff;
     padding: 10px 20px;
     text-align: right;
 }
@@ -57,10 +57,8 @@
 
 .caja p {
     width: 56%;
-    color: #aeaeae;
     margin-left: 20px;
     font-size: 22px;
-    font-weight: 400;
 }
 
 .redes {
@@ -144,15 +142,13 @@
      }
 
      .contactMe {
-        width: 65%;
+        width: 58%;
         font-size: 24px;
-        font-weight: 700;
+        font-weight: 400;
         letter-spacing: .8px;
-        background-color: rgb(69, 0, 125);
-        color: #c4c4c4;
         padding: 10px;
         text-align: right;
-        box-shadow: 10px 10px 10px rgb(42, 0, 77);
+        box-shadow: 5px 5px 10px rgb(44, 0, 80);
      }
 
      .box {

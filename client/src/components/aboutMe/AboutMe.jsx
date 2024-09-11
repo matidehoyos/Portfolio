@@ -1,26 +1,26 @@
 import style from './AboutMe.module.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 import { IoLogoJavascript } from "react-icons/io";
-import { PiFileHtmlLight, PiNoteDuotone } from "react-icons/pi";
+import { PiFileHtmlLight } from "react-icons/pi";
 import { PiFileCssLight } from "react-icons/pi";
-import { FaNodeJs, FaReact } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { MdStorage } from 'react-icons/md';
 import { FaBootstrap } from "react-icons/fa";
-import { IoLogoNodejs } from "react-icons/io";
-import { SiExpress, SiNodedotjs, SiNodemon, SiReact, SiRedux, SiTailwindcss } from "react-icons/si";
+import { SiExpress, SiRedux, SiTailwindcss } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
-import { GrMysql, GrNodes } from "react-icons/gr";
-import { FaFigma } from "react-icons/fa";
-import { DiIllustrator, DiNodejs } from "react-icons/di";
-import { Link } from 'react-router-dom';
-import { AiOutlineNodeExpand } from 'react-icons/ai';
+import { GrMysql } from "react-icons/gr";
+import { DiNodejs } from "react-icons/di";
+import { ThemeContext } from '../../contexts/ThemeContext';
 
 
 
 
 const AboutMe = () => {
+    const { theme, toggleTheme } = useContext(ThemeContext);
+
+
     useEffect(() => {
         AOS.init(); 
       }, []);
@@ -35,28 +35,28 @@ const AboutMe = () => {
                         <img src="dev.jpeg" alt="Imagen desarrollador" />
                     </div>
                     <div className={style.txt} >
-                        <h5 className={style.why}>Why Hire Me for Your<br/>Next Project?</h5>
-                        <p className={style.first}>I am a software developer with experience creating innovative technological solutions.</p>
-                        <p className={style.second}>Self-motivated, proactive and results orientated, always looking to push myself to present more creative and challenging projects. Consistently growing and open to learning new techniques and technologies.</p> 
+                        <h5 className={style.why} style={{color: theme === 'dark' ? '#fff' : '#111', fontWeight: theme === 'dark' ? '500' : '600'}}>Why Hire Me for Your<br/>Next Project?</h5>
+                        <p className={style.first} style={{color: theme === 'dark' ? '#8e8e8e' : '#333', fontWeight: theme === 'dark' ? '500' : '600'}}>I am a software developer with experience creating innovative technological solutions.</p>
+                        <p className={style.second} style={{color: theme === 'dark' ? '#ddd' : '#000', fontWeight: theme === 'dark' ? '500' : '600'}}>Self-motivated, proactive and results orientated, always looking to push myself to present more creative and challenging projects. Consistently growing and open to learning new techniques and technologies.</p> 
                     </div>
                 </div>
 
         <div className={style.conocimientos} id='about' data-aos="fade-up" data-aos-duration="800">
-            <h6>SKILLS</h6>
+            <h6 style={{color: theme === 'dark' ? '#898989' : '#000', fontWeight: theme === 'dark' ? '400' : '600'}}>SKILLS</h6>
             <div className={style.skills}>
-                <div className={style.tecno}>
-                    <div className={style.skillItem}><IoLogoJavascript /><span>JavaScript</span></div>
-                    <div className={style.skillItem}><DiNodejs /><span>NodeJs</span></div>
-                    <div className={style.skillItem}><FaReact /><span>ReactJs</span></div>
-                    <div className={style.skillItem}><SiTailwindcss /><span>TailwindCss</span></div>
-                    <div className={style.skillItem}><SiRedux /><span>Redux</span></div>
-                    <div className={style.skillItem}><MdStorage /><span>MongoDB</span></div>
-                    <div className={style.skillItem}><SiPostgresql /><span>Postgres</span></div>
-                    <div className={style.skillItem}><SiExpress /><span>Express</span></div>
-                    <div className={style.skillItem}><FaBootstrap /><span>Bootstrap</span></div>
-                    <div className={style.skillItem}><GrMysql /><span>MySql</span></div>
-                    <div className={style.skillItem}><PiFileHtmlLight /><span>Html5</span></div>
-                    <div className={style.skillItem}><PiFileCssLight /><span>Css3</span></div>
+                <div className={style.tecno} >
+                    <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><IoLogoJavascript /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>JavaScript</span></div>
+                    <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><DiNodejs /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>NodeJs</span></div>
+                    <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><FaReact /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>ReactJs</span></div>
+                    <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><SiTailwindcss /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>TailwindCss</span></div>
+                    <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><SiRedux /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>Redux</span></div>
+                    <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><MdStorage /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>MongoDB</span></div>
+                    <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><SiPostgresql /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>Postgres</span></div>
+                    <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><SiExpress /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>Express</span></div>
+                    <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><FaBootstrap /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>Bootstrap</span></div>
+                    <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><GrMysql /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>MySql</span></div>
+                    <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><PiFileHtmlLight /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>Html5</span></div>
+                    <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><PiFileCssLight /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>Css3</span></div>
                 </div>
             </div>
         </div>

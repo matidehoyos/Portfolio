@@ -1,12 +1,13 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import style from './NavBar.module.css';
-import { FiMenu } from 'react-icons/fi';
-import { Link } from 'react-router-dom';
+import { FiMenu, FiMoon, FiSun } from 'react-icons/fi';
 import { MdClose } from 'react-icons/md';
+import { ThemeContext } from '../../contexts/ThemeContext';
 
 const NavBar = () => {
     const [isVisible, setIsVisible] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
+    const { theme, toggleTheme } = useContext(ThemeContext);
 
     const handleShowMenu = () => {
         setIsVisible(!isVisible);
@@ -32,10 +33,17 @@ const NavBar = () => {
         };
     }, []);
 
+    const containerStyles = {
+        backgroundColor: isScrolled 
+          ? (theme === 'light' ? '#4a0a70' : '#000') 
+          : 'transparent',
+        transition: 'background-color 0.3s ease'
+    };
+
     return (
-        <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`}>
+        <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`} style={containerStyles}>
             <a href='#header' className={style.link}>
-                <img src='./nav.png' alt="Logo" />
+                <img src='./nav.png' alt="Logo" style={{backgroundColor: theme === 'light' ? '#eee' : '#181818', border: theme === 'light' ? '3px solid #eee' : '3px solid rgb(42,0,77)'}}/>
                 <div className={style.txt}>
                     <h6>Matias De Hoyos</h6>
                     <p>Web developer</p>
@@ -44,11 +52,14 @@ const NavBar = () => {
             <div className={style.menu} onClick={ocultarMenu} style={isVisible ? { left: '0px' } : { left: '-800px' }}>
                 <nav>
                     <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about" onClick={handleShowMenu}>About</a></li>
+                        <li><a href="#projects" onClick={handleShowMenu}>Projects</a></li>
+                        <li><a href="#contact" onClick={handleShowMenu}>Contact</a></li>
                     </ul>
                 </nav>
+                <button onClick={toggleTheme} className={style.tema} style={{justifyContent: theme === 'light' ? 'flex-end' : 'flex-start'}}>
+                    {theme === 'light' ? <FiMoon className={style.temaIcon} /> : <FiSun className={style.temaIcon} />}
+                </button>
             </div>
             <div className={style.menuResp}>
                 <button className={style.menuButton} onClick={handleShowMenu}>{isVisible ? <MdClose /> : <FiMenu />}</button>
@@ -58,3 +69,4 @@ const NavBar = () => {
 }
 
 export default NavBar;
+
