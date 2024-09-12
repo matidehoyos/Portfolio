@@ -3,7 +3,7 @@
     height: auto;
     margin: 0;
     padding: 23px 0px;
-    background-color: #030303;
+    background-color: #111;
 }
 
 .container p {
@@ -12,8 +12,8 @@
     font-weight: 400;
     letter-spacing: .8px;
     text-align: center;
-    color: aliceblue;
-    filter: drop-shadow(0px 0px 5px #000);
+    color: rgb(165, 165, 165);
+    filter: drop-shadow(0px 0px 5px #121212);
 }
 
 
@@ -28,7 +28,7 @@
         height: auto;
         margin: 0;
         padding: 20px 0px;
-        background-color: #000;
+        background-color: #111;
     }
     
     .container p {
@@ -38,7 +38,7 @@
         letter-spacing: 0px;
         text-align: center;
         color: aliceblue;
-        filter: drop-shadow(0px 0px 5px #000);
+        filter: drop-shadow(0px 0px 5px #111);
     }
     
 }

@@ -15,58 +15,30 @@ const Projects = () => {
 
     return (
         <div className={style.container}>
-            <p className={style.titulo} data-aos="fade-right" data-aos-duration="800" id='projects'>
+            <p className={style.titulo} data-aos="fade-right" data-aos-duration="800" id='projects' style={{color: theme === 'dark' ? '#aaa' : '#111', fontWeight: theme === 'dark' ? '400' : '600', borderBottom: theme === 'dark' ? '1px solid #aaa' : '2px solid #111' }}>
                 PROJECTS
             </p>
             <div className={style.projectContainer}>
                 {projects.map((project, index) => (
-                    <div className={style.boxPc} key={index} data-aos="fade-up" data-aos-duration="800" style={{background: theme === 'light' ? '#eee' : 'rgba(59, 0, 107, 0.21)', border: theme === 'light' ? '1px solid #333' : '1px solid #282828'}}>
+                    <div className={style.boxPc} key={index} data-aos="fade-up" data-aos-duration="800" style={{background: theme === 'light' ? '#eee' : ''}}>
                             <div className={style.info}>
                                 <p className={style.number} style={{color: theme === 'light' ? '#111' : '#eee', fontWeight: theme === 'light' ? '500' : '400'}}>PROJECT {project.id}</p>
-                                <p className={style.date} style={{color: theme === 'light' ? '#111' : '#eee', fontWeight: theme === 'light' ? '500' : '400'}}>{project.date}</p>
+                                <p className={style.date} style={{color: theme === 'light' ? '#111' : '#bbb', fontWeight: theme === 'light' ? '500' : '200'}}>{project.date}</p>
                             </div>
-                            <div className={style.imgPc}>
-                                <a href={project.web} target="_blank" rel="noopener noreferrer">
+                            <div className={style.imgPc} style={{background: theme === 'light' ? '#ccc' : ''}}>
                                     <img  src={project.img} alt={project.name} />
-                                </a>
                             </div>
-                            <p className={style.titu} style={{color: theme === 'light' ? '#000' : '#fff', fontWeight: theme === 'light' ? '700' : '600'}}>{project.titulo}</p>
-                            <p className={style.detalle} style={{color: theme === 'light' ? '#333' : '#868686', fontWeight: theme === 'light' ? '500' : '400'}}>{project.detail}</p>
-                            <p className={style.tecno} style={{color: theme === 'light' ? 'rgb(42,0 77)' : 'rgb(140, 0, 255)', fontWeight: theme === 'light' ? '500' : '400'}}>{project.technologies}</p>
+                            <p className={style.titu} style={{color: theme === 'light' ? '#000' : '#fff', fontWeight: theme === 'light' ? '600' : '500'}}>{project.titulo}</p>
+                            <p className={style.detalle} style={{color: theme === 'light' ? '#444' : '#aaa', fontWeight: theme === 'light' ? '500' : '300'}}>{project.detail}</p>
+                            <p className={style.tecno} style={{color: theme === 'light' ? '#6010f2' : '#555', fontWeight: theme === 'light' ? '500' : '300'}}>{project.technologies}</p>
                             <div className={style.butons}>
-                                <a href={project.web}  target="_blank" rel="noopener noreferrer" className={style.butonWeb} style={{background: theme === 'light' ? '#111' : '#222', color: theme === 'light' ? '#fff' : 'rgb(140, 0, 255)'}}>
+                                <a href={project.web}  target="_blank" rel="noopener noreferrer" className={style.butonWeb} style={{background: theme === 'light' ? '#111' : '#000', color: theme === 'light' ? '#fff' : '#6610f2', border: theme === 'light' ? '1px solid #fff' : ' 1px solid #000'}}>
                                     <FaExternalLinkAlt />Website
                                 </a>         
-                                <a href={project.repository} target="_blank" rel="noopener noreferrer" className={style.butonWeb} style={{background: theme === 'light' ? '#111' : '#222', color: theme === 'light' ? '#fff' : 'rgb(140, 0, 255)'}}>
+                                <a href={project.repository} target="_blank" rel="noopener noreferrer" className={style.butonWeb} style={{background: theme === 'light' ? '#111' : '#000', color: theme === 'light' ? '#fff' : '#aaa',border: theme === 'light' ? '1px solid #fff' : '1px solid #000'}}>
                                     <FaGithub />Repository
                                 </a>  
                             </div>
-                    </div>
-                ))}
-                {projects.map((project, index) => (
-                    <div className={style.boxMov} key={index} data-aos="fade-up" data-aos-duration="800">
-                        <div className={style.caja}>
-                            <div className={style.data}>
-                                <p className={style.number}>PROJECT {project.id}</p>
-                                <p className={style.date}>{project.date}</p>
-                            </div>
-                            <p className={style.titu}>{project.titulo}</p>
-                            <div className={style.imgPc}>
-                                <a href={project.web} target="_blank" rel="noopener noreferrer">
-                                    <img  src={project.img} alt={project.name} />
-                                </a>
-                            </div>
-                            <p className={style.detalle}>{project.detail}</p>
-                            <p className={style.tecno}>{project.technologies}</p>
-                            <div className={style.butons}>
-                                <a href={project.web}  target="_blank" rel="noopener noreferrer" className={style.butonWeb}>
-                                    <FaExternalLinkAlt />Website
-                                </a>         
-                                <a href={project.repository} target="_blank" rel="noopener noreferrer" className={style.butonWeb}>
-                                    <FaGithub />Repository
-                                </a>  
-                            </div>
-                        </div>
                     </div>
                 ))}
             </div>

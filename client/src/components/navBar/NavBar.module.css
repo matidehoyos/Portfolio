@@ -15,8 +15,8 @@
 
 .scrolled {
     position: fixed;
-    border-bottom: 2px solid rgb(42, 0, 77);
     top: 0;
+    box-shadow: 0px 0px 10px #000;
 }
 
 
@@ -159,7 +159,6 @@
     .scrolled {
         position: fixed;
         background-color: #000;
-        border-bottom: 2px solid rgb(42, 0, 77);
     }
 
     .tema {
@@ -201,7 +200,7 @@
       z-index: 2000;
       overflow-x: hidden;
       border-top: 2px solid rgb(42, 0, 77);
-      background-color: #000;
+      background-color: #17180d;
         }
   
     .menu nav {

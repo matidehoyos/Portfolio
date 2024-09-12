@@ -4,20 +4,20 @@
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 150px 0;
+    padding: 0;
+    padding-bottom: 120px;
     overflow-x: hidden;
     background-image: url('bgHeader.jpeg');
     background-size: cover;
  }
 
  .contactMe {
-    width: 26%;
-    font-size: 28px;
+    width: 50%;
+    font-size: 24px;
     font-weight: 400;
     letter-spacing: 2px;
-    background-color: #4a0a70;
-    color: #fff;
-    padding: 10px 20px;
+    background-color: transparent;
+    padding: 0;
     text-align: right;
 }
 
@@ -25,9 +25,9 @@
     width: 80%;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgb(51, 4, 95);
+    border: 1px solid #6610f2;;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 120px;
 
 }
 
@@ -41,7 +41,7 @@
 }
 
 .imgAbout {
-    width: 18%;
+    width: 15%;
     display: flex;
     justify-content: end;
 }
@@ -50,8 +50,6 @@
     width: 160px;
     object-fit: scale-down;
     border-radius: 50%;
-    background-color: rgb(25, 3, 45);
-    border: 1px solid #ffffff30;
     pointer-events: none;
 }
 
@@ -59,6 +57,7 @@
     width: 56%;
     margin-left: 20px;
     font-size: 22px;
+    letter-spacing: .6px;
 }
 
 .redes {
@@ -87,7 +86,7 @@
     align-items: center;
     padding: 8px 16px;
     background-color: #000;
-    border: 0.3px solid rgb(51, 4, 95);
+    border: 0.3px solid #373737;
     color: #d4d4d4;
     text-decoration: none;
     border-radius: 5px;
@@ -99,8 +98,9 @@
   }
   
   .redes a:hover {
-    background-color: rgb(25, 3, 45);
+    background-color: #6610f2;
     color: #cacaca;
+    transform: scale(1.03) !important;
   }
   
   .redes svg {
@@ -137,7 +137,6 @@
         padding: 60px 0;
         overflow: hidden;
         background-image: none;
-        background-color: #000000;
         background-position: bottom;
      }
 
@@ -155,6 +154,7 @@
         width: 100%;
         border: none;
         margin-top: 50px;
+        border: none !important;
      }
     
     .caja {

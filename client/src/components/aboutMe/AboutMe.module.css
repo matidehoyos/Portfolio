@@ -6,7 +6,7 @@
     justify-content: start;
     align-items: start;
     margin: 0;
-    padding: 0;
+    padding: 120px 0;
 }
 
 .pContainer {
@@ -19,26 +19,35 @@
 }   
 
 .aboutMe {
-    width: 26%;
-    font-size: 28px;
+    width: 50%;
+    font-size: 24px;
     font-weight: 400;
     letter-spacing: 2px;
-    background-color: #4a0a70;
-    color: #fff;
-    padding: 10px 20px;
+    background-color: transparent;
+    padding: 0;
     text-align: right;
+}
+
+.box {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin: 0 auto;
+    margin-top: 120px;
 }
 
 .texto {
     width: auto;
-    height: 400px;
-    margin: 0 auto;
-    margin-top: 100px;
+    height: auto;
+    margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
-    gap: 20px;
+    align-items: stretch;
+    gap: 10px; 
 }
 
 .imgTxt {
@@ -46,8 +55,8 @@
 }
 
 .imgTxt img {
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: auto;
     object-fit: cover;
 }
 
@@ -56,19 +65,30 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: start;
+    justify-content: center;
 }
 
 .why {
-    font-size: 42px;
-    letter-spacing: .6px;
-    line-height: 40px;
-    word-spacing: -2.6px;
+    font-size: 32px;
+    letter-spacing: .7px;
+    line-height: 100%;
+    word-spacing: -2px;
 }
 
 .first {
-    width: auto;
-    font-size: 22px;
+    width: 96%;
+    font-size: 26px;
+    line-height: 28px;
+    letter-spacing: .6px;
+    text-align: left;
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.second {
+    width: 90%;
+    font-size: 24px;
     line-height: 26px;
     letter-spacing: .8px;
     text-align: left;
@@ -77,30 +97,23 @@
     padding: 0;
 }
 
-.second {
-    width: auto;
-    font-size: 28px;
-    line-height: 32px;
-    letter-spacing: .8px;
-    text-align: left;
-    margin: 0;
-    margin-top: 25px;
-    padding: 0;
-}
-
 .conocimientos {
-    margin: 0 auto;
-    margin-top: 100px;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px;
 }
 
 .conocimientos h6 {
-    font-size: 36px;
-    margin-bottom: 70px;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: none;
 }
 
 .skills {
@@ -111,23 +124,24 @@
 
 .tecno {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 25px;
-    row-gap: 70px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    row-gap: 45px;
     color: #fff;
+    padding: 40px 20px;
 }
 
 .skillItem {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 40px;
+    font-size: 26px;
 }
 
 .skillItem span {
     color: #cdcdcd;
     margin-top: 8px;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 
@@ -165,6 +179,17 @@
         padding: 10px;
         text-align: right;
         box-shadow: 5px 5px 10px rgb(44, 0, 80);
+    }
+
+    .box {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        margin: 0 auto;
+        margin-top: 0px;
     }
     
     .texto {
@@ -263,6 +288,7 @@
         align-items: center;
         text-align: center;
         padding: 0 15px;
+        margin-bottom: 100px;
     }
     
     .conocimientos h6 {
@@ -271,6 +297,7 @@
         font-weight: 400;
         margin-bottom: 30px;
         text-align: center;
+        display: block;
     }
     
     .skills {

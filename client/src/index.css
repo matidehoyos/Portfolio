@@ -5,13 +5,13 @@
   font-family: "Kanit", sans-serif;
   scroll-behavior: smooth;
   --background-color-light: #fff;
-  --background-color-dark: #000;
+  --background-color-dark: #17181d;
   --text-color-light: #000;
   --text-color-dark: #fff;
 }
 
 .light-theme {
-  background-image: url('../public/bgLight.png');
+  background-image: url('../public/bgLight1.png');
   background-repeat: no-repeat;
   background-size: contain;
   --background-color: var(--background-color-light);
@@ -19,7 +19,7 @@
 }
 
 .dark-theme {
-  background-image: url('../public/bgHeader.png');
+  background-image: url('../public/bgHeader1.png');
   background-repeat: no-repeat;
   background-size: contain;
   --background-color: var(--background-color-dark);

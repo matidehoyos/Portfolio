@@ -35,7 +35,7 @@ const NavBar = () => {
 
     const containerStyles = {
         backgroundColor: isScrolled 
-          ? (theme === 'light' ? '#4a0a70' : '#000') 
+          ? (theme === 'light' ? '#6610f2' : '#17181d') 
           : 'transparent',
         transition: 'background-color 0.3s ease'
     };
@@ -43,7 +43,7 @@ const NavBar = () => {
     return (
         <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`} style={containerStyles}>
             <a href='#header' className={style.link}>
-                <img src='./nav.png' alt="Logo" style={{backgroundColor: theme === 'light' ? '#eee' : '#181818', border: theme === 'light' ? '3px solid #eee' : '3px solid rgb(42,0,77)'}}/>
+                <img src='./nav.png' alt="Logo" style={{backgroundColor: theme === 'light' ? '#eee' : '#181818', border: theme === 'light' ? '1px solid #eee' : '1px solid #6610f2'}}/>
                 <div className={style.txt}>
                     <h6>Matias De Hoyos</h6>
                     <p>Web developer</p>
