@@ -169,6 +169,7 @@
         align-items: start;
         margin: 0;
         padding: 0;
+        padding-top: 100px;
     } 
     
     .aboutMe {
@@ -176,20 +177,18 @@
         font-size: 24px;
         font-weight: 400;
         letter-spacing: .8px;
-        padding: 10px;
+        padding: 0;
         text-align: right;
-        box-shadow: 5px 5px 10px rgb(44, 0, 80);
     }
 
     .box {
-        width: auto;
+        width: 94%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         gap: 0;
         margin: 0 auto;
-        margin-top: 0px;
     }
     
     .texto {
@@ -312,6 +311,8 @@
         gap: 8px;
         row-gap: 25px;
         color: #fff;
+        background-color: rgba(137, 137, 137, 0.059) !important;
+        opacity: 1 !important;
     }
     
     .skillItem {

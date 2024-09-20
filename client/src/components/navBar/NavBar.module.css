@@ -31,8 +31,8 @@
 }
 
 .link img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
     border-radius: 50%;
 }
@@ -153,12 +153,13 @@
       background-color: #000;
       position: absolute;
       z-index: 2000;
-      top: 0;
+      top: 14px;
     }
 
     .scrolled {
         position: fixed;
         background-color: #000;
+        top: 0;
     }
 
     .tema {
@@ -166,13 +167,13 @@
     }
 
     .link img {
-        width: 60px;
-        height: 60px;
+        width: 45px;
+        height: 45px;
         object-fit: cover;
     }
 
     .txt h6 {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 500;
         letter-spacing: .4px;
         line-height: 20px;
@@ -180,7 +181,7 @@
     
     .txt p {
         font-size: 12px;
-        font-weight: 200;
+        font-weight: 300;
         letter-spacing: .4px;
         line-height: 14px;
     }
@@ -248,7 +249,7 @@
     }
     
     .menuResp button {
-      font-size: 30px;
+      font-size: 24px;
       margin: 0;
       padding: 0;
       color: rgb(140, 0, 255);

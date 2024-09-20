@@ -43,7 +43,7 @@ const NavBar = () => {
     return (
         <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`} style={containerStyles}>
             <a href='#header' className={style.link}>
-                <img src='./nav.png' alt="Logo" style={{backgroundColor: theme === 'light' ? '#eee' : '#181818', border: theme === 'light' ? '1px solid #eee' : '1px solid #6610f2'}}/>
+                <img src='./img.png' alt="Logo" style={{backgroundColor: theme === 'light' ? '#eee' : '#181818', border: theme === 'light' ? '1px solid #eee' : '1px solid #6610f290'}}/>
                 <div className={style.txt}>
                     <h6>Matias De Hoyos</h6>
                     <p>Web developer</p>

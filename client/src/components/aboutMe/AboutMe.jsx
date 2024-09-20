@@ -45,7 +45,7 @@ const AboutMe = () => {
                         <div className={style.conocimientos} id='about' data-aos="fade-up" data-aos-duration="800">
                             <h6 style={{color: theme === 'dark' ? '#898989' : '#000', fontWeight: theme === 'dark' ? '400' : '600'}}>SKILLS</h6>
                             <div className={style.skills}>
-                                <div className={style.tecno} style={{background: theme === 'dark' ? '#6610f220' : '#ccc'}}>
+                                <div className={style.tecno} style={{background: theme === 'dark' ? '#6610f220' : '#00000020'}}>
                                     <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><IoLogoJavascript /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>JavaScript</span></div>
                                     <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><DiNodejs /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>NodeJs</span></div>
                                     <div className={style.skillItem} style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}><SiExpress /><span style={{color: theme === 'light' ? '#000' : '', fontWeight: theme === 'light' ? '600' : ''}}>Express</span></div>
