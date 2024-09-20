@@ -22,7 +22,7 @@
 }
 
 .imgPre img {
-    width: 360px;
+    width: 320px;
     height: auto;
     padding-top: 110px;
     mask-image: linear-gradient(to bottom, rgb(38, 0, 94) 20%, transparent);
@@ -34,7 +34,7 @@
     margin: 0;
     padding: 0;
     position: relative;
-    top: -80px;
+    top: -30px;
     display: flex;
     flex-direction: column;
 }
@@ -197,8 +197,8 @@
       }
       
       .des {
-          width: 84%;
-          font-size: 20px;
+          width: 86%;
+          font-size: 22px;
           font-weight: 600 !important;
           line-height: 112%;
           letter-spacing: .5px;

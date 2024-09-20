@@ -26,7 +26,7 @@
         height: auto;
         margin: 0;
         padding: 20px 0px;
-        background-color: #111;
+        background-color: #111 !important;
     }
     
     .container p {
