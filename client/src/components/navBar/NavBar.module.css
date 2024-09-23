@@ -110,6 +110,10 @@
     color: #fff;
 }
 
+.languageButtonMov {
+    display: none;
+}
+
 .languageButton {
     width: auto;
     padding: 0;
@@ -173,7 +177,7 @@
       align-items: center;
       padding: 10px 20px;
       margin: 0;
-      position: absolute;
+      position: fixed;
       z-index: 2000;
       top: 14px;
     }
@@ -212,10 +216,14 @@
     .botonera {
         align-items: start;
         position: relative;
-        top: 6px;
+        top: 5.5px;
     }
 
     .languageButton {
+        display: none;
+    }
+
+    .languageButtonMov {
         width: auto;
         padding: 0;
         transition: all .6s ease;
@@ -245,14 +253,12 @@
       justify-content: start;
       background-size: cover;
       position: absolute;
-      top: 76px;
-      left: -700;
+      top: 68px;
       transition: .6s all ease;
       z-index: 2000;
       overflow-x: hidden;
-      border-top: 2px solid rgb(42, 0, 77);
       background-color: #17180d;
-        }
+    }
   
     .menu nav {
       width: 100vw;

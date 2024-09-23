@@ -19,7 +19,7 @@ const NavBar = () => {
 
     const ocultarMenu = () => {
         const menu = document.querySelector(`.${style.menu}`);
-        menu.style.left = "-800px";
+        menu.style.left = "0px";
     }
 
     useEffect(() => {
@@ -59,8 +59,7 @@ const NavBar = () => {
                     <p>{t('navbar.developer')}</p>
                 </div>
             </a>
-            <div className={style.botonera}>
-                <div className={style.menu} onClick={ocultarMenu} style={isVisible ? { left: '0px' } : { left: '-800px' }}>
+                <div className={style.menu} onClick={ocultarMenu} style={isVisible ? { left: '0px' } : { left: '800px' }}>
                     <nav>
                         <ul>
                             <li><a href="#about" onClick={handleShowMenu}>{t('navbar.about')}</a></li>
@@ -68,17 +67,21 @@ const NavBar = () => {
                             <li><a href="#contact" onClick={handleShowMenu}>{t('navbar.contact')}</a></li>
                         </ul>
                     </nav>
+                    <button onClick={toggleTheme} className={style.tema} style={{justifyContent: theme === 'light' ? 'flex-end' : 'flex-start'}}>
+                        {theme === 'light' ? <FiMoon className={style.temaIcon} /> : <FiSun className={style.temaIcon} />}
+                    </button>
+                    <button onClick={toggleLanguage} className={style.languageButton}>
+                        <img src={language === 'en' ? './sp.jpeg' : './uk.jpeg' } alt="Language Flag" className={style.flagIcon} />
+                    </button>
                 </div>
-                <button onClick={toggleTheme} className={style.tema} style={{justifyContent: theme === 'light' ? 'flex-end' : 'flex-start'}}>
-                    {theme === 'light' ? <FiMoon className={style.temaIcon} /> : <FiSun className={style.temaIcon} />}
-                </button>
-                <button onClick={toggleLanguage} className={style.languageButton}>
-                    <img src={language === 'en' ? './sp.jpeg' : './uk.jpeg' } alt="Language Flag" className={style.flagIcon} />
-                </button>
-                <div className={style.menuResp}>
-                    <button className={style.menuButton} onClick={handleShowMenu}>{isVisible ? <MdClose /> : <FiMenu />}</button>
+                <div className={style.botonera}>
+                    <button onClick={toggleLanguage} className={style.languageButtonMov}>
+                        <img src={language === 'en' ? './sp.jpeg' : './uk.jpeg' } alt="Language Flag" className={style.flagIcon} />
+                    </button>
+                    <div className={style.menuResp}>
+                        <button className={style.menuButton} onClick={handleShowMenu}>{isVisible ? <MdClose /> : <FiMenu />}</button>
+                    </div>
                 </div>
-            </div>
         </div>
     );
 }
