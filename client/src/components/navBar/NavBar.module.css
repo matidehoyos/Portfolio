@@ -1,5 +1,5 @@
 .container {
-    width: 100%;
+    width: 100vw;
     height: auto;
     margin: 0;
     padding: 10px 70px;
@@ -61,8 +61,7 @@
 }
 
 .botonera {
-    width: auto;
-    display: flex;
+    display: none;
 }
 
 .menu {
@@ -214,6 +213,7 @@
     }
 
     .botonera {
+        display: flex;
         align-items: start;
         position: relative;
         top: 5.5px;
