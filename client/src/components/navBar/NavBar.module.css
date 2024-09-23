@@ -211,6 +211,8 @@
 
     .botonera {
         align-items: start;
+        position: relative;
+        top: 5.5px;
     }
 
     .languageButton {
@@ -224,12 +226,14 @@
     }
     
     .flagIcon {
-        width: 24px;
+        width: 30px;
         border-radius: 50%;
         transition: all .6s ease;
         border: 1px solid #fff;
         margin-left: 0;
         margin-right: 30px;
+        position: relative;
+        top: 1px;
     }
     
     .menu {
@@ -295,7 +299,7 @@
     }
     
     .menuResp button {
-      font-size: 24px;
+      font-size: 32px;
       margin: 0;
       padding: 0;
       color: rgb(140, 0, 255);
