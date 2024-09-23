@@ -59,27 +59,25 @@ const NavBar = () => {
                     <p>{t('navbar.developer')}</p>
                 </div>
             </a>
-            <div className={style.menu} onClick={ocultarMenu} style={isVisible ? { left: '0px' } : { left: '-800px' }}>
-                <nav>
-                    <ul>
-                        <li><a href="#about" onClick={handleShowMenu}>{t('navbar.about')}</a></li>
-                        <li><a href="#projects" onClick={handleShowMenu}>{t('navbar.projects')}</a></li>
-                        <li><a href="#contact" onClick={handleShowMenu}>{t('navbar.contact')}</a></li>
-                    </ul>
-                </nav>
-                
+            <div className={style.botonera}>
+                <div className={style.menu} onClick={ocultarMenu} style={isVisible ? { left: '0px' } : { left: '-800px' }}>
+                    <nav>
+                        <ul>
+                            <li><a href="#about" onClick={handleShowMenu}>{t('navbar.about')}</a></li>
+                            <li><a href="#projects" onClick={handleShowMenu}>{t('navbar.projects')}</a></li>
+                            <li><a href="#contact" onClick={handleShowMenu}>{t('navbar.contact')}</a></li>
+                        </ul>
+                    </nav>
+                </div>
                 <button onClick={toggleTheme} className={style.tema} style={{justifyContent: theme === 'light' ? 'flex-end' : 'flex-start'}}>
                     {theme === 'light' ? <FiMoon className={style.temaIcon} /> : <FiSun className={style.temaIcon} />}
                 </button>
-                
                 <button onClick={toggleLanguage} className={style.languageButton}>
                     <img src={language === 'en' ? './sp.jpeg' : './uk.jpeg' } alt="Language Flag" className={style.flagIcon} />
                 </button>
-
                 <div className={style.menuResp}>
                     <button className={style.menuButton} onClick={handleShowMenu}>{isVisible ? <MdClose /> : <FiMenu />}</button>
                 </div>
-
             </div>
         </div>
     );

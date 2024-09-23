@@ -60,6 +60,11 @@
     color: #eee;
 }
 
+.botonera {
+    width: auto;
+    display: flex;
+}
+
 .menu {
     width: auto;
     height: auto;
@@ -124,7 +129,7 @@
 }
 
 .tema {
-    width: 86px;
+    width: 60px;
     padding: 2px;
     margin-left: 30px;
     transition: all .5s ease;
@@ -168,7 +173,6 @@
       align-items: center;
       padding: 10px 20px;
       margin: 0;
-      background-color: #000;
       position: absolute;
       z-index: 2000;
       top: 14px;
@@ -204,17 +208,40 @@
         letter-spacing: .4px;
         line-height: 14px;
     }
+
+    .botonera {
+        align-items: start;
+    }
+
+    .languageButton {
+        width: auto;
+        padding: 0;
+        transition: all .6s ease;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        display: flex;
+    }
+    
+    .flagIcon {
+        width: 24px;
+        border-radius: 50%;
+        transition: all .6s ease;
+        border: 1px solid #fff;
+        margin-left: 0;
+        margin-right: 30px;
+    }
     
     .menu {
       width: 100vw;
-      height: calc(100vh - 85px);
+      height: calc(100vh - 80px);
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: start;
       background-size: cover;
       position: absolute;
-      top: 80px;
+      top: 76px;
       left: -700;
       transition: .6s all ease;
       z-index: 2000;
@@ -276,6 +303,7 @@
       border: none;
       outline: none;    
     }
+
   }
 
   
