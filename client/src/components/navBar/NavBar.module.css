@@ -258,6 +258,7 @@
       z-index: 2000;
       overflow-x: hidden;
       background-color: #17180d;
+      background-image: url('https://i.pinimg.com/originals/36/00/02/360002e4690d7889f7a3ca2ea406ea15.gif');
     }
   
     .menu nav {
@@ -266,7 +267,7 @@
     
     .menu ul {
       width: 100vw;
-      height: auto;
+      height: calc(100vh - 80px);
       display: flex;
       flex-direction: column;
       justify-content: start;
@@ -274,6 +275,7 @@
       gap: 16px 0;
       padding: 0px;
       padding-top: 60px;
+      background-color: #17180de6;
     }
     
     .menu ul li {
