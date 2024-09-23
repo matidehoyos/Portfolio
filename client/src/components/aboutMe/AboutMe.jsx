@@ -13,12 +13,14 @@ import { SiPostgresql } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { DiNodejs } from "react-icons/di";
 import { ThemeContext } from '../../contexts/ThemeContext';
+import { useTranslation } from 'react-i18next';
 
 
 
 
 const AboutMe = () => {
-    const { theme, toggleTheme } = useContext(ThemeContext);
+    const { theme } = useContext(ThemeContext);
+    const { t } = useTranslation();
 
 
     useEffect(() => {
@@ -28,7 +30,7 @@ const AboutMe = () => {
 
     return(
         <div className={style.container}>
-                <p className={style.aboutMe} data-aos="fade-right" data-aos-duration="800" id='about' style={{color: theme === 'dark' ? '#aaa' : '#111', fontWeight: theme === 'dark' ? '400' : '600', borderBottom: theme === 'dark' ? '1px solid #aaa' : '2px solid #111' }}>ABOUT ME</p>
+                <p className={style.aboutMe} data-aos="fade-right" data-aos-duration="800" id='about' style={{color: theme === 'dark' ? '#aaa' : '#111', fontWeight: theme === 'dark' ? '400' : '600', borderBottom: theme === 'dark' ? '1px solid #aaa' : '2px solid #111' }}>{t('about.titulo')}</p>
                 
                 <div className={style.box}>
                         <div className={style.texto} data-aos="fade-up" data-aos-duration="800">
@@ -36,9 +38,9 @@ const AboutMe = () => {
                                 <img src="dev.jpeg" alt="Imagen desarrollador" />
                             </div>
                             <div className={style.txt} >
-                                <h5 className={style.why} style={{color: theme === 'dark' ? '#fff' : '#000', fontWeight: theme === 'dark' ? '600' : '700'}}>Why Hire Me for Your Next Project?</h5>
-                                <p className={style.first} style={{color: theme === 'dark' ? '#999' : '#222', fontWeight: theme === 'dark' ? '400' : '500'}}>I am a software developer with experience creating innovative technological solutions.</p>
-                                <p className={style.second} style={{color: theme === 'dark' ? '#666' : '#333', fontWeight: theme === 'dark' ? '400' : '500'}}>Self-motivated, proactive and results orientated, always looking to push myself to present more creative and challenging projects. Consistently growing and open to learning new techniques and technologies.</p> 
+                                <h5 className={style.why} style={{color: theme === 'dark' ? '#fff' : '#000', fontWeight: theme === 'dark' ? '600' : '700'}}>{t('about.txt-titulo')}</h5>
+                                <p className={style.first} style={{color: theme === 'dark' ? '#999' : '#222', fontWeight: theme === 'dark' ? '400' : '500'}}>{t('about.txt-subtitulo')}</p>
+                                <p className={style.second} style={{color: theme === 'dark' ? '#666' : '#333', fontWeight: theme === 'dark' ? '400' : '500'}}>{t('about.txt-body')}</p> 
                             </div>
                         </div>
 

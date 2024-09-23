@@ -94,7 +94,7 @@
     letter-spacing: .6px;
     text-decoration: none;
     margin: 0;
-    margin-left: 20px;
+    margin-left: 25px;
     padding: 0;
     text-align: center;
     color: #eee;
@@ -103,6 +103,24 @@
 .menu li a:hover {
     filter: drop-shadow(0px 10px 5px rgba(255, 255, 255, 0.718));
     color: #fff;
+}
+
+.languageButton {
+    width: auto;
+    padding: 0;
+    transition: all .6s ease;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    display: flex;
+}
+
+.flagIcon {
+    width: 34px;
+    border-radius: 50%;
+    transition: all .6s ease;
+    border: 1px solid #fff;
+    margin-left: 20px;
 }
 
 .tema {

@@ -3,10 +3,12 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useContext, useEffect } from 'react';
 import { ThemeContext } from '../../contexts/ThemeContext';
+import { useTranslation } from 'react-i18next';
 
 
 const Header = () => {
     const { theme } = useContext(ThemeContext);
+    const { t } = useTranslation();
 
 
     useEffect(() => {
@@ -21,7 +23,7 @@ const Header = () => {
             </div>
             <div className={style.texto} data-aos="fade-up" data-aos-duration="800">
                 <h1><span className={style.rol}>Full Stack - Frontend</span><br/><span className={style.dev} style={{color: theme === 'light' ? '#222' : 'rgb(200,200,200)'}}>Developer</span></h1>
-                <p className={style.des} style={{color: theme === 'light' ? '#333' : 'rgb(180,180,180)', fontWeight: theme === 'light' ? '600' : '400'}}>Web developer with a passion for creating visually stunning and user-friendly websites.</p>
+                <p className={style.des} style={{color: theme === 'light' ? '#333' : 'rgb(180,180,180)', fontWeight: theme === 'light' ? '600' : '400'}}>{t('header.description')}</p>
             </div>
         </div>
     )

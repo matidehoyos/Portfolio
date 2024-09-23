@@ -1,0 +1,39 @@
+{
+    "navbar": {
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact",
+      "developer": "Web developer",
+      "name": "Matias De Hoyos",
+      "spanish": "Spanish"
+    },
+
+    "header": {
+      "role": "Full Stack - Frontend",
+      "developer": "Developer",
+      "description": "Web developer with a passion for creating visually stunning and user-friendly websites."
+    },
+
+    "about": {
+        "titulo": "About me",
+        "txt-titulo": "Why Hire Me for Your Next Project?",
+        "txt-subtitulo": "I am a software developer with experience creating innovative technological solutions.",
+        "txt-body": "Self-motivated, proactive and results orientated, always looking to push myself to present more creative and challenging projects. Consistently growing and open to learning new techniques and technologies."
+    },
+    "projects": {
+        "title": "PROJECTS",
+        "project": "PROJECT",
+        "website": "Website",
+        "repository": "Repository"
+      },
+    "contact": {
+        "title": "CONTACT ME",
+        "message": "Please send me an email to schedule a meeting. I am currently available. Open to hearing your proposal."
+  },
+    "footer": {
+        "derechos": "Copyright 2024 | Created by Matias De Hoyos.",
+        "created": ""
+    }
+  }
+  
+  
