@@ -166,7 +166,7 @@
 
 /* Estilos para dispositivos móviles ------------------------------- */
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 960px) {
 
     .container {
       width: 100%;
@@ -260,7 +260,7 @@
       background-color: #17180d;
       background-image: url('https://i.pinimg.com/originals/36/00/02/360002e4690d7889f7a3ca2ea406ea15.gif');
     }
-  
+
     .menu nav {
       width: 100vw;
     }

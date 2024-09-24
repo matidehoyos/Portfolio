@@ -1,7 +1,7 @@
 import style from './AboutMe.module.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useEffect } from 'react';
 import { IoLogoJavascript } from "react-icons/io";
 import { PiFileHtmlLight } from "react-icons/pi";
 import { PiFileCssLight } from "react-icons/pi";
@@ -21,23 +21,6 @@ import { useTranslation } from 'react-i18next';
 const AboutMe = () => {
     const { theme } = useContext(ThemeContext);
     const { t } = useTranslation();
-    const [ isMovil, setIsMovil] = useState(false)
-
-    useEffect(() => {
-        const handleMovil = () => {
-            if (window.scrollY > 500) {
-                setIsMovil(true);
-            } else {
-                setIsMovil(false);
-            }
-        };
-
-        window.addEventListener('movil', handleMovil);
-        return () => {
-            window.removeEventListener('movil', handleMovil);
-        };
-    }, []);
-
 
     useEffect(() => {
         AOS.init(); 
