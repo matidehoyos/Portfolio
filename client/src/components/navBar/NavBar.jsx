@@ -37,12 +37,6 @@ const NavBar = () => {
         };
     }, []);
 
-    const containerStyles = {
-        backgroundColor: isScrolled 
-          ? (theme === 'light' ? '#6610f2' : '#17181d') 
-          : 'transparent',
-        transition: 'background-color 0.3s ease'
-    };
 
     const toggleLanguage = () => {
         const newLanguage = language === 'en' ? 'es' : 'en';
@@ -51,7 +45,7 @@ const NavBar = () => {
     };
 
     return (
-        <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`} style={containerStyles}>
+        <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`} style={{backgroundImage: isScrolled ? 'url(./bgHeader1.png)' : 'none', backgroundPosition: 'top center' }}>
             <a href='#header' className={style.link}>
                 <img src='./img.png' alt="Logo" style={{backgroundColor: theme === 'light' ? '#eee' : '#181818', border: theme === 'light' ? '1px solid #eee' : '1px solid #6610f290'}}/>
                 <div className={style.txt}>
@@ -75,6 +69,7 @@ const NavBar = () => {
                     </button>
                 </div>
                 <div className={style.botonera}>
+                
                     <button onClick={toggleLanguage} className={style.languageButtonMov}>
                         <img src={language === 'en' ? './sp.jpeg' : './uk.jpeg' } alt="Language Flag" className={style.flagIcon} />
                     </button>

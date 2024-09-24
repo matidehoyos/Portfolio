@@ -7,8 +7,6 @@
     padding: 0;
     padding-bottom: 120px;
     overflow-x: hidden;
-    background-image: url('bgHeader.jpeg');
-    background-size: cover;
  }
 
  .contactMe {
@@ -22,7 +20,7 @@
 }
 
 .box {
-    width: auto;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,11 +31,11 @@
 }
 
 .imgAbout {
-    width: auto;
+    max-width: 320px;
 }
 
 .imgAbout img {
-    width: 300px;
+    max-width: 100%;
     object-fit: cover;
     pointer-events: none;
     -webkit-user-drag: none;
@@ -144,7 +142,7 @@
      }
 
      .box {
-        width: 94%;
+        width: 90%;
         border: none;
         padding: 40px 10px;
         margin: 0 auto;

@@ -1,7 +1,7 @@
 import style from './AboutMe.module.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useContext, useEffect } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { IoLogoJavascript } from "react-icons/io";
 import { PiFileHtmlLight } from "react-icons/pi";
 import { PiFileCssLight } from "react-icons/pi";
@@ -21,6 +21,22 @@ import { useTranslation } from 'react-i18next';
 const AboutMe = () => {
     const { theme } = useContext(ThemeContext);
     const { t } = useTranslation();
+    const [ isMovil, setIsMovil] = useState(false)
+
+    useEffect(() => {
+        const handleMovil = () => {
+            if (window.scrollY > 500) {
+                setIsMovil(true);
+            } else {
+                setIsMovil(false);
+            }
+        };
+
+        window.addEventListener('movil', handleMovil);
+        return () => {
+            window.removeEventListener('movil', handleMovil);
+        };
+    }, []);
 
 
     useEffect(() => {
@@ -35,7 +51,7 @@ const AboutMe = () => {
                 <div className={style.box}>
                         <div className={style.texto} data-aos="fade-up" data-aos-duration="800">
                             <div className={style.imgTxt}>
-                                <img src="dev.jpeg" alt="Imagen desarrollador" />
+                                <img src="dev.jpeg" alt="Imagen desarrollador" style={{opacity: theme === 'light' ? '1' : ''}} />
                             </div>
                             <div className={style.txt} >
                                 <h5 className={style.why} style={{color: theme === 'dark' ? '#fff' : '#000', fontWeight: theme === 'dark' ? '600' : '700'}}>{t('about.txt-titulo')}</h5>
