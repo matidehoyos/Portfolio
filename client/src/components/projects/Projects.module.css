@@ -17,7 +17,7 @@
 }
 
 .projectContainer {
-   width: 80%;
+   width: 90%;
    display: flex;
    justify-content: flex-start;
    align-items: stretch;
@@ -28,7 +28,7 @@
 }
 
 .boxPc {
-   width: 30%;
+   width: 45%;
    display: flex;
    flex-direction: column;
    justify-content: start;

@@ -11,9 +11,7 @@
 }
 
 .light-theme {
-  background-image: url('../public/bgLight1.png');
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-image: none;
   --background-color: var(--background-color-light);
   --text-color: var(--text-color-light);
 }

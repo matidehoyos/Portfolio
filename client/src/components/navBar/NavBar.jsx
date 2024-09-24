@@ -59,7 +59,7 @@ const NavBar = () => {
                     <p>{t('navbar.developer')}</p>
                 </div>
             </a>
-                <div className={style.menu} onClick={ocultarMenu} style={isVisible ? { left: '0px' } : { left: '800px' }}>
+                <div className={style.menu} onClick={ocultarMenu} style={isVisible ? { left: '0px' } : { left: '1200px' }}>
                     <nav>
                         <ul>
                             <li><a href="#about" onClick={handleShowMenu}>{t('navbar.about')}</a></li>
@@ -68,7 +68,7 @@ const NavBar = () => {
                         </ul>
                     </nav>
                     <button onClick={toggleTheme} className={style.tema} style={{justifyContent: theme === 'light' ? 'flex-end' : 'flex-start'}}>
-                        {theme === 'light' ? <FiMoon className={style.temaIcon} /> : <FiSun className={style.temaIcon} />}
+                        {theme === 'light' ? <FiSun className={style.temaIcon} /> : <FiMoon className={style.temaIcon} /> }
                     </button>
                     <button onClick={toggleLanguage} className={style.languageButton}>
                         <img src={language === 'en' ? './sp.jpeg' : './uk.jpeg' } alt="Language Flag" className={style.flagIcon} />
