@@ -26,7 +26,6 @@
         height: auto;
         margin: 0;
         padding: 20px 0px;
-        background-color: #111 !important;
     }
     
     .container p {
@@ -35,8 +34,7 @@
         font-weight: 200;
         letter-spacing: 0px;
         text-align: center;
-        color: aliceblue;
-        filter: drop-shadow(0px 0px 5px #111);
+        filter: drop-shadow(none);
     }
     
 }

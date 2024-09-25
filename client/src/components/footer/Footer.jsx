@@ -10,8 +10,8 @@ const Footer = () => {
 
 
     return(
-        <div className={style.container} style={{background: theme === 'light' ? '#aaa' : '#000'}}>
-            <p style={{color: theme === 'light' ? '#333' : '#ccc'}}>{t('footer.derechos')}</p>
+        <div className={style.container} style={{background: theme === 'light' ? '#333' : '#000'}}>
+            <p style={{color: theme === 'light' ? '#aaa' : '#ccc'}}>{t('footer.derechos')}</p>
         </div>
     )
 }

@@ -24,7 +24,7 @@
     border-radius: 0 0 50% 50%;
 }
 
-.imgPre img {
+.imgHeader {
     width: 320px;
     height: auto;
     padding-top: 110px;
@@ -126,13 +126,11 @@
       }
       
       .imgPre {
-          width: 80%;
-          display: flex;
-          justify-content: center;
+          width: 100%;
           border-radius: 0 0 25% 25%;
         }
         
-        .imgPre img {
+        .imgHeader {
             width: 260px;
             height: auto;
             object-fit: cover;
@@ -245,7 +243,7 @@
       .des {
           width: 86%;
           font-size: 22px;
-          font-weight: 600 !important;
+          font-weight: 400 !important;
           line-height: 112%;
           letter-spacing: .5px;
           padding: 0;
@@ -257,7 +255,7 @@
       .desLight {
           width: 86%;
           font-size: 22px;
-          font-weight: 600 !important;
+          font-weight: 500 !important;
           line-height: 112%;
           letter-spacing: .5px;
           padding: 0;

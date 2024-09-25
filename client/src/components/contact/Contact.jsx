@@ -18,11 +18,11 @@ const Contact = () => {
     }, []);
 
     return(
-        <div className={style.container} id="contact">
+        <div className={style.container} id="contact" style={{background: theme === 'light' ? "#eee" : ''}}>
             <p className={style.contactMe} data-aos="fade-right" data-aos-duration="800" id='about' style={{color: theme === 'dark' ? '#aaa' : '#111', fontWeight: theme === 'dark' ? '400' : '600', borderBottom: theme === 'dark' ? '1px solid #aaa' : '2px solid #111' }}>
                 {t('contact.title')}
             </p>
-            <div className={`${style.box} ${isLightMobile ? style.boxLight : style.box}`} data-aos="fade-up" data-aos-duration="800" style={{background: theme === 'light' ? '#56238c' : '#00000025', border: theme === 'light' ? '1px solid #00000030' : '1px solid #ffffff10'}}>
+            <div className={`${style.box} ${isLightMobile ? style.boxLight : style.box}`} data-aos="fade-up" data-aos-duration="800" style={{background: theme === 'light' ? '#444' : '#00000025', border: theme === 'light' ? '1px solid #00000030' : '1px solid #ffffff10'}}>
                 <div className={`${style.imgAbout} ${isLightMobile ? style.imgAboutLight : style.imgAbout}`}>
                     <img src='./devLight.png' alt="imagen mia" style={{opacity: theme === 'dark' ? '.8' : '.9'}}/>
                 </div>

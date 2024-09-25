@@ -31,11 +31,11 @@ const AboutMe = () => {
     const isLightMobile = theme === 'light' && isMobile;
 
     return(
-        <div className={style.container}>
+        <div className={style.container} style={{background: theme === 'light' ? "#eee" : ''}}>
                 <p className={style.aboutMe} data-aos="fade-right" data-aos-duration="800" id='about' style={{color: theme === 'dark' ? '#aaa' : '#111', fontWeight: theme === 'dark' ? '400' : '600', borderBottom: theme === 'dark' ? '1px solid #aaa' : '2px solid #111' }}>{t('about.titulo')}</p>
                 
                 <div className={style.box}>
-                        <div className={`${style.imgTxt} ${isLightMobile ? style.imgTxtLight : style.imgTxt}`}>
+                        <div className={`${style.imgTxt} ${isLightMobile ? style.imgTxtLight : style.imgTxt}`} data-aos="fade-right" data-aos-duration="800">
                             <img src="dev.jpeg" alt="Imagen desarrollador" style={{opacity: theme === 'light' ? '1' : ''}} />
                         </div>
                         <div className={style.contenido}>

@@ -204,7 +204,7 @@
         opacity: .7;
         position: relative;
         left: -20px;
-        filter: blur(.05px);
+        filter: none;
     }
     
     .imgAboutLight img {
@@ -213,7 +213,7 @@
         opacity: .8;
         position: relative;
         left: -20px;
-        filter: blur(.05px);
+        filter: none;
         mask-image: none;
     }
     

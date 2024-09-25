@@ -20,13 +20,13 @@ const Projects = () => {
     }, []);
 
     return (
-        <div className={style.container}>
-            <p className={style.titulo} data-aos="fade-right" data-aos-duration="800" id='projects' style={{color: theme === 'dark' ? '#aaa' : '#111', fontWeight: theme === 'dark' ? '400' : '600', borderBottom: theme === 'dark' ? '1px solid #aaa' : '2px solid #111' }}>
+        <div className={style.container} style={{background: theme === 'light' ? "#eee" : ''}}> 
+            <p className={style.titulo} data-aos="fade-up" data-aos-duration="600" id='projects' style={{color: theme === 'dark' ? '#aaa' : '#111', fontWeight: theme === 'dark' ? '400' : '600', borderBottom: theme === 'dark' ? '1px solid #aaa' : '2px solid #111' }}>
                 {t('projects.title')}
             </p>
             <div className={style.projectContainer}>
                 {projects.map((project, index) => (
-                    <div className={`${style.boxPc} ${isLightMobile ? style.boxPcLight : style.boxPc}`} key={index} data-aos="fade-up" data-aos-duration="800" style={{background: theme === 'light' ? '#eee' : ''}}>
+                    <div className={`${style.boxPc} ${isLightMobile ? style.boxPcLight : style.boxPc}`} key={index} data-aos="fade-up" data-aos-duration="600" style={{background: theme === 'light' ? '#eee' : ''}}>
                             <div className={style.info}>
                                 <p className={`${style.number} ${isLightMobile ? style.numberLight : style.number}`} style={{color: theme === 'light' ? '#111' : '#eee', fontWeight: theme === 'light' ? '500' : '400'}}>{t('projects.project')} {project.id}</p>
                                 <p className={`${style.dale} ${isLightMobile ? style.dateLight : style.date}`} style={{color: theme === 'light' ? '#111' : '#bbb', fontWeight: theme === 'light' ? '500' : '200'}}>{project.date}</p>
