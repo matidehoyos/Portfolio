@@ -81,7 +81,7 @@
 }
 
 .redes a {
-    display: inline-flex;
+    display: block;
     align-items: center;
     padding: 7px 14px;
     background-color: #222;
@@ -105,6 +105,8 @@
   .redes svg {
     margin-right: 8px;
   }
+
+
 
 
 
@@ -155,7 +157,7 @@
      }
    
      .boxLight {
-        width: 96%;
+        width: 90%;
         border: none;
         padding: 40px 10px;
         margin: 0 auto;
@@ -199,11 +201,10 @@
     .imgAbout img {
         width: 200px;
         object-fit: cover;
-        mask-image: linear-gradient(to bottom, #000 10%, transparent);
         opacity: .7;
         position: relative;
         left: -20px;
-        filter: blur(.5px);
+        filter: blur(.05px);
     }
     
     .imgAboutLight img {
@@ -212,7 +213,7 @@
         opacity: .8;
         position: relative;
         left: -20px;
-        filter: blur(.2px);
+        filter: blur(.05px);
         mask-image: none;
     }
     
@@ -226,7 +227,7 @@
         font-weight: 500;
         text-align: center;
         position: relative;
-        top: -20px;
+        top: 0px;
         text-shadow: 0px 0px 5px #000;
     }
 
@@ -244,24 +245,14 @@
         text-shadow: none;
     }
     
-    .redes {
+    .redes, .redesLight {
+        display: block;
         width: 100%;
-        margin-top: 0px;
+        margin-top: 34px;
         }
 
-    .redesLight {
+    .redes, .redesLight nav {
         width: 100%;
-        margin-top: 0px;
-        }
-    
-    .redes nav {
-        width: auto;
-        display: flex;
-        justify-content: center;
-    }
-
-    .redesLight nav {
-        width: auto;
         display: flex;
         justify-content: center;
     }
@@ -271,52 +262,54 @@
     }
     
     .redes, .redesLight ul li {
+        width: auto;
         display: block;
         margin-bottom: 8px;
     }
     
-    .mail {
-        background-color: #333 !important;
-        color: #fff !important;
+    
+    .redes a {
+        width: 100% !important;
         font-size: 16px !important;
         font-weight: 400 !important; 
         letter-spacing: .6px !important;
-        margin-top: 15px !important;
+        margin-top: 0px !important;
         padding: 8px 12px !important;
+        text-align: center !important;
+        background-color: #ffffff2c !important;
+        color: #111 !important;
+        font-weight: 500 !important;
+        display: flex;
+        justify-content: center;
     }
-
-    .redes, .redesLight a {
-        display: block;
-        width: 100%;
-        align-items: center;
-        text-align: center;
-        padding: 5px 16px;
-        background-color: transparent;
-        color: #ffffff88;
-        text-decoration: none;
-        transition: all 0.3s ease;
-        margin-right: 0px;
-        font-size: 16px;
-        font-weight: 300;
-        letter-spacing: .4px;
-        border: none;
-      }
       
       .redes a:hover {
         background-color: inherit;
-        color: #c7c7c7;
-      }
-      
-      .redes, .redesLight svg {
+        color: inherit;
+        transform: inherit;
+        
+    }
+    
+    .redes, .redesLight svg {
         margin-right: 8px;
         position: relative;
         top: 3px;
       }
 
+      
       .red {
-        background-color: #ffffff5a !important;
-        color: #111 !important;
-        font-weight: 500 !important;
-      }
+          font-weight: 500 !important;
+        }
+
+
+    .mail {
+            font-size: 16px !important;
+            font-weight: 400 !important; 
+            letter-spacing: .6px !important;
+            margin-top: 15px !important;
+            padding: 8px 12px !important;
+            border: 1px solid #333 !important;
+        }
+
 
 }
