@@ -163,7 +163,7 @@
         align-items: start;
         margin: 0;
         padding: 0;
-        padding-top: 100px;
+        padding-top: 80px;
     } 
     
     .aboutMe {
@@ -266,7 +266,7 @@
         word-spacing: -1.6px;
         color: #000 !important;
         text-align: left;
-        filter: drop-shadow(none);
+        filter: drop-shadow(0px 0px 0px transparent) !important;
 
     }
     
@@ -396,12 +396,11 @@
         justify-content: start;
         align-items: start;
         flex-wrap: wrap;
-        gap: 30px 25px;
-        color: #fff;
-        background-color: rgb(42, 0, 76) !important;
+        gap: 34px 20px;
+        color: #000;
         opacity: 1 !important;
-        padding: 30px 20px;
-        margin-bottom: 100px;
+        padding: 30px 0;
+        margin-bottom: 60px;
     }
     
     .skillItem {
@@ -416,7 +415,7 @@
         flex-direction: column;
         align-items: center;
         font-size: 22px;
-        color: #ddd !important;
+        color: #000 !important;
     }
     
     .skillItem span {
@@ -426,7 +425,7 @@
     }
 
     .skillItemLight span {
-        color: #ddd !important;
+        color: #000 !important;
         margin-top: 8px;
         font-size: 16px;
     }

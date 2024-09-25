@@ -21,6 +21,7 @@
     width: auto;
     display: flex;
     justify-content: center;
+    border-radius: 0 0 50% 50%;
 }
 
 .imgPre img {
@@ -43,6 +44,7 @@
 
 .texto h1 {
     text-align: center;
+    display: inline-block;
 }
 
 .rol {
@@ -120,7 +122,6 @@
         justify-content: start;
         align-items: center;
         padding: 0;
-        padding-top: 0;
         margin: 0;
       }
       
@@ -128,16 +129,17 @@
           width: 80%;
           display: flex;
           justify-content: center;
+          border-radius: 0 0 40% 40%;
         }
         
         .imgPre img {
-            width: 250px;
+            width: 240px;
             height: auto;
             object-fit: cover;
             margin-top: 0;
             opacity: .9 !important;
             padding: 0;
-            padding-top: 140px;
+            padding-top: 130px;
             filter: grayscale(80%) drop-shadow(0px -20px 20px rgba(140, 0, 255, 0.184)) !important;
             -webkit-user-drag: none;
             -khtml-user-drag: none;
@@ -149,8 +151,19 @@
           width: auto;
           margin: 0;
           padding: 0;
-          position: relative;
-          top: 0px;
+          position: inherit;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 0;
+      }
+
+      .textoLight {
+          width: auto;
+          margin: 0;
+          margin-top: 15px;
+          padding: 0;
+          position: inherit;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -161,7 +174,6 @@
           font-size: 34px;
           font-weight: 700;
           margin: 0;
-          margin-top: 0;
           padding: 0;
           line-height: 28px;
           letter-spacing: -2px;
@@ -176,6 +188,26 @@
           animation: moveStars 20s linear infinite;
           -webkit-text-stroke: 1px rgb(152, 152, 152);
           filter: drop-shadow(0px 0px 10px #000);
+      }
+
+      .rolLight {
+          font-size: 35px;
+          font-weight: 900;
+          margin: 0;
+          padding: 0;
+          line-height: 28px;
+          letter-spacing: -2px;
+          word-spacing: normal;
+          text-align: center;
+          font-family: "Rubik", sans-serif;
+          font-optical-sizing: auto;
+          color: transparent !important;
+          background-size: cover;
+          -webkit-background-clip: text;
+          background-clip: text;
+          animation: moveStars 20s linear infinite;
+          -webkit-text-stroke: 1px rgb(152, 152, 152);
+          filter: drop-shadow(0px 0px 0px transparent);
       }
       
       @keyframes moveStars {
@@ -200,6 +232,17 @@
           top: -20px;
       }
       
+      .devLight {
+        font-size: 28px;
+        line-height: 18px;
+          font-weight: 700;
+          margin: 0;
+          padding: 0;
+          position: relative;
+          top: -16px;
+          color: #111 !important;
+      }
+      
       .des {
           width: 86%;
           font-size: 22px;
@@ -210,5 +253,18 @@
           margin: 0 auto;
           margin-top: 20px;
           text-align: center;
+      }
+
+      .desLight {
+          width: 86%;
+          font-size: 22px;
+          font-weight: 600 !important;
+          line-height: 112%;
+          letter-spacing: .5px;
+          padding: 0;
+          margin: 0 auto;
+          margin-top: 20px;
+          text-align: center;
+          color: #151515 !important;
       }
 }

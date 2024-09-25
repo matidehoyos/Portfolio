@@ -155,7 +155,7 @@
      }
    
      .boxLight {
-        width: 90%;
+        width: 96%;
         border: none;
         padding: 40px 10px;
         margin: 0 auto;
@@ -165,7 +165,7 @@
         align-items: center;
         flex-direction: column;
         border: 1px solid #ffffff10 !important;
-        background-color: rgb(42, 0, 76) !important;
+        background-color: rgb(201, 201, 201) !important;
      }
     
     .caja {
@@ -209,10 +209,11 @@
     .imgAboutLight img {
         width: 200px;
         object-fit: cover;
-        opacity: .7;
+        opacity: .8;
         position: relative;
         left: -20px;
         filter: blur(.2px);
+        mask-image: none;
     }
     
     .caja p {
@@ -231,16 +232,16 @@
 
     .cajaLight p {
         width: 90%;
-        color: #939393;
+        color: #151515 !important;
         margin-left: 0px;
         margin-top: 0px;
-        font-size: 20px;
-        line-height: 20px;
-        font-weight: 500;
+        font-size: 22px;
+        line-height: 21px;
+        font-weight: 600 !important;
         text-align: center;
         position: relative;
-        top: -20px;
-        text-shadow: 0px 0px 5px #000;
+        top: 0px;
+        text-shadow: none;
     }
     
     .redes {
@@ -271,9 +272,19 @@
     
     .redes, .redesLight ul li {
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 8px;
     }
     
+    .mail {
+        background-color: #333 !important;
+        color: #fff !important;
+        font-size: 16px !important;
+        font-weight: 400 !important; 
+        letter-spacing: .6px !important;
+        margin-top: 15px !important;
+        padding: 8px 12px !important;
+    }
+
     .redes, .redesLight a {
         display: block;
         width: 100%;
@@ -300,6 +311,12 @@
         margin-right: 8px;
         position: relative;
         top: 3px;
+      }
+
+      .red {
+        background-color: #ffffff5a !important;
+        color: #111 !important;
+        font-weight: 500 !important;
       }
 
 }
