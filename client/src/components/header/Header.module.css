@@ -17,15 +17,6 @@
     opacity: .05;
 }
 
-.devBack {
-    width: 100%;
-    height: 440px;
-    position: absolute;
-    object-fit: cover;
-    object-position: bottom;
-    opacity: .25;
-}
-
 .imgPre {
     width: auto;
     display: flex;
@@ -122,7 +113,8 @@
 
     .container {
         width: auto;  
-        height: 100vh;
+        height: auto;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -130,7 +122,6 @@
         padding: 0;
         padding-top: 0;
         margin: 0;
-        overflow: hidden;
       }
       
       .imgPre {
