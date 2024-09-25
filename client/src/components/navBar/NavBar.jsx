@@ -4,6 +4,7 @@ import { FiMenu, FiMoon, FiSun } from 'react-icons/fi';
 import { MdClose } from 'react-icons/md';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { useTranslation } from 'react-i18next';
+import { isMobile } from 'react-device-detect';
 
 const NavBar = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -11,6 +12,8 @@ const NavBar = () => {
     const { theme, toggleTheme } = useContext(ThemeContext);
     const { t, i18n } = useTranslation();
     const [language, setLanguage] = useState('en');
+
+    const isLightMobile = theme === 'light' && isMobile;
 
 
     const handleShowMenu = () => {
@@ -53,7 +56,7 @@ const NavBar = () => {
                     <p>{t('navbar.developer')}</p>
                 </div>
             </a>
-                <div className={style.menu} onClick={ocultarMenu} style={isVisible ? { left: '0px' } : { left: '1200px' }}>
+                <div className={`${style.menu} ${isLightMobile ? style.menuLight : style.menu}`} onClick={ocultarMenu} style={isVisible ? { left: '0px' } : { left: '1200px' }}>
                     <nav>
                         <ul>
                             <li><a href="#about" onClick={handleShowMenu}>{t('navbar.about')}</a></li>
@@ -69,7 +72,9 @@ const NavBar = () => {
                     </button>
                 </div>
                 <div className={style.botonera}>
-                
+                    <button onClick={toggleTheme} className={style.temaMov} style={{justifyContent: theme === 'light' ? 'flex-end' : 'flex-start'}}>
+                        {theme === 'dark' ? <FiSun className={style.temaIcon} /> : <FiMoon className={style.temaIcon} /> }
+                    </button>
                     <button onClick={toggleLanguage} className={style.languageButtonMov}>
                         <img src={language === 'en' ? './sp.jpeg' : './uk.jpeg' } alt="Language Flag" className={style.flagIcon} />
                     </button>

@@ -183,12 +183,12 @@
       gap: 20px;
       margin-top: 0;
       overflow-x: scroll !important;
-      padding: 60px 12px;
+      padding: 60px 20px;
       padding-right: 30px;
    }
 
    .projectContainer::-webkit-scrollbar {
-      display: none;
+      color: #6010f2;
    }
 
    .boxPc {
@@ -202,6 +202,20 @@
       padding: 20px 10px;
       border: .4px solid #282828;
       flex-grow: 1;
+   } 
+
+   .boxPcLight {
+      width: 320px !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: stretch;
+      gap: 0;
+      margin-bottom: 0;
+      padding: 20px 10px;
+      border: .4px solid #767676;
+      flex-grow: 1;
+      background-color: #eee !important;
    } 
 
    .boxPc:hover {
@@ -220,6 +234,13 @@
       line-height: 12px;
       color: #606060;
    }
+
+   .dateLight {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 12px;
+      color: #333;
+   }
    
    .number {
       font-size: 18px !important;
@@ -227,6 +248,14 @@
       line-height: 14px;
       letter-spacing: .7px;
       color: #828282 !important;
+   }
+
+   .numberLight {
+      font-size: 18px !important;
+      font-weight: 500;
+      line-height: 14px;
+      letter-spacing: .7px;
+      color: #333 !important;
    }
    
    .imgPc {
@@ -258,6 +287,16 @@
       margin: 0;
       margin-top: 10px;
    }
+
+   .tituLight {
+      font-size: 20px;
+      line-height: 22px;
+      font-weight: 300;
+      letter-spacing: .5px;
+      color: #111 !important;
+      margin: 0;
+      margin-top: 10px;
+   }
    
 
    .detalle {
@@ -272,10 +311,37 @@
       hyphens: auto;
       word-wrap: break-all;
    }
+
+   .detalleLight {
+      width: 300px;
+      font-size: 16px;
+      font-weight: 300;
+      letter-spacing: .5px;
+      line-height: 16px;
+      color: #222 !important;
+      margin-top: 8px;
+      padding: 0;
+      hyphens: auto;
+      word-wrap: break-all;
+   }
    
    .tecno {
       width: 100%;
       color: #6b6b6b !important;
+      text-align: left;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 15px;
+      letter-spacing: .5px;
+      padding: 0;
+      padding-top: 7px;
+      margin: 0;
+      margin-top: auto;
+   }
+
+   .tecnoLight {
+      width: 100%;
+      color: #333 !important;
       text-align: left;
       font-size: 15px;
       font-weight: 500;
@@ -309,8 +375,30 @@
       border: 1px solid rgb(65, 65, 65) !important;
     }
 
-    .butonWeb span {
-      display: none;
+   .butonWebLight {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 14px;
+      color: rgb(99, 99, 99);
+      box-shadow: none;
+      background-color: rgb(42, 0, 76) !important;
+      text-decoration: none;
+      border-radius: 0px;
+      margin-right: 7px;
+      border: 1px solid rgb(65, 65, 65) !important;
+    }
+
+   .butonRepLight {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 14px;
+      color: rgb(255, 255, 255) !important;
+      box-shadow: none;
+      background-color: rgb(91, 91, 91) !important;
+      text-decoration: none;
+      border-radius: 0px;
+      margin-right: 7px;
+      border: 1px solid rgb(65, 65, 65) !important;
     }
     
     .butonWeb:hover {
@@ -319,6 +407,14 @@
     }
     
     .butonWeb svg {
+      margin-right: 8px;
+    }
+
+    .butonWebLight svg {
+      margin-right: 8px;
+    }
+
+    .butonRepLight svg {
       margin-right: 8px;
     }
    

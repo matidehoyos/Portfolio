@@ -18,7 +18,7 @@ const Header = () => {
     return (
         <div className={style.container} id='header'>
             <img src="https://i.pinimg.com/originals/36/00/02/360002e4690d7889f7a3ca2ea406ea15.gif" className={style.newIm} style={{display: theme === 'light' ? 'none' : ''}} />
-            <div className={style.imgPre} data-aos="fade-up" data-aos-duration="800" style={{backgroundImage: theme === 'light' ? 'url(./bgHeader1.png)' : '',backgroundPosition: 'top center' ,width: theme === 'light' ? '100vw' : '' }}>
+            <div className={style.imgPre} data-aos="fade-up" data-aos-duration="800" style={{backgroundImage: theme === 'light' ? 'url(./bgHeader1.png)' : '',backgroundPosition: 'top center', backgroundSize: 'cover', width: '100vw'}}>
                 <img src="nav.png" alt="foto mia" style={{filter: theme === 'light' ? 'drop-shadow(0px 0px 20px #000) grayscale(60%)' : 'drop-shadow(0px 0px 18px #000) grayscale(85%)', opacity: theme === 'light' ? '.9' : '1'}}/>
             </div>
             <div className={style.texto} data-aos="fade-up" data-aos-duration="800">

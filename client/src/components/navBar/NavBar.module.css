@@ -131,6 +131,10 @@
     margin-left: 20px;
 }
 
+.temaMov {
+    display: none;
+}
+
 .tema {
     width: 60px;
     padding: 2px;
@@ -219,6 +223,29 @@
         top: 5.5px;
     }
 
+    .temaMov {
+        width: auto;
+        padding: 0;
+        outline: none;
+        transition: all .6s ease;
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .temaIcon {
+        font-size: 28px;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 3px;
+        background-color: rgb(56, 56, 56);
+        border-radius: 50%;
+        transition: all .6s ease;
+        position: relative;
+        top: 4px;
+        margin-right: 15px;
+    }
+
     .languageButton {
         display: none;
     }
@@ -234,14 +261,14 @@
     }
     
     .flagIcon {
-        width: 30px;
+        width: 28px;
         border-radius: 50%;
         transition: all .6s ease;
         border: 1px solid #fff;
         margin-left: 0;
-        margin-right: 20px;
+        margin-right: 15px;
         position: relative;
-        top: 3.5px;
+        top: 4.2px;
     }
     
     .menu {
@@ -261,7 +288,27 @@
       background-image: url('https://i.pinimg.com/originals/36/00/02/360002e4690d7889f7a3ca2ea406ea15.gif');
     }
 
+    .menuLight {
+      width: 100vw;
+      height: calc(100vh - 80px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      background-size: cover;
+      position: absolute;
+      top: 68px;
+      transition: .6s all ease;
+      z-index: 2000;
+      overflow-x: hidden;
+      background-image: url('https://i.pinimg.com/originals/36/00/02/360002e4690d7889f7a3ca2ea406ea15.gif');
+    }
+
     .menu nav {
+      width: 100vw;
+    }
+
+    .menuLight nav {
       width: 100vw;
     }
     
@@ -277,8 +324,28 @@
       padding-top: 60px;
       background-color: #17180de6;
     }
+
+    .menuLight ul {
+      width: 100vw;
+      height: calc(100vh - 80px);
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      gap: 16px 0;
+      padding: 0px;
+      padding-top: 60px;
+      background-color: #ffffffcd;
+    }
     
     .menu ul li {
+      width: auto;
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+    }
+
+    .menuLight ul li {
       width: auto;
       list-style: none;
       padding: 0;
@@ -291,6 +358,18 @@
       color: #eeeeee;
       font-size: 32px;
       font-weight: 400;
+      letter-spacing: .6px;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menuLight ul li a {
+      width: auto;
+      text-decoration: none;
+      color: #111;
+      font-size: 32px;
+      font-weight: 500;
       letter-spacing: .6px;
       text-align: center;
       padding: 0;

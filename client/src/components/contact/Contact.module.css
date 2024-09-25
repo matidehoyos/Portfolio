@@ -153,6 +153,20 @@
         border: 1px solid #ffffff10 !important;
         background-color: transparent !important;
      }
+   
+     .boxLight {
+        width: 90%;
+        border: none;
+        padding: 40px 10px;
+        margin: 0 auto;
+        margin-top: 50px;
+        border: none !important;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 1px solid #ffffff10 !important;
+        background-color: rgb(42, 0, 76) !important;
+     }
     
     .caja {
         width: auto;
@@ -163,8 +177,22 @@
         padding-left: 0;
         gap: 10px;
     }
+
+    .cajaLight {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        gap: 10px;
+    }
     
     .imgAbout {
+        width: auto;
+    }
+
+    .imgAboutLight {
         width: auto;
     }
     
@@ -178,7 +206,30 @@
         filter: blur(.5px);
     }
     
+    .imgAboutLight img {
+        width: 200px;
+        object-fit: cover;
+        opacity: .7;
+        position: relative;
+        left: -20px;
+        filter: blur(.2px);
+    }
+    
     .caja p {
+        width: 90%;
+        color: #939393;
+        margin-left: 0px;
+        margin-top: 0px;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 500;
+        text-align: center;
+        position: relative;
+        top: -20px;
+        text-shadow: 0px 0px 5px #000;
+    }
+
+    .cajaLight p {
         width: 90%;
         color: #939393;
         margin-left: 0px;
@@ -196,23 +247,34 @@
         width: 100%;
         margin-top: 0px;
         }
+
+    .redesLight {
+        width: 100%;
+        margin-top: 0px;
+        }
     
     .redes nav {
         width: auto;
         display: flex;
         justify-content: center;
     }
+
+    .redesLight nav {
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
     
-    .redes ul {
+    .redes, .redesLight ul {
         list-style-type: none;
     }
     
-    .redes ul li {
+    .redes, .redesLight ul li {
         display: block;
         margin-bottom: 5px;
     }
     
-    .redes a {
+    .redes, .redesLight a {
         display: block;
         width: 100%;
         align-items: center;
@@ -234,7 +296,7 @@
         color: #c7c7c7;
       }
       
-      .redes svg {
+      .redes, .redesLight svg {
         margin-right: 8px;
         position: relative;
         top: 3px;
