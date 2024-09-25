@@ -29,91 +29,84 @@
 }
 
 .box {
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     gap: 0;
-    margin: 0 auto;
-    margin-top: 120px;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.imgTxt {
+    width: 300px;
+}
+
+.imgTxt img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenido {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
 }
 
 .texto {
-    width: auto;
+    width: 100%;
     height: auto;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-    gap: 10px; 
-}
-
-.imgTxt {
-    width: auto;
-}
-
-.imgTxt img {
-    width: 250px;
-    height: auto;
-    object-fit: cover;
-}
-
-.txt {
-    width: 500px;
-    display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: center;
 }
 
 .why {
-    font-size: 32px;
-    letter-spacing: .7px;
+    font-size: 36px;
+    letter-spacing: .6px;
     line-height: 100%;
     word-spacing: -2px;
 }
 
 .first {
-    width: 96%;
-    font-size: 26px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 26px;
     letter-spacing: .6px;
     text-align: left;
     margin: 0;
-    margin-top: 25px;
+    margin-top: 20px;
     padding: 0;
 }
 
 .second {
-    width: 90%;
-    font-size: 24px;
-    line-height: 26px;
-    letter-spacing: .8px;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: .6px;
     text-align: left;
     margin: 0;
-    margin-top: 25px;
+    margin-top: 20px;
     padding: 0;
 }
 
 .conocimientos {
-    width: auto;
-    height: auto;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: start;
 }
 
 .conocimientos h6 {
-    width: 100%;
-    font-size: 20px;
-    margin-bottom: 30px;
-    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
     display: none;
 }
 
@@ -125,24 +118,24 @@
 
 .tecno {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    row-gap: 45px;
-    color: #fff;
-    padding: 40px 20px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    row-gap: 30px;
+    padding: 15px 10px;
+    margin-top: 25px;
 }
 
 .skillItem {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .skillItem span {
     color: #cdcdcd;
-    margin-top: 8px;
-    font-size: 20px;
+    margin-top: 1px;
+    font-size: 16px;
 }
 
 
@@ -159,7 +152,7 @@
 
 /* Estilos para dispositivos móviles ------------------------------- */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 960px) {
 
     .container {
         width: auto;
@@ -183,27 +176,17 @@
     }
 
     .box {
-        width: 94%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: start;
-        align-items: center;
+        align-items: start;
         gap: 0;
         margin: 0 auto;
+        padding-top: 60px;
+        position: relative;
     }
     
-    .texto {
-        width: 100%;
-        height: auto;
-        margin: 0;
-        margin-top: 80px;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 0;
-    }
     
     .imgTxt {
         width: 100%;
@@ -212,7 +195,6 @@
         justify-content: start;
         overflow: hidden;
         position: absolute;
-        top: 0;
     }
     
     .imgTxt img {
@@ -224,16 +206,26 @@
         mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, transparent);
     }
     
-    .txt {
-        width: auto;
+    .contenido {
+        width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: start;
-        justify-content: start;
         padding: 0 20px;
-        padding-right: 10px;
-        margin-top: 300px;
-        margin-bottom: 60px;
+        margin-top: 360px;
+    }
+
+    .texto {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 0;
     }
     
     .why {
@@ -248,14 +240,14 @@
     }
     
     .first {
-        width: auto;
-        font-size: 20px;
+        width: 80%;
+        font-size: 22px;
         font-weight: 500;
-        line-height: 21px;
+        line-height: 24px;
         letter-spacing: .5px;
         text-align: left;
         margin: 0;
-        margin-top: 10px;
+        margin-top: 22px;
         padding: 0;
         color: #a5a5a5 !important;
         hyphens: auto;
@@ -265,13 +257,13 @@
     
     .second {
         width: auto;
-        font-size: 25px;
+        font-size: 18px;
         font-weight: 500;
-        line-height: 24px;
-        letter-spacing: .8px;
+        line-height: 20px;
+        letter-spacing: .6px;
         text-align: left;
         margin: 0;
-        margin-top: 10px;
+        margin-top: 22px;
         padding: 0;
         color: #a5a5a5 !important;
         hyphens: auto;
@@ -287,48 +279,52 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 0 15px;
+        padding: 0;
         margin-bottom: 100px;
     }
     
     .conocimientos h6 {
+        width: 100%;
         color: rgb(116, 0, 210) !important;
-        font-size: 22px;
+        font-size: 16px;
         font-weight: 400;
-        margin-bottom: 30px;
-        text-align: center;
+        text-align: left;
         display: block;
+        margin-top: 40px;
     }
     
     .skills {
-        width: 100%;
+        width:  auto;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: start;
     }
     
     .tecno {
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 8px;
-        row-gap: 25px;
+        margin-top: 40px;
+        width: 90%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 30px 20px;
         color: #fff;
         background-color: transparent !important;
         opacity: 1 !important;
+        padding: 0;
     }
     
     .skillItem {
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 26px;
+        font-size: 20px;
     }
     
     .skillItem span {
         color: #cdcdcd;
         margin-top: 8px;
-        font-size: 18px;
+        font-size: 14px;
     }
     
     

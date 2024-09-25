@@ -22,7 +22,7 @@ const Projects = () => {
             </p>
             <div className={style.projectContainer}>
                 {projects.map((project, index) => (
-                    <div className={style.boxPc} key={index} data-aos="fade-up" data-aos-duration="800" style={{background: theme === 'light' ? '#00000005' : ''}}>
+                    <div className={style.boxPc} key={index} data-aos="fade-up" data-aos-duration="800" style={{background: theme === 'light' ? '#eee' : ''}}>
                             <div className={style.info}>
                                 <p className={style.number} style={{color: theme === 'light' ? '#111' : '#eee', fontWeight: theme === 'light' ? '500' : '400'}}>{t('projects.project')} {project.id}</p>
                                 <p className={style.date} style={{color: theme === 'light' ? '#111' : '#bbb', fontWeight: theme === 'light' ? '500' : '200'}}>{project.date}</p>
