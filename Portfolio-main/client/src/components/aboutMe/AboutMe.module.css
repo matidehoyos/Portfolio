@@ -1,0 +1,435 @@
+.container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin: 0;
+    padding: 120px 0;
+}
+
+.pContainer {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0;
+    padding: 0;
+}   
+
+.aboutMe {
+    width: 50%;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    background-color: transparent;
+    padding: 0;
+    text-align: right;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 0;
+    margin: 0;
+    margin-top: 100px;
+}
+
+.imgTxt {
+    width: 300px;
+}
+
+.imgTxt img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenido {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20px;
+}
+
+.texto {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.why {
+    font-size: 36px;
+    letter-spacing: .6px;
+    line-height: 100%;
+    word-spacing: -2px;
+}
+
+.first {
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: .6px;
+    text-align: left;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.second {
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: .6px;
+    text-align: left;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.conocimientos {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.conocimientos h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    display: none;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tecno {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    row-gap: 30px;
+    padding: 15px 10px;
+    margin-top: 25px;
+}
+
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+}
+
+.skillItem span {
+    color: #cdcdcd;
+    margin-top: 1px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para dispositivos móviles ------------------------------- */
+
+@media only screen and (max-width: 960px) {
+
+    .container {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin: 0;
+        padding: 0;
+        padding-top: 60px;
+    } 
+    
+    .aboutMe {
+        width: 58%;
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: .8px;
+        padding: 0;
+        text-align: right;
+    }
+
+    .box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 0;
+        margin: 0 auto;
+        padding-top: 60px;
+        position: relative;
+    }
+    
+    
+    .imgTxt {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: start;
+        overflow: hidden;
+        position: absolute;
+        padding: 0 20px;
+    }
+
+    .imgTxtLight {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: start;
+        overflow: hidden;
+        position: absolute;
+        padding: 0;
+    }
+    
+    .imgTxt img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom;
+        opacity: .20;
+        mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, transparent);
+    }
+
+    .imgTxtLight img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom;
+        opacity: .60 !important; 
+        mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, transparent);
+    }
+    
+    .contenido {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 0 20px;
+        margin-top: 360px;
+    }
+
+    .texto {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 0;
+    }
+
+    
+    .why {
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: .8px;
+        line-height: 28px;
+        word-spacing: -1.6px;
+        color: #d8d8d8 !important;
+        text-align: left;
+        filter: drop-shadow(0px 0px 4px #000);
+    }
+    
+    .whyLight {
+        font-size: 30px;
+        font-weight: 600;
+        letter-spacing: .8px;
+        line-height: 28px;
+        word-spacing: -1.6px;
+        color: #000 !important;
+        text-align: left;
+        filter: drop-shadow(0px 0px 0px transparent) !important;
+
+    }
+    
+    .first {
+        width: 98%;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: .5px;
+        text-align: left;
+        margin: 0;
+        margin-top: 22px;
+        padding: 0;
+        color: #a5a5a5 !important;
+        hyphens: auto;
+        word-wrap: break-word;
+        filter: drop-shadow(0px 0px 0px transparent);
+    }
+    
+    .firstLight {
+        width: 98%;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: .5px;
+        text-align: left;
+        margin: 0;
+        margin-top: 22px;
+        padding: 0;
+        color: #000 !important;
+        hyphens: auto;
+        word-wrap: break-word;
+        filter: drop-shadow(0px 0px 0px transparent);
+    }
+
+    .second {
+        width: auto;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: .6px;
+        text-align: left;
+        margin: 0;
+        margin-top: 22px;
+        padding: 0;
+        color: #a5a5a5 !important;
+        hyphens: auto;
+        word-wrap: break-word;
+        filter: drop-shadow(none);
+    }
+
+    .secondLight {
+        width: auto;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: .6px;
+        text-align: left;
+        margin: 0;
+        margin-top: 22px;
+        padding: 0;
+        color: #000 !important;
+        hyphens: auto;
+        word-wrap: break-word;
+        filter: drop-shadow(none);
+    }
+    
+    .conocimientos {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 100px;
+    }
+    
+    .conocimientos h6 {
+        width: 100%;
+        color: rgb(76, 39, 106) !important;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: left;
+        display: block;
+        margin-top: 80px;
+    }
+    
+    .conocimientosLight h6 {
+        width: 100%;
+        color: rgb(42, 0, 76) !important;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: left;
+        display: block;
+        margin-top: 80px;
+    }
+    
+    .skills {
+        width:  auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+    
+    .tecno {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 34px 20px;
+        color: #aaa;
+        opacity: 1 !important;
+        padding: 30px 0;
+        margin-bottom: 0px;
+    }
+    
+    .tecnoLight {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        flex-wrap: wrap;
+        gap: 34px 20px;
+        color: #000;
+        opacity: 1 !important;
+        padding: 30px 0;
+        margin-bottom: 0px;
+    }
+    
+    .skillItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 22px;
+        color: #aaa !important;
+    }
+
+    .skillItemLight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 22px;
+        color: #000 !important;
+    }
+    
+    .skillItem span {
+        color: #aaa !important;
+        margin-top: 8px;
+        font-size: 16px;
+    }
+
+    .skillItemLight span {
+        color: #000 !important;
+        margin-top: 8px;
+        font-size: 16px;
+    }
+    
+    
+}

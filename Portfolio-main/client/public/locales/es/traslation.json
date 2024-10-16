@@ -1,0 +1,35 @@
+{
+    "navbar": {
+      "about": "Sobre mi",
+      "projects": "Proyectos",
+      "contact": "Contacto",
+      "developer": "Desarrollador web",
+      "name": "Matias De Hoyos",
+      "spanish": "Español"
+    },
+    "header": {
+      "role": "Full Stack - Frontend",
+      "developer": "Desarrollador",
+      "description": "Desarrollador web con pasión por crear sitios web visualmente impresionantes y fáciles de usar."
+    },
+    "about": {
+        "titulo": "Sobre mi",
+        "txt-titulo": "¿Por qué contratarme para tu próximo proyecto?",
+        "txt-subtitulo": "Soy un desarrollador de software con experiencia en la creación de soluciones tecnológicas innovadoras.",
+        "txt-body": "Autodidacta, proactivo y orientado a resultados, siempre buscando superarme para presentar proyectos más creativos y desafiantes. En constante crecimiento y abierto a aprender nuevas técnicas y tecnologías."
+    },
+    "projects": {
+        "title": "PROYECTOS",
+        "project": "PROYECTO",
+        "website": "Sitio web",
+        "repository": "Repositorio"
+      },
+    "contact": {
+        "title": "CONTÁCTAME",
+        "message": "Por favor, envíame un correo electrónico para programar una reunión. Actualmente estoy disponible. Abierto a escuchar tu propuesta."
+  },
+  "footer": {
+    "derechos": "Copyright 2024 | Creado por Matias De Hoyos."
+        }
+  }
+  

@@ -1,0 +1,31 @@
+
+
+
+
+
+
+@media only screen and (max-width: 680px) {
+
+#root {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-family: "Kanit", sans-serif;
+  background-image: none;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  height: auto;
+}
+
+} 
