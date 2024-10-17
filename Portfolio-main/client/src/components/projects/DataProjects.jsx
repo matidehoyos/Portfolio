@@ -9,8 +9,8 @@ const projects = [
       es: "Shoponline"
     },
     detail: {
-      en: "This project is an online store offering users a modern and responsive interface to browse and purchase products. The application features dynamic filters for category and price, shopping cart management with localStorage, and an integrated payment flow using Stripe, ensuring secure transactions. It also includes an optimized search system and is SEO-friendly for enhanced discoverability.",
-      es: "Este proyecto es una tienda en línea que permite a los usuarios navegar y comprar productos con una interfaz moderna y responsive. La aplicación incluye funcionalidades clave como filtros dinámicos por categoría y precio, gestión de carrito de compras con localStorage, y un flujo de pago integrado usando Stripe para asegurar que las transacciones se realicen de manera segura. Además, cuenta con un sistema de búsqueda optimizado y SEO-friendly."
+      en: "An online store offering users a modern and responsive interface to browse and purchase products. The application features dynamic filters for category and price, shopping cart management with localStorage, and an integrated payment flow using Stripe, ensuring secure transactions. It also includes an optimized search system and is SEO-friendly for enhanced discoverability.",
+      es: "Tienda en línea que permite a los usuarios navegar y comprar productos con una interfaz moderna y responsive. La aplicación incluye funcionalidades clave como filtros dinámicos por categoría y precio, gestión de carrito de compras con localStorage, y un flujo de pago integrado usando Stripe para asegurar que las transacciones se realicen de manera segura. Además, cuenta con un sistema de búsqueda optimizado y SEO-friendly."
     },
     technologies: "Typescript · Next 14 · TailwindCss · Stripe · Auth0",
     repository: "https://github.com/matidehoyos/shopponline",
