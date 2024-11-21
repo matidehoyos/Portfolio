@@ -48,20 +48,20 @@ const NavBar = () => {
     };
 
     return (
-        <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`} style={{backgroundImage: isScrolled ? 'url(./bgNav.jpeg)' : 'none', backgroundPosition: 'center', backgroundSize: 'cover' }}>
+        <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`} style={{backgroundImage: isScrolled && theme === 'light' ? 'url(./bgNavLigth.jpeg)' : '', backgroundPosition: 'center', backgroundSize: 'cover' }}>
             <a href='#header' className={style.link}>
-                <img src='./nav.png' alt="Logo"/>
+                <img src='./nav.png' style={{backgroundColor: theme === 'dark' ? '' : 'orange', border: theme === 'dark' ? '' : '1px solid orange'}} alt="Logo"/>
                 <div className={style.txt}>
-                    <h6>{t('navbar.name')}</h6>
-                    <p>{t('navbar.developer')}</p>
+                    <h6 style={{color: theme === 'dark' ? '' : '#333'}}>{t('navbar.name')}</h6>
+                    <p style={{color: theme === 'dark' ? '' : '#444'}}>{t('navbar.developer')}</p>
                 </div>
             </a>
                 <div className={`${style.menu} ${isLightMobile ? style.menuLight : style.menu}`} onClick={ocultarMenu} style={isVisible ? { left: '0px' } : { left: '1200px' }}>
                     <nav>
                         <ul>
-                            <li><a href="#about" onClick={handleShowMenu}>{t('navbar.about')}</a></li>
-                            <li><a href="#projects" onClick={handleShowMenu}>{t('navbar.projects')}</a></li>
-                            <li><a href="#contact" onClick={handleShowMenu}>{t('navbar.contact')}</a></li>
+                            <li><a href="#about" onClick={handleShowMenu} style={{color: theme === 'dark' ? '' : '#333'}}>{t('navbar.about')}</a></li>
+                            <li><a href="#projects" onClick={handleShowMenu} style={{color: theme === 'dark' ? '' : '#333'}}>{t('navbar.projects')}</a></li>
+                            <li><a href="#contact" onClick={handleShowMenu} style={{color: theme === 'dark' ? '' : '#333'}}>{t('navbar.contact')}</a></li>
                         </ul>
                     </nav>
                     <button onClick={toggleTheme} className={style.tema} style={{justifyContent: theme === 'light' ? 'flex-end' : 'flex-start'}}>
