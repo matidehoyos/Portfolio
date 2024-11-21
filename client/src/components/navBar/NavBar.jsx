@@ -48,9 +48,9 @@ const NavBar = () => {
     };
 
     return (
-        <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`} style={{backgroundImage: isScrolled ? 'url(./bgHeader1.png)' : 'none', backgroundPosition: 'top center' }}>
+        <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`} style={{backgroundImage: isScrolled ? 'url(./bgNav.jpeg)' : 'none', backgroundPosition: 'center', backgroundSize: 'cover' }}>
             <a href='#header' className={style.link}>
-                <img src='./img.png' alt="Logo" style={{backgroundColor: theme === 'light' ? '#181818' : '#181818', border: theme === 'light' ? '1px solid #6610f290' : '1px solid #6610f290'}}/>
+                <img src='./nav.png' alt="Logo"/>
                 <div className={style.txt}>
                     <h6>{t('navbar.name')}</h6>
                     <p>{t('navbar.developer')}</p>

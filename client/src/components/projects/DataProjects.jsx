@@ -2,7 +2,7 @@
 
 const projects = [
   {
-    id: 1,
+    id: 2,
     name: "Shoponline",
     rol: "Full stack developer",
     date: "Oct 2024",
@@ -11,8 +11,8 @@ const projects = [
       es: "Shoponline"
     },
     detail: {
-      en: "An online store offering users a modern and responsive interface to browse and purchase products. The application features dynamic filters for category and price, shopping cart management with localStorage, and an integrated payment flow using Stripe, ensuring secure transactions. It also includes an optimized search system and is SEO-friendly for enhanced discoverability.",
-      es: "Tienda en línea que permite a los usuarios navegar y comprar productos con una interfaz moderna y responsive. La aplicación incluye funcionalidades clave como filtros dinámicos por categoría y precio, gestión de carrito de compras con localStorage, y un flujo de pago integrado usando Stripe para asegurar que las transacciones se realicen de manera segura. Además, cuenta con un sistema de búsqueda optimizado y SEO-friendly."
+      en: "Facilitates navigation and product purchase through a modern and intuitive interface. Includes advanced filters, shopping cart management with localStorage, and a secure payment flow with Stripe integration. Additionally, it features an optimized search system and is SEO-friendly.",
+      es: "Facilita la navegación y compra productos a través de una interfaz moderna e intuitiva. Incluye filtros avanzados, gestión de carrito de compras con localStorage, y un flujo de pago seguro con la integración de Stripe. Además, cuenta con un sistema de búsqueda optimizado y SEO."
     },
     technologies: "Typescript · Next 14 · TailwindCss · Stripe · Auth0",
     repository: "https://github.com/matidehoyos/shopponline",
@@ -20,7 +20,7 @@ const projects = [
     img: 'shopi.png',
   },
   {
-    id: 2,
+    id: 3,
     name: "ELECTROAUTO",
     rol: "Full stack developer",
     date: "Apr 2024",
@@ -29,8 +29,8 @@ const projects = [
       es: "Electroauto"
     },
     detail: {
-      en: "It has several views, including an online store, an admin panel, customer reviews, a shopping cart, and a payment gateway. Responsive design.",
-      es: "Posee varias vistas, incluyendo tienda online, y panel administrativo, reviews de clientes, carrito de compras, pasarela de pagos. Diseño responsive."
+      en: "E-commerce web app with multiple views, including a product page and an admin panel for managing the entire application. It features customer reviews, a shopping cart, a payment gateway, and a contact form. Responsive design.",
+      es: "App web ecommerce que posee varias vistas, incluyendo página de productos y panel administrativo para gestionar la aplicación completa, reviews de clientes, carrito de compras, pasarela de pagos, formulario de contacto. Diseño responsive."
     },
     technologies: "NodeJs · Express · PostgreSql · Sequelize · ReactJs · Redux · Css3 · Mercado Pago · Auth0",
     repository: "https://github.com/matidehoyos/Tienda-Electroauto",
@@ -38,7 +38,7 @@ const projects = [
     img: 'elec.png',
   },
   {
-    id: 3,
+    id: 4,
     name: "MODO DIGITAL",
     rol: "Front end developer",
     date: "Aug 2024",
@@ -56,7 +56,7 @@ const projects = [
     img: 'modo.png',
   },
   {
-    id: 4,
+    id: 5,
     name: "RUGIR",
     rol: "Front end developer",
     date: "Jun 2024",
@@ -74,7 +74,7 @@ const projects = [
     img: 'rugir.png',
   },
   {
-    id: 5,
+    id: 6,
     name: "POKEMON APP",
     rol: "Full stack developer",
     date: "Jan 2024",
@@ -92,7 +92,7 @@ const projects = [
     img: 'pokk.png',
   },
   {
-    id: 6,
+    id: 7,
     name: "WEATHER APP",
     rol: "Full stack developer",
     date: "May 2024",
@@ -110,7 +110,7 @@ const projects = [
     img: 'clim.png',
   },
   {
-    id: 7,
+    id: 8,
     name: "Rick&Morty",
     rol: "Full stack developer",
     date: "Nov 2023",
@@ -128,7 +128,7 @@ const projects = [
     img: 'rik.png',
   },
   {
-    id: 8,
+    id: 9,
     name: "PORTFOLIO",
     rol: "Full stack developer",
     date: "Apr 2024",
@@ -143,7 +143,7 @@ const projects = [
     technologies: "Javascript · ReactJs · CSS3",
     repository: "https://github.com/matidehoyos/portfolio",
     web: "https://matiasdehoyos.vercel.app/",
-    img: 'port.png',
+    img: 'portf.png',
   },
 ];
 

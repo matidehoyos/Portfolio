@@ -9,6 +9,7 @@
     },
 
     "header": {
+      "me": "Hi! I'm Matias!",
       "role": "Full Stack - Frontend",
       "developer": "Developer",
       "description": "Web developer with a passion for creating visually stunning and user-friendly websites."
@@ -21,13 +22,26 @@
         "txt-body": "Self-motivated, proactive and results orientated, always looking to push myself to present more creative and challenging projects. Consistently growing and open to learning new techniques and technologies."
     },
     "projects": {
-        "title": "PROJECTS",
+        "title": "Projects",
+        "tit2": "Other projects",
         "project": "PROJECT",
+        "website": "Website",
+        "repository": "Repository"
+    },
+    "lastProject": {
+        "title": "Last project",
+        "project": "Medibooks - Medical books ecommerce",
+        "desc": "Designed to offer an intuitive experience for users, with secure authentication, integration with payment methods, and automatic shipping quotes via email, it is an efficient and scalable solution. For administrators: An advanced admin panel that allows real-time management of books, categories, users, and sales.",
+        "tecTit": "Technologies used:",
+        "auth": "Authentication:",
+        "pay": "Payment Gateway:",
+        "othersTit": "Other features:",
+        "others": "Responsive design, notification system with Toast, advanced filters.",
         "website": "Website",
         "repository": "Repository"
       },
     "contact": {
-        "title": "CONTACT ME",
+        "title": "Contact me",
         "message": "Please send me an email to schedule a meeting. I am currently available. Open to hearing your proposal."
   },
     "footer": {

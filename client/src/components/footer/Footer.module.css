@@ -3,11 +3,13 @@
     height: auto;
     margin: 0;
     padding: 23px 0px;
+    background-color: #111;
+    display: flex;
 }
 
 .container p {
     width: 100%;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: .8px;
     text-align: center;

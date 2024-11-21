@@ -1,0 +1,111 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+    padding: 60px 0;
+ }
+ 
+ .titulo {
+    width: 50%;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    background-color: transparent;
+    padding: 0;
+    text-align: left;
+    border-bottom: 1px solid rgb(86, 56, 0);
+ }
+
+ .nombre {
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 60px;
+    color: orange;
+ }
+
+.nombre span {
+    font-size: 18px;
+    color: #aaa;
+}
+
+ .first {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 8%;
+ }
+  
+  .videoContainer {
+      width: 50%;
+      display: flex;
+      justify-content: end;
+    }
+    
+    .video {
+        width: 100%;
+        object-fit: contain;
+        border-radius: 8px;
+        border: 3px solid rgb(81, 52, 0);
+     }
+
+     .txt {
+        width: 50%;
+     }
+        
+     .desc {
+          width: 100%;
+          font-size: 20px;
+          font-weight: 200;
+          line-height: 23px;
+          color: #ccc;
+       }
+      
+       .tecTit {
+        font-size: 22px;
+         color: rgb(176, 115, 0);
+       }
+
+       .tec {
+        color: rgb(157, 102, 0); 
+        font-size: 18px;
+        font-weight: 400;
+       }
+
+       .tec span {
+        font-size: 17px;
+        font-weight: 200;
+        color: white;
+       }
+
+.butons {
+   width: auto;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   padding-top: 10px;
+}
+
+.butonWeb {
+   display: inline-flex;
+   align-items: center;
+   padding: 6px 14px;
+   text-decoration: none;
+   border-radius: 5px;
+   transition: background-color 0.4s ease;
+   margin-right: 16px;
+   font-size: 14px;
+ }
+ 
+ .butonWeb:hover {
+   transform: scale(1.05);
+ }
+ 
+ .butonWeb svg {
+   margin-right: 8px;
+ }

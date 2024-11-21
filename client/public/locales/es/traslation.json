@@ -8,6 +8,7 @@
       "spanish": "Español"
     },
     "header": {
+      "me": "Hola! Soy Matias!",
       "role": "Full Stack - Frontend",
       "developer": "Desarrollador",
       "description": "Desarrollador web con pasión por crear sitios web visualmente impresionantes y fáciles de usar."
@@ -19,13 +20,26 @@
         "txt-body": "Autodidacta, proactivo y orientado a resultados, siempre buscando superarme para presentar proyectos más creativos y desafiantes. En constante crecimiento y abierto a aprender nuevas técnicas y tecnologías."
     },
     "projects": {
-        "title": "PROYECTOS",
+        "title": "Proyectos",
+        "tit2": "Otros proyectos",
         "project": "PROYECTO",
         "website": "Sitio web",
         "repository": "Repositorio"
       },
+    "lastProject": {
+        "title": "Último proyecto",
+        "project": "Medibooks - Tienda de libros de medicina",
+        "desc": "Diseñada para ofrecer una experiencia intuitiva a los usuarios, con autenticación segura, integración con métodos de pago y cotización automática del envió por correo, es una solución eficiente y escalable. Para administradores: Un panel de administración avanzado que permite gestionar libros, categorías, usuarios, y ventas en tiempo real.",
+        "tecTit": "Tecnologías utilizadas:",
+        "auth": "Autenticación:",
+        "pay": "Pasarela de pago:",
+        "othersTit": "Otras funcionalidades:",
+        "others": "Diseño responsive, notificaciones con Toast, filtros avanzados.", 
+        "website": "Sitio web",
+        "repository": "Repositorio"
+      },
     "contact": {
-        "title": "CONTÁCTAME",
+        "title": "Contáctame",
         "message": "Por favor, envíame un correo electrónico para programar una reunión. Actualmente estoy disponible. Abierto a escuchar tu propuesta."
   },
   "footer": {
