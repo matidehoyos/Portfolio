@@ -40,6 +40,7 @@
     border: 1px solid rgb(101, 65, 0);
     background-color: rgb(67, 44, 0);
     opacity: .7;
+    pointer-events: none;
 }
 
 .txt {

@@ -33,8 +33,7 @@
     width: 240px;
     height: auto;
     pointer-events: none;
-    filter: grayscale(.7);
-    mask-image: linear-gradient(to bottom, #333 20%, transparent);
+    filter: grayscale(.6);
 }
 
 

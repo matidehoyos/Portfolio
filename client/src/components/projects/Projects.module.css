@@ -39,11 +39,30 @@
    padding: 15px;
    border: 1px solid rgb(47, 47, 47);
    background-color: #17181d;
+   border-radius: 12px;
 }
 
 .boxPc:hover {
-   border: 1px solid #aaa;
+   border: 1px solid #ff8e00;
    background-color: #16171a;
+}
+
+.boxLight {
+   width: 49%;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: stretch;
+   gap: 0;
+   padding: 15px;
+   border: 1px solid #00000039;
+   background-color: #ddd;
+   border-radius: 12px;
+}
+
+.boxLight:hover {
+   border: 1px solid #ff8e00;
+   background-color: #eee;
 }
 
 .info {
@@ -146,10 +165,13 @@
    border: 1px solid #000;
 }
 
+.boxPc:hover .butonWeb {
+   background-color: #ff8e00;
+}
+
 .butonWeb:hover {
    border: 1px solid orange;
    background-color: transparent;
-   color: orange;
 }
 
 .butonWeb svg {

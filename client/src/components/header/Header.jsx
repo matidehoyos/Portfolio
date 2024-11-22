@@ -18,16 +18,16 @@ const Header = () => {
     }, []);
 
     return (
-        <div className={style.container} id='header' style={{background: theme === 'light' ? "#eee" : '', backgroundImage: theme === 'dark' ? '' : 'url(./bgLight.jpeg)' , backgroundPosition: 'center', backgroundSize: 'cover'}}>
+        <div className={style.container} id='header' style={{background: theme === 'light' ? "#eee" : ''}}>
             <div className={style.imgPre} style={{width: '100vw'}} >
-                <div className={style.subCont} style={{background: theme === 'light' ? "#eee" : '', backgroundColor: theme === 'dark' ? '' : '#B87700' , border: theme === 'dark' ? '' : '1px solid #222'}}>
+                <div className={style.subCont} style={{backgroundColor: theme === 'dark' ? "" : '#ff8e0080', border: theme === 'dark' ? '' : '1px solid #888'}}>
                     <img src="nav.png" alt="Imagen personal" className={style.imgHeader} data-aos="fade-up" data-aos-duration="800" />
                 </div>
             </div>
             <div className={`${style.texto} ${isLightMobile ? style.textoLight : style.texto}`} data-aos="fade-up" data-aos-duration="800">
                 <p className={style.pres} style={{color: theme === 'dark' ? '' : '#333', fontWeight: theme === 'dark' ? '' : '500'}}>{t('header.me')}</p>
-                <h1><span className={`${style.rol} ${isLightMobile ? style.rolLight : style.rol}`}>Full Stack - Frontend</span><br/><span className={`${style.dev} ${isLightMobile ? style.devLight : style.dev}`} style={{color: theme === 'dark' ? '' : '#444', fontWeight: theme === 'dark' ? '' : '500'}}>Developer</span></h1>
-                <p className={`${style.des} ${isLightMobile ? style.desLight : style.des}`} style={{color: theme === 'dark' ? '' : '#444', fontWeight: theme === 'dark' ? '' : '400'}}>{t('header.description')}</p>
+                <h1><span className={`${style.rol} ${isLightMobile ? style.rolLight : style.rol}`} style={{color: theme === 'dark' ? '' : '#ff8e00', fontWeight: theme === 'dark' ? '' : '600', textShadow: theme === 'dark' ? '' : '1px 1px 1px #333, -1px -1px 1px #333'}}>Full Stack - Frontend</span><br/><span className={`${style.dev} ${isLightMobile ? style.devLight : style.dev}`} style={{color: theme === 'dark' ? '' : '#333', fontWeight: theme === 'dark' ? '' : '500'}}>Developer</span></h1>
+                <p className={`${style.des} ${isLightMobile ? style.desLight : style.des}`} style={{color: theme === 'dark' ? '' : '#222', fontWeight: theme === 'dark' ? '' : '400'}}>{t('header.description')}</p>
             </div>
         </div>
     )

@@ -48,27 +48,27 @@ const NavBar = () => {
     };
 
     return (
-        <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`} style={{backgroundImage: isScrolled && theme === 'light' ? 'url(./bgNavLigth.jpeg)' : '', backgroundPosition: 'center', backgroundSize: 'cover' }}>
+        <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`} style={{backgroundImage: isScrolled && theme === 'light' ? 'none' : '', backgroundColor: isScrolled && theme === 'light' ? '#eee' : '', borderBottom: theme === 'dark' ? '' : '0.3px solid #999'}}>
             <a href='#header' className={style.link}>
-                <img src='./nav.png' style={{backgroundColor: theme === 'dark' ? '' : 'orange', border: theme === 'dark' ? '' : '1px solid orange'}} alt="Logo"/>
+                <img src='./nav.png' style={{backgroundColor: theme === 'dark' ? '' : '#ff8e0080', border: theme === 'dark' ? '' : '1px solid #888', opacity: theme === 'dark' ? '' : '1'}} alt="Logo"/>
                 <div className={style.txt}>
-                    <h6 style={{color: theme === 'dark' ? '' : '#333'}}>{t('navbar.name')}</h6>
-                    <p style={{color: theme === 'dark' ? '' : '#444'}}>{t('navbar.developer')}</p>
+                    <h6 style={{color: theme === 'dark' ? '' : '#222'}}>{t('navbar.name')}</h6>
+                    <p style={{color: theme === 'dark' ? '' : '#333', fontWeight: theme === 'dark' ? '' : '500'}}>{t('navbar.developer')}</p>
                 </div>
             </a>
                 <div className={`${style.menu} ${isLightMobile ? style.menuLight : style.menu}`} onClick={ocultarMenu} style={isVisible ? { left: '0px' } : { left: '1200px' }}>
                     <nav>
                         <ul>
-                            <li><a href="#about" onClick={handleShowMenu} style={{color: theme === 'dark' ? '' : '#333'}}>{t('navbar.about')}</a></li>
-                            <li><a href="#projects" onClick={handleShowMenu} style={{color: theme === 'dark' ? '' : '#333'}}>{t('navbar.projects')}</a></li>
-                            <li><a href="#contact" onClick={handleShowMenu} style={{color: theme === 'dark' ? '' : '#333'}}>{t('navbar.contact')}</a></li>
+                            <li><a href="#about" onClick={handleShowMenu} style={{color: theme === 'dark' ? '' : '#222'}}>{t('navbar.about')}</a></li>
+                            <li><a href="#projects" onClick={handleShowMenu} style={{color: theme === 'dark' ? '' : '#222'}}>{t('navbar.projects')}</a></li>
+                            <li><a href="#contact" onClick={handleShowMenu} style={{color: theme === 'dark' ? '' : '#222'}}>{t('navbar.contact')}</a></li>
                         </ul>
                     </nav>
-                    <button onClick={toggleTheme} className={style.tema} style={{justifyContent: theme === 'light' ? 'flex-end' : 'flex-start'}}>
-                        {theme === 'light' ? <FiSun className={style.temaIcon} /> : <FiMoon className={style.temaIcon} /> }
+                    <button onClick={toggleTheme} className={style.tema} style={{justifyContent: theme === 'light' ? 'flex-end' : 'flex-start', border: theme === 'dark' ? '' : '1px solid #222' }}>
+                        {theme === 'light' ? <FiSun className={style.temaIcon} style={{backgroundColor: theme === 'dark' ? '' : '#333'}} /> : <FiMoon className={style.temaIcon}  style={{backgroundColor: theme === 'dark' ? '' : '#fff'}}/> }
                     </button>
                     <button onClick={toggleLanguage} className={style.languageButton}>
-                        <img src={language === 'en' ? './sp.jpeg' : './uk.jpeg' } alt="Language Flag" className={style.flagIcon} />
+                        <img src={language === 'en' ? './sp.jpeg' : './uk.jpeg' } alt="Language Flag" className={style.flagIcon} style={{border: theme === 'dark' ? '' : '1px solid #222' }}/>
                     </button>
                 </div>
                 <div className={style.botonera}>
