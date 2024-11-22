@@ -79,7 +79,7 @@ const NavBar = () => {
                         <img src={language === 'en' ? './sp.jpeg' : './uk.jpeg' } alt="Language Flag" className={style.flagIcon} />
                     </button>
                     <div className={style.menuResp}>
-                        <button className={style.menuButton} onClick={handleShowMenu}>{isVisible ? <MdClose /> : <FiMenu />}</button>
+                        <button className={style.menuButton} onClick={handleShowMenu} style={{color: theme === 'light' ? '#222' : ''}}>{isVisible ? <MdClose /> : <FiMenu />}</button>
                     </div>
                 </div>
         </div>

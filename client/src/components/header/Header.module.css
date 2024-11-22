@@ -129,19 +129,36 @@
       }
       
       .imgPre {
-          width: 100%;
-          border-radius: 0 0 25% 25%;
-        }
+        width: 100%;
+        display: flex;
+        justify-items: center;
+        justify-content: end;
+        padding-top: 130px;
+    }
+    
+    .subCont {
+        width: 80%;
+        height: auto;
+        display: flex;
+        border-radius: 100% 0px 0px 50%;
+        padding: 20px;
+        padding-bottom: 0;
+        padding-right: 0;
+        overflow: hidden;
+        border: 1px solid rgba(255, 166, 0, 0.203);
+        border-right: 0;
+        background-color: rgba(157, 102, 0, 0.064);
+    }
         
         .imgHeader {
-            width: 260px;
+            width: 220px;
             height: auto;
             object-fit: cover;
             margin-top: 0;
             opacity: .9 !important;
             padding: 0;
-            padding-top: 125px;
-            filter: grayscale(80%) drop-shadow(0px -20px 20px rgba(140, 0, 255, 0.184)) !important;
+            padding-top: 20px;
+            filter: grayscale(80%) drop-shadow(0px -20px 20px #ff8e0010) !important;
             -webkit-user-drag: none;
             -khtml-user-drag: none;
             -moz-user-drag: none;
@@ -152,6 +169,7 @@
           width: auto;
           margin: 0;
           padding: 0;
+          padding-left: 10px;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -161,14 +179,20 @@
       .textoLight {
           width: auto;
           margin: 0;
-          margin-top: 15px;
           padding: 0;
+          padding-left: 10px;
           position: inherit;
           display: flex;
           flex-direction: column;
           justify-content: center;
           gap: 0;
       }
+
+      .pres {
+        font-size: 18px;
+        color: #aaa;
+        padding-bottom: 4px;
+    }
       
       .rol {
           font-size: 34px;
@@ -176,50 +200,9 @@
           margin: 0;
           padding: 0;
           line-height: 28px;
-          letter-spacing: -2px;
+          letter-spacing: 0px;
           word-spacing: normal;
-          text-align: center;
-          font-family: "Rubik", sans-serif;
-          font-optical-sizing: auto;
-          color: transparent;
-          background-size: cover;
-          -webkit-background-clip: text;
-          background-clip: text;
-          animation: moveStars 20s linear infinite;
-          -webkit-text-stroke: 1px rgb(152, 152, 152);
-          filter: drop-shadow(0px 0px 10px #000);
-      }
-
-      .rolLight {
-          font-size: 35px;
-          font-weight: 900;
-          margin: 0;
-          padding: 0;
-          line-height: 28px;
-          letter-spacing: -2px;
-          word-spacing: normal;
-          text-align: center;
-          font-family: "Rubik", sans-serif;
-          font-optical-sizing: auto;
-          color: transparent !important;
-          background-size: cover;
-          -webkit-background-clip: text;
-          background-clip: text;
-          animation: moveStars 20s linear infinite;
-          -webkit-text-stroke: 1px rgb(152, 152, 152);
-          filter: drop-shadow(0px 0px 0px transparent);
-      }
-      
-      @keyframes moveStars {
-          0% {
-              background-position: 0 0;
-          }
-          50% {
-              background-position: 0 50%;
-          }
-          100% {
-              background-position: 0 0;
-          }
+          text-align: left;
       }
       
       .dev {
@@ -229,18 +212,8 @@
           margin: 0;
           padding: 0;
           position: relative;
-          top: -20px;
-      }
-      
-      .devLight {
-        font-size: 28px;
-        line-height: 18px;
-          font-weight: 700;
-          margin: 0;
-          padding: 0;
-          position: relative;
-          top: -16px;
-          color: #111 !important;
+          top: -3px;
+          color: #aaa;
       }
       
       .des {
@@ -250,21 +223,8 @@
           line-height: 112%;
           letter-spacing: .5px;
           padding: 0;
-          margin: 0 auto;
+          margin: 0;
           margin-top: 20px;
-          text-align: center;
-      }
-
-      .desLight {
-          width: 86%;
-          font-size: 22px;
-          font-weight: 500 !important;
-          line-height: 112%;
-          letter-spacing: .5px;
-          padding: 0;
-          margin: 0 auto;
-          margin-top: 20px;
-          text-align: center;
-          color: #151515 !important;
+          text-align: left;
       }
 }
