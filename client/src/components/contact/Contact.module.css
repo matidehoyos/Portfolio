@@ -232,9 +232,17 @@
         text-align: center;
         text-shadow: none;
     }
+
+    .redes {
+        width: 100%;
+    }
+
+    .redes ul {
+        flex-direction: column;
+    }
     
-    .redes, .redesLight {
-        width: 100% imo !important;
+    .redesLight {
+        width: 100%  !important;
         margin: 0 auto;
         margin-top: 8px;
         }
