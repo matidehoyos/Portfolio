@@ -278,7 +278,7 @@
    
    .titulo {
       width: 68%;
-      font-size: 24px;
+      font-size: 20px;
       font-weight: 400;
       letter-spacing: 2px;
       background-color: transparent;
@@ -288,7 +288,7 @@
    }
   
    .nombre {
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 300;
       text-align: right;
       margin-top: 30px;
@@ -298,7 +298,7 @@
    }
 
    .nombreLight {
-      font-size: 23px;
+      font-size: 22px;
       font-weight: 500 !important;
       text-align: right;
       margin-top: 40px;
@@ -308,7 +308,7 @@
    }
   
   .nombre span {
-      font-size: 16px;
+      font-size: 15px;
       color: #aaa;
   }
   
@@ -345,27 +345,27 @@
             font-size: 18px;
             font-weight: 300;
             line-height: 19px;
-            color: #ccc;
+            color: #aaa;
          }
         
          .tecTit {
           font-size: 22px;
            color: rgb(176, 115, 0);
-           margin-top: 13px;
+           margin: 10px 0;
          }
   
          .tec {
-          color: #ccc; 
+          color: #aaa; 
           font-size: 18px;
           font-weight: 400;
-          line-height: 17px;
-          margin-bottom: 7px;
+          line-height: 18px;
+          margin-bottom: 10px;
          }
   
          .tec span {
           font-size: 17px;
           font-weight: 200;
-          color: #aaa;
+          color: #ccc;
          }
   
   .butons {
