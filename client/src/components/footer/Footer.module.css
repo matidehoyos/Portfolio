@@ -5,6 +5,20 @@
     padding: 23px 0px;
     background-color: #111;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.git {
+    width: auto;
+    padding: 30px;
+}
+
+.git img {
+    width: auto;
+    opacity: .8;
 }
 
 .container p {
@@ -28,6 +42,17 @@
         height: auto;
         margin: 0;
         padding: 20px 0px;
+    
+    }
+
+    .git {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    
+    .git img {
+        width: auto;
+        opacity: .8;
     }
     
     .container p {
