@@ -537,7 +537,7 @@
         font-weight: 400;
         text-align: left;
         display: block;
-        margin-top: 80px;
+        margin-top: 40px;
     }
     
     .conocimientosLight h6 {
@@ -558,29 +558,31 @@
     }
     
     .tecno {
-        margin-top: 40px !important;
+        margin-top: 30px !important;
         width: 100%;
         display: flex;
         justify-content: start;
         align-items: start;
         flex-wrap: wrap;
-        gap: 20px 10px;
+        gap: 8px;
         opacity: 1 !important;
         padding: 0;
         margin-bottom: 0px;
+        border-radius: 5px;
     }
     
     .tecnoLight {
-        margin-top: 40px !important;
+        margin-top: 30px !important;
         width: 100%;
         display: flex;
         justify-content: start;
         align-items: start;
         flex-wrap: wrap;
-        gap: 20px 10px;
+        gap: 8px;
         opacity: 1 !important;
         padding: 0;
         margin-bottom: 0;
+        border-radius: 5px;
     }
     
     .skillItem {
@@ -588,8 +590,8 @@
         flex-direction: column;
         align-items: center;
         font-size: 22px;
-        color: #ccc !important;
-        padding: 8px 16px;
+        color: orange;
+        padding: 7px 14px;
     }
     
     .skillItemLight {
@@ -598,20 +600,18 @@
         align-items: center;
         font-size: 22px;
         color: #222 !important;
-        padding: 8px 16px;
+        padding: 7px 14px;
     }
     
     .skillItem span {
-        color: #bbb !important;
-        margin-top: 10px;
-        font-size: 18px;
+        color: #ccc;
+        margin-top: 8px;
+        font-size: 16px;
     }
 
     .skillItemLight span {
         color: #222 !important;
-        margin-top: 10px;
-        font-size: 18px;
+        margin-top: 8px;
+        font-size: 16px;
     }
-    
-    
 }

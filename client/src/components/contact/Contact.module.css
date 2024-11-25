@@ -21,7 +21,7 @@
 }
 
 .box {
-    width: 80%;
+    width: 86%;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
@@ -352,11 +352,11 @@
     }
     
     .caja p {
-        width: 90%;
-        color: #ccc !important;
+        width: 94%;
+        color: #aaa;
         margin-left: 0px;
         margin-top: 22px;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 21px;
         font-weight: 200 !important;
         text-align: center;
@@ -368,9 +368,9 @@
         color: #151515 !important;
         margin-left: 0px;
         margin-top: 8px;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 21px;
-        font-weight: 400 !important;
+        font-weight: 500 !important;
         text-align: center;
         text-shadow: none;
     }
@@ -416,11 +416,11 @@
         padding: 8px 12px !important;
         text-align: center !important;
         background-color: transparent;
-        color: rgba(255, 166, 0, 0.621);
-        font-weight: 500 !important;
+        color: #ddd;
+        font-weight: 300 !important;
         display: flex;
         justify-content: center;
-        border: 1px solid rgba(255, 166, 0, 0.608);
+        border: 1px solid #ddd;
     }
       
       .redes a:hover {
