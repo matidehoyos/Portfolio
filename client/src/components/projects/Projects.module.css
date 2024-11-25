@@ -202,6 +202,11 @@
    .butonGit svg {
       margin-right: 8px;
    }
+
+
+
+
+
    
 
 
@@ -213,9 +218,255 @@
 
 
 
-/* Estilos para dispositivos móviles ------------------------------- */
 
-@media only screen and (max-width: 680px) {
+
+
+
+
+
+ @media (min-width: 720px) and (max-width: 1200px) {
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: start;
+   padding-bottom: 100px;
+}
+
+.titulo {
+   width: 50%;
+   font-size: 24px;
+   font-weight: 400;
+   letter-spacing: 2px;
+   background-color: transparent;
+   padding: 0;
+   text-align: right;
+   border-bottom: 1px solid rgb(86, 56, 0);
+}
+
+.projectContainer {
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: stretch;
+   flex-wrap: wrap;
+   gap: 10px;
+   padding: 0 3%;
+   margin: 0;
+   margin-top: 80px;
+}
+
+.boxPc {
+   width: 48%;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: stretch;
+   gap: 0;
+   padding: 15px;
+   border: 1px solid rgb(47, 47, 47);
+   background-color: #17181d;
+   border-radius: 12px;
+}
+
+.boxPc:hover {
+   border: 1px solid #ff8c0069;
+   background-color: #16171a;
+}
+
+.boxLight {
+   width: 49%;
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: stretch;
+   gap: 0;
+   padding: 15px;
+   border: 1px solid #00000039;
+   background-color: #ddd;
+   border-radius: 12px;
+}
+
+.boxLight:hover {
+   border: 1px solid #ff8e00;
+   background-color: #eee;
+}
+
+.info {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+.number {
+   font-size: 16px;
+   font-weight: 500;
+   letter-spacing: .7px;
+   color: rgb(125, 82, 0);
+}
+
+.date {
+   font-size: 16px;
+}
+
+.imgPc {
+   width: 100%;
+   height: 140px;
+   margin-top: 6px;
+   padding: 0;
+   overflow: hidden;
+   background-color: #222;
+   border-radius: 5px;
+}
+
+.imgPc img {
+   width: 100%;
+   height: 140px;
+   object-fit: cover;
+   object-position: top;
+   filter: drop-shadow(0px 0px 8px #000);
+   transform: scale(1.03);
+   filter: grayscale(.7);
+}
+
+.boxPc:hover img {
+   filter: grayscale(0);
+}
+
+.titu {
+   font-size: 22px;
+   font-weight: 500;
+   letter-spacing: .7px;
+   margin: 0;
+   margin-top: 5px;
+   color: orange;
+}
+
+.detalle {
+   font-size: 16px;
+   font-weight: 200;
+   letter-spacing: .7px;
+   line-height: 16px;
+   margin: 0;
+   margin-top: 7px;
+   padding: 0;
+   color: #aaa;
+}
+
+.tecno {
+   width: 100%;
+   text-align: left;
+   font-size: 17px;
+   line-height: 19px;
+   font-weight: 300;
+   letter-spacing: .4px;
+   padding: 0;
+   padding-top: 10px;
+   margin: 0;
+   margin-top: auto;
+   color: #eee;
+}
+
+.butons {
+   width: auto;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   padding-top: 20px;
+   margin-top: auto;
+   z-index: 200;
+}
+
+.butonWeb {
+   display: inline-flex;
+   align-items: center;
+   padding: 6px 14px;
+   text-decoration: none;
+   border-radius: 5px;
+   transition: all 0.5s ease;
+   margin-right: 16px;
+   font-size: 14px;
+   background-color: rgb(124, 80, 0);
+   color: #111;
+   border: 1px solid #000;
+}
+
+.boxPc:hover .butonWeb {
+   background-color: #ff8e00;
+}
+
+.butonWeb:hover {
+   border: 1px solid orange;
+   background-color: transparent;
+}
+
+.butonWeb svg {
+   margin-right: 8px;
+}
+
+.butonGit {
+   display: inline-flex;
+   align-items: center;
+   padding: 6px 14px;
+   text-decoration: none;
+   border-radius: 5px;
+   transition: all 0.5s ease;
+   margin-right: 16px;
+   font-size: 14px;
+   background-color: transparent;
+   color: #ccc;
+   border: 1px solid #aaa;
+   transition: all 0.5s ease;
+   }
+
+   .butonGit:hover {
+      background-color: #ccc;
+      color: #111;
+      border: 1px solid #000;
+   }
+   
+   .butonGit svg {
+      margin-right: 8px;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 720px) {
    .container {
       width: 100%;
       display: flex;
@@ -238,7 +489,8 @@
    .projectContainer {
       width: 100%;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
       gap: 15px;
@@ -327,7 +579,7 @@
    
    .imgPc img {
       width: 100%;
-      height: 105px;
+      height: 135px;
       object-fit: cover;
       object-position: top;
       transform: scale(1.1);
