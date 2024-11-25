@@ -49,6 +49,11 @@
         width: 100%;
         overflow-x: scroll;
     }
+
+    .git::-webkit-scrollbar {
+        color: orange;
+        width: 40px;
+    }
     
     .git img {
         width: auto;
