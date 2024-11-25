@@ -27,7 +27,7 @@
         "repository": "Repositorio"
       },
     "lastProject": {
-        "title": "Último proyecto",
+        "title": "Proyecto reciente",
         "project": "Medibooks - Tienda de libros de medicina",
         "desc": "Diseñada para ofrecer una experiencia intuitiva a los usuarios, con autenticación segura, integración con métodos de pago y cotización automática del envió por correo, es una solución eficiente y escalable. Para administradores: Un panel de administración avanzado que permite gestionar libros, categorías, usuarios, y ventas en tiempo real.",
         "tecTit": "Tecnologías utilizadas:",

@@ -29,7 +29,7 @@
         "repository": "Repository"
     },
     "lastProject": {
-        "title": "Last project",
+        "title": "Recent project",
         "project": "Medibooks - Medical books ecommerce",
         "desc": "Designed to offer an intuitive experience for users, with secure authentication, integration with payment methods, and automatic shipping quotes via email, it is an efficient and scalable solution. For administrators: An advanced admin panel that allows real-time management of books, categories, users, and sales.",
         "tecTit": "Technologies used:",

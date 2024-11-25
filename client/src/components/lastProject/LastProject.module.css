@@ -42,7 +42,7 @@
  }
   
   .videoContainer {
-      width: 50%;
+      width: 60%;
       display: flex;
       justify-content: end;
     }
@@ -51,19 +51,19 @@
         width: 100%;
         object-fit: contain;
         border-radius: 8px;
-        border: 3px solid rgb(81, 52, 0);
+        border: 3px solid rgba(81, 53, 0, 0.674);
      }
 
      .txt {
-        width: 50%;
+        width: 40%;
      }
         
      .desc {
           width: 100%;
-          font-size: 20px;
-          font-weight: 200;
-          line-height: 23px;
-          color: #ccc;
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 20px;
+          color: #aaa;
        }
       
        .tecTit {
@@ -116,6 +116,7 @@
 
 
 
+ 
 
 
 
@@ -127,7 +128,142 @@
 
 
 
- /* Estilos para dispositivos móviles ------------------------------- */
+ 
+
+ @media (min-width: 680px) and (max-width: 1400px) {
+
+   .container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      justify-content: start;
+      padding: 40px 0;
+   }
+   
+   .titulo {
+      width: 50%;
+      font-size: 24px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      background-color: transparent;
+      padding: 0;
+      text-align: left;
+      border-bottom: 1px solid rgb(86, 56, 0);
+   }
+  
+   .nombre {
+      font-size: 30px;
+      font-weight: 300;
+      text-align: center;
+      margin-top: 50px;
+      color: orange;
+   }
+  
+  .nombre span {
+      font-size: 16px;
+      color: #aaa;
+  }
+  
+   .first {
+      width: 100vw;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 0px 8%;
+   }
+    
+    .videoContainer {
+        width: 60%;
+        padding-top: 20px;
+      }
+
+      .videoContainer video {
+         border: none;
+      }
+  
+       .txt {
+          width: 60%;
+       }
+          
+       .desc {
+            width: 100%;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 20px;
+            color: #aaa;
+         }
+        
+         .tecTit {
+          font-size: 22px;
+           color: rgb(176, 115, 0);
+         }
+  
+         .tec {
+          color: rgb(157, 102, 0); 
+          font-size: 18px;
+          font-weight: 400;
+         }
+  
+         .tec span {
+          font-size: 17px;
+          font-weight: 200;
+          color: white;
+         }
+  
+  .butons {
+     width: auto;
+     display: flex;
+     justify-content: start;
+     align-items: center;
+     padding-top: 10px;
+  }
+  
+  .butonWeb {
+     display: inline-flex;
+     align-items: center;
+     padding: 6px 14px;
+     text-decoration: none;
+     border-radius: 5px;
+     background-color: #111;
+     border: 1px solid #aaa;
+     color: #aaa;
+     transition: background-color 0.4s ease;
+     margin-right: 16px;
+     font-size: 14px;
+   }
+   
+   .butonWeb:hover {
+     transform: scale(1.05);
+   }
+   
+   .butonWeb svg {
+     margin-right: 8px;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 680px) {
 
@@ -197,7 +333,7 @@
           width: 100%;
           object-fit: contain;
           border-radius: 6px;
-          border: 1px solid #ff8e00 !important;
+          border: 1px solid #ff8c0010 !important;
        }
   
        .txt {
