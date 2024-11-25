@@ -277,7 +277,7 @@
    }
    
    .titulo {
-      width: 50%;
+      width: 68%;
       font-size: 24px;
       font-weight: 400;
       letter-spacing: 2px;
@@ -343,14 +343,15 @@
        .desc {
             width: 100%;
             font-size: 18px;
-            font-weight: 200;
-            line-height: 22px;
+            font-weight: 300;
+            line-height: 19px;
             color: #ccc;
          }
         
          .tecTit {
           font-size: 22px;
            color: rgb(176, 115, 0);
+           margin-top: 13px;
          }
   
          .tec {

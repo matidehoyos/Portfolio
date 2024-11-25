@@ -41,7 +41,7 @@ const AboutMe = () => {
                             <div className={style.texto} data-aos="fade-up" data-aos-duration="800">
                                     <h5 className={`${style.why} ${isLightMobile ? style.whyLight : style.why}`} style={{color: theme === 'dark' ? '' : '#ff8e00', fontWeight: theme === 'dark' ? '' : '600', textShadow: theme === 'dark' ? '' : '1px 1px 1px #333, -1px -1px 1px #333'}}>{t('about.txt-titulo')}</h5>
                                     <p className={`${style.first} ${isLightMobile ? style.firstLight : style.first}`} style={{color: theme === 'dark' ? '' : '#222', fontWeight: theme === 'dark' ? '' : '400'}}>{t('about.txt-subtitulo')}</p>
-                                    <p className={`${style.second} ${isLightMobile ? style.secondLight : style.second}`} style={{color: theme === 'dark' ? '' : '#111', fontWeight: theme === 'dark' ? '' : '300'}}>{t('about.txt-body')}</p> 
+                                    <p className={`${style.second} ${isLightMobile ? style.secondLight : style.second}`} style={{color: theme === 'dark' ? '' : '#050505', fontWeight: theme === 'dark' ? '' : '300'}}>{t('about.txt-body')}</p> 
                             </div>
                             <div className={`${style.conocimientos} ${isLightMobile ? style.conocimientosLight : style.conocimientos}`} id='about' data-aos="fade-up" data-aos-duration="800">
                                 <h6 style={{color: theme === 'dark' ? '' : '#000', fontWeight: theme === 'dark' ? '' : '600'}}>SKILLS</h6>
