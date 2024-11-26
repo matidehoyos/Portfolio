@@ -128,17 +128,25 @@
 }
 
 .tecno {
-   width: 100%;
-   text-align: left;
-   font-size: 17px;
-   line-height: 19px;
-   font-weight: 300;
-   letter-spacing: .4px;
-   padding: 0;
+   width: auto;
    padding-top: 10px;
    margin: 0;
    margin-top: auto;
-   color: #eee;
+   color: #fff;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 4px 8px;
+}
+
+.tecno span {
+   background-color: rgba(256,256,256,.06);
+   border-radius: 5px;
+   padding: 3px 8px;
+   text-align: left;
+   font-size: 16px;
+   line-height: 19px;
+   font-weight: 200;
+   letter-spacing: .4px;
 }
 
 .butons {
@@ -356,18 +364,27 @@
 }
 
 .tecno {
-   width: 100%;
-   text-align: left;
-   font-size: 17px;
-   line-height: 19px;
-   font-weight: 300;
-   letter-spacing: .4px;
-   padding: 0;
+   width: auto;
    padding-top: 10px;
    margin: 0;
    margin-top: auto;
-   color: #eee;
+   color: #fff;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 4px 8px;
 }
+
+.tecno span {
+   background-color: rgba(256,256,256,.06);
+   border-radius: 5px;
+   padding: 3px 8px;
+   text-align: left;
+   font-size: 16px;
+   line-height: 19px;
+   font-weight: 200;
+   letter-spacing: .4px;
+}
+
 
 .butons {
    width: auto;
@@ -665,7 +682,12 @@
       margin: 0;
       margin-top: auto;
    }
-   
+
+   .tecno, .tecnoLight span {
+      font-size: 15px;
+      padding: 3px 5px;
+   }
+
    .butons {
       width: auto;
       display: flex;

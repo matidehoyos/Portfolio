@@ -14,7 +14,7 @@ const projects = [
       en: "Facilitates navigation and product purchase through a modern and intuitive interface. Includes advanced filters, shopping cart management with localStorage, and a secure payment flow with Stripe integration. Additionally, it features an optimized search system and is SEO-friendly.",
       es: "Facilita la navegación y compra productos a través de una interfaz moderna e intuitiva. Incluye filtros avanzados, gestión de carrito de compras con localStorage, y un flujo de pago seguro con la integración de Stripe. Además, cuenta con un sistema de búsqueda optimizado y SEO."
     },
-    technologies: "Typescript · Next 14 · TailwindCss · Stripe · Auth0",
+    technologies: ['Typescript', 'Next14', 'Tailwind', 'Stripe','Auth0'],
     repository: "https://github.com/matidehoyos/shopponline",
     web: "https://shopponline.vercel.app",
     img: 'shopi.png',
@@ -32,7 +32,7 @@ const projects = [
       en: "E-commerce web app with multiple views, including a product page and an admin panel for managing the entire application. It features customer reviews, a shopping cart, a payment gateway, and a contact form. Responsive design.",
       es: "App web ecommerce que posee varias vistas, incluyendo página de productos y panel administrativo para gestionar la aplicación completa, reviews de clientes, carrito de compras, pasarela de pagos, formulario de contacto. Diseño responsive."
     },
-    technologies: "NodeJs · Express · PostgreSql · Sequelize · ReactJs · Redux · Css3 · Mercado Pago · Auth0",
+    technologies: ["NodeJs",'Express', 'PostgreSql', 'Sequelize', 'React', 'Redux', 'Css3', 'Auth0', 'MercadoPago'],
     repository: "https://github.com/matidehoyos/Tienda-Electroauto",
     web: "https://electroauto.vercel.app/",
     img: 'elec.png',
@@ -50,7 +50,7 @@ const projects = [
       en: "Responsive web page, mobile first. Institutional type, shows relevant information about the institution and its services.",
       es: "Página web responsive, mobile first. Tipo institucional, muestra la información relevante de la institución y sus servicios."
     },
-    technologies: "ReactJs · Tailwind · Html5 · Vercel · Visual studio",
+    technologies: ["ReactJs",'Tailwind', 'Html5', 'Vercel', 'Visual studio'],
     repository: "https://github.com/matidehoyos/modo",
     web: "https://mododigital.vercel.app/",
     img: 'modo.png',
@@ -68,7 +68,7 @@ const projects = [
       en: "Commercial website. Shows products, social networks, contact methods, and business information. Mobile first.",
       es: "Sitio web comercial. Muestra los productos, redes sociales, medios de contacto e información del comercio. Mobile first."
     },
-    technologies: "Javascript · React · Css3",
+    technologies: ['Javascript','React','Css3'],
     repository: "https://github.com/matidehoyos/rugirTailw",
     web: "https://rugirmdq.vercel.app/",
     img: 'rugir.png',
@@ -86,7 +86,7 @@ const projects = [
       en: "Consumes data from an external API and stores it in a database to list it through combined filters. Responsive design.",
       es: "Consume datos de API externa y los guarda en base de datos para luego listarlos a traves de filtros combinados. Diseño responsive."
     },
-    technologies: "Javascript · NodeJs · Express · ReactJs · Redux · PostgreSql",
+    technologies: ['Javascript','NodeJs','Express','React','Redux','PostgreSql'],
     repository: "https://github.com/matidehoyos/Pokemon-proyecto",
     web: "https://pokemonmdh.vercel.app/",
     img: 'pokk.png',
@@ -104,7 +104,7 @@ const projects = [
       en: "Consumes data from an external API. Responsive design.",
       es: "Consume datos de API externa. Diseño responsive."
     },
-    technologies: "Javascript · NodeJs · Express · ReactJs · Sass",
+    technologies: ['Javascript','NodeJs','Express','React','Sass'],
     repository: "https://github.com/matidehoyos/weatherapp",
     web: "https://climappmdh.vercel.app/",
     img: 'clim.png',
@@ -122,7 +122,7 @@ const projects = [
       en: "Consumes data from an external API, filters it, and displays it according to user preferences.",
       es: "Consume datos de Api externa, los filtra y muestra segun gustos del usuario."
     },
-    technologies: "Javascript · NodeJs · ReactJs · CSS3",
+    technologies: ['Javascript','NodeJs','React','CSS3'],
     repository: "https://github.com/matidehoyos/RickyMorty",
     web: "https://rickymortymdh.vercel.app/",
     img: 'rik.png',
@@ -140,7 +140,7 @@ const projects = [
       en: "Responsive web portfolio. Project exhibition.",
       es: "Portfolio web responsive. Exhibición de proyectos."
     },
-    technologies: "Javascript · ReactJs · CSS3",
+    technologies: ['Javascript','React','CSS3'],
     repository: "https://github.com/matidehoyos/portfolio",
     web: "https://matiasdehoyos.vercel.app/",
     img: 'portf.png',

@@ -41,7 +41,11 @@ const Projects = () => {
                             </div>
                             <p className={`${style.titu} ${isLightMobile ? style.tituLight : style.titu}`} style={{color: theme === 'light' ? '#222' : '', fontWeight: theme === 'light' ? '500' : ''}}>{project.titulo[i18n.language]}</p>
                             <p className={`${style.detalle} ${isLightMobile ? style.detalleLight : style.detalle}`} style={{color: theme === 'light' ? '#111' : '', fontWeight: theme === 'light' ? '300' : ''}}>{project.detail[i18n.language]}</p>
-                            <p className={`${style.tecno} ${isLightMobile ? style.tecnoLight : style.tecno}`} style={{color: theme === 'light' ? '#333' : '', fontWeight: theme === 'light' ? '600' : ''}}>{project.technologies}</p>
+                            <p className={`${style.tecno} ${isLightMobile ? style.tecnoLight : style.tecno}`}>
+                                {project.technologies.map(tecno => (
+                                    <span style={{backgroundColor: theme === 'dark' ? '' : '#00000040', fontWeight: theme === 'dark' ? '' : '400', color: theme === 'light' ? '#222' : '' }}>#{tecno}</span>
+                                ))}
+                                </p>
                             <div className={style.butons}>
                                 <a href={project.web}  target="_blank" rel="noopener noreferrer" className={`${style.butonWeb} ${isLightMobile ? style.butonWebLight : style.butonWeb}`} style={{background: theme === 'light' ? '#ff8e00' : '', color: theme === 'light' ? '#111' : '', border: theme === 'light' ? '1px solid #111' : ''}}>
                                     <FaExternalLinkAlt />{t('projects.website')}
