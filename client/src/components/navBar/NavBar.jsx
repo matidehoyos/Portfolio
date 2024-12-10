@@ -50,7 +50,7 @@ const NavBar = () => {
     return (
         <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`} style={{ backgroundColor: theme === 'light' ? '#eee' : '#18171d', borderBottom: theme === 'dark' ? '' : '0.3px solid #999'}}>
             <a href='#header' className={style.link}>
-                <img src='./nav.png' style={{backgroundColor: theme === 'dark' ? '' : '#ff8e0080', border: theme === 'dark' ? '' : '1px solid #888', opacity: theme === 'dark' ? '' : '1'}} alt="Logo"/>
+                <img src='./nav.png' className={style.logoImg} style={{backgroundColor: theme === 'dark' ? '' : '#ff8e0080', border: theme === 'dark' ? '' : '1px solid #888', opacity: theme === 'dark' ? '' : '1'}} alt="Logo"/>
                 <div className={style.txt}>
                     <h6 style={{color: theme === 'dark' ? '' : '#222'}}>{t('navbar.name')}</h6>
                     <p style={{color: theme === 'dark' ? '' : '#333', fontWeight: theme === 'dark' ? '' : '500'}}>{t('navbar.developer')}</p>

@@ -154,6 +154,7 @@
     outline: none;
     border: 1px solid rgb(141, 92, 0);
     transition: all .6s ease;
+    display: none;
 }
 
 .temaIcon {
@@ -193,10 +194,18 @@
       top: 14px;
     }
 
+    .logoImg {
+        display: none;
+    }
+
     .scrolled {
         position: fixed;
         background-color: #000;
         top: 0;
+    }
+
+    .scrolled .logoImg {
+        display: block;
     }
 
     .tema {
