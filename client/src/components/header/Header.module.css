@@ -265,20 +265,19 @@
         display: flex;
         justify-items: center;
         justify-content: start;
-        padding-top: 86px;
-    }
+        padding-top: 100px;
+        padding-left: 10px;
+        }
     
     .subCont {
-        width: 100%;
+        width: 80%;
         height: auto;
         display: flex;
-        border-radius: 0;
+        border-radius: 6px 25% 25% 6px;
         padding: 10px;
         padding-bottom: 0;
-        overflow: hidden;
-        border: none;
-        border-top: 1px solid rgba(255, 166, 0, 0.203);
-        border-bottom: 1px solid rgba(255, 166, 0, 0.203);
+        padding-left: 0;        overflow: hidden;
+        border: 1px solid rgba(255, 166, 0, 0.203);
         background-color: rgba(157, 102, 0, 0.064);
     }
         
