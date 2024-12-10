@@ -264,25 +264,26 @@
         width: 100%;
         display: flex;
         justify-items: center;
-        justify-content: end;
-        padding-top: 110px;
+        justify-content: start;
+        padding-top: 86px;
     }
     
     .subCont {
-        width: 60%;
+        width: 100%;
         height: auto;
         display: flex;
-        border-radius: 40% 8px 8px 40%;
+        border-radius: 0;
         padding: 10px;
         padding-bottom: 0;
         overflow: hidden;
-        border: 1px solid rgba(255, 166, 0, 0.203);
+        border: none;
+        border-top: 1px solid rgba(255, 166, 0, 0.203);
+        border-bottom: 1px solid rgba(255, 166, 0, 0.203);
         background-color: rgba(157, 102, 0, 0.064);
-        margin-right: 6%;
     }
         
         .imgHeader {
-            width: 220px;
+            width: 210px;
             height: auto;
             object-fit: cover;
             margin-top: 0;
