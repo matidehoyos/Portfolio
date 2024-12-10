@@ -21,6 +21,24 @@ const projects = [
   },
   {
     id: 3,
+    name: "WEATHER APP",
+    rol: "Full stack developer",
+    date: "May 2024",
+    titulo: {
+      en: "Weather app",
+      es: "App meteorológica"
+    },
+    detail: {
+      en: "Weather application that consumes real-time data from an external API through Next.jsAPI Routes, allowing the creation of endpoints within the same frontend. Responsive design.",
+      es: "Aplicación meteorológica, que consume datos en tiempo real de API externa a través de las API Routes de Next.js, que permiten crear endpoints dentro del mismo frontend. Diseño responsive."
+    },
+    technologies: ['Javascript','Next15','Tailwind','RestApi','Responsive'],
+    repository: "https://github.com/matidehoyos/AppMeteorologica-Next14-Tailwind",
+    web: "https://weather-nextapp.vercel.app/",
+    img: 'weatherApp.png',
+  },
+  {
+    id: 4,
     name: "ELECTROAUTO",
     rol: "Full stack developer",
     date: "Apr 2024",
@@ -38,7 +56,7 @@ const projects = [
     img: 'elec.png',
   },
   {
-    id: 4,
+    id: 5,
     name: "MODO DIGITAL",
     rol: "Front end developer",
     date: "Aug 2024",
@@ -56,7 +74,7 @@ const projects = [
     img: 'modo.png',
   },
   {
-    id: 5,
+    id: 6,
     name: "RUGIR",
     rol: "Front end developer",
     date: "Jun 2024",
@@ -74,7 +92,7 @@ const projects = [
     img: 'rugir.png',
   },
   {
-    id: 6,
+    id: 7,
     name: "POKEMON APP",
     rol: "Full stack developer",
     date: "Jan 2024",
@@ -90,24 +108,6 @@ const projects = [
     repository: "https://github.com/matidehoyos/Pokemon-proyecto",
     web: "https://pokemonmdh.vercel.app/",
     img: 'pokk.png',
-  },
-  {
-    id: 7,
-    name: "WEATHER APP",
-    rol: "Full stack developer",
-    date: "May 2024",
-    titulo: {
-      en: "Weather app",
-      es: "Clima app"
-    },
-    detail: {
-      en: "Consumes data from an external API. Responsive design.",
-      es: "Consume datos de API externa. Diseño responsive."
-    },
-    technologies: ['Javascript','NodeJs','Express','React','Sass'],
-    repository: "https://github.com/matidehoyos/weatherapp",
-    web: "https://climappmdh.vercel.app/",
-    img: 'clim.png',
   },
   {
     id: 8,
