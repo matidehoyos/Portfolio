@@ -51,9 +51,9 @@ const projects = [
       es: "App web ecommerce que posee varias vistas, incluyendo página de productos y panel administrativo para gestionar la aplicación completa, reviews de clientes, carrito de compras, pasarela de pagos, formulario de contacto. Diseño responsive."
     },
     technologies: ["NodeJs",'Express', 'PostgreSql', 'Sequelize', 'React', 'Redux', 'Css3', 'Auth0', 'MercadoPago'],
-    repository: "https://github.com/matidehoyos/Tienda-Electroauto",
+    repository: "https://github.com/matidehoyos/Ecommerce-Electroauto-react-node",
     web: "https://electroauto.vercel.app/",
-    img: 'elec.png',
+    img: 'elect.png',
   },
   {
     id: 5,
