@@ -57,6 +57,24 @@ const projects = [
   },
   {
     id: 5,
+    name: "POKEMON APP",
+    rol: "Full stack developer",
+    date: "Jan 2024",
+    titulo: {
+      en: "SPA - Pokedex",
+      es: "SPA - Pokedex"
+    },
+    detail: {
+      en: "Consumes data from an external API and stores it in a database to list it through combined filters. Responsive design.",
+      es: "Consume datos de API externa y los guarda en base de datos para luego listarlos a traves de filtros combinados. Diseño responsive."
+    },
+    technologies: ['Javascript','NodeJs','Express','React','Redux','PostgreSql'],
+    repository: "https://github.com/matidehoyos/Pokemon-proyecto",
+    web: "https://pokemonmdh.vercel.app/",
+    img: 'pokk.png',
+  },
+  {
+    id: 6,
     name: "MODO DIGITAL",
     rol: "Front end developer",
     date: "Aug 2024",
@@ -90,24 +108,6 @@ const projects = [
     repository: "https://github.com/matidehoyos/rugirTailw",
     web: "https://rugirmdq.vercel.app/",
     img: 'rugir.png',
-  },
-  {
-    id: 7,
-    name: "POKEMON APP",
-    rol: "Full stack developer",
-    date: "Jan 2024",
-    titulo: {
-      en: "SPA - Pokedex",
-      es: "SPA - Pokedex"
-    },
-    detail: {
-      en: "Consumes data from an external API and stores it in a database to list it through combined filters. Responsive design.",
-      es: "Consume datos de API externa y los guarda en base de datos para luego listarlos a traves de filtros combinados. Diseño responsive."
-    },
-    technologies: ['Javascript','NodeJs','Express','React','Redux','PostgreSql'],
-    repository: "https://github.com/matidehoyos/Pokemon-proyecto",
-    web: "https://pokemonmdh.vercel.app/",
-    img: 'pokk.png',
   },
   {
     id: 8,
