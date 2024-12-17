@@ -125,7 +125,7 @@ const projects = [
     technologies: ['Javascript','NodeJs','React','CSS3'],
     repository: "https://github.com/matidehoyos/RickyMorty",
     web: "https://rickymortymdh.vercel.app/",
-    img: 'rik.png',
+    img: 'rick.png',
   },
   {
     id: 9,
