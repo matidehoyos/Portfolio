@@ -61,12 +61,12 @@ const projects = [
     rol: "Full stack developer",
     date: "Jan 2024",
     titulo: {
-      en: "SPA - Pokedex",
-      es: "SPA - Pokedex"
+      en: "SPA - Pokemón App",
+      es: "SPA - Pokemón App"
     },
     detail: {
-      en: "Consumes data from an external API and stores it in a database to list it through combined filters. Responsive design.",
-      es: "Consume datos de API externa y los guarda en base de datos para luego listarlos a traves de filtros combinados. Diseño responsive."
+      en: "Consumes data from an external API. It uses Redux for global state management and features an advanced filtering system. It includes a search bar and allows users to create their own character through a fully controlled form, which is saved in the database. Additionally, it has a pagination system to organize information. It is 100% responsive.",
+      es: "Consume datos de api externa. Utiliza Redux para manejo de estado global, y sistema filtros avanzados. Posee barra de búsqueda, y posibilidad de crear su propio personaje, a través de un formulario totalmente controlado, que lo guarda en la base de datos. Tambien cuenta con sistema de paginado para organizar la información. Es 100% responsive."
     },
     technologies: ['Javascript','NodeJs','Express','React','Redux','PostgreSql'],
     repository: "https://github.com/matidehoyos/Pokemon-proyecto",
