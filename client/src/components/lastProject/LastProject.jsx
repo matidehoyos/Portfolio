@@ -27,7 +27,7 @@ const LastProject = () => {
                 <h3 className={`${style.nombre} ${isLightMobile ? style.nombreLight : style.nombre}`} style={{color: theme === 'dark' ? '' : '#333'}}>{t("lastProject.project")} <span style={{color: theme === 'dark' ? '' : '#333', fontWeight: theme === 'dark' ? '' : '500'}}>- Nov 2024</span></h3>
                 <div className={style.first}>
                     <div className={style.videoContainer}>
-                        <video className={style.video} autoPlay muted playsInline controls loop src="./medVid.mp4" alt="" style={{border: theme === 'dark' ? '' : '3px solid #ff8e00'}}/>
+                        <video className={style.video} autoPlay muted playsInline controls loop src="./medVid.mp4" alt="" style={{border: theme === 'dark' ? '' : '3px solid #ff8e00'}} data-aos="fade-zoom" data-aos-duration="800"/>
                     </div>
                     <div className={style.txt}>
                         <p className={style.desc}style={{color: theme === 'dark' ? '' : '#333', fontWeight: theme === 'dark' ? '' : '400'}}>{t("lastProject.desc")}</p>

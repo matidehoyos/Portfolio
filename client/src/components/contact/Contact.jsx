@@ -24,7 +24,7 @@ const Contact = () => {
                 </p>
                 <div className={`${style.box} ${isLightMobile ? style.boxLight : style.box}`} data-aos="fade-up" data-aos-duration="800" style={{background: theme === 'light' ? '#ddd' : '', border: theme === 'light' ? '1px solid #00000030' : ''}}>
                 <div className={style.imgPre} >
-                    <div className={style.subCont} style={{background: theme === 'dark' ? 'rgb(116, 75, 0)' : '#ff8e0090', border: theme === 'dark' ? '' : '1px solid #aaa'}}>
+                    <div className={style.subCont} style={{background: theme === 'dark' ? '' : '#ff8e0090', border: theme === 'dark' ? '' : '1px solid #aaa'}}>
                         <img src="contact.png" alt="Imagen telefono." className={style.imgHeader} data-aos="fade-up" data-aos-duration="800" />
                     </div>
                 </div>

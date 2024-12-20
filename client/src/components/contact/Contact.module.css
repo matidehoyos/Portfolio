@@ -38,6 +38,8 @@
     display: flex;
     justify-items: center;
     justify-content: center;
+    background-color: #ffffff05;
+    border-radius: 8px;
 }
 
 .subCont {
@@ -45,7 +47,6 @@
     height: auto;
     display: flex;
     overflow: hidden;
-    border: 1px solid #000;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -69,7 +70,7 @@
 
 .caja p {
     width: auto;
-    font-size: 24px;
+    font-size: 32px;
     letter-spacing: .6px;
     line-height: 120%;
 }
@@ -185,7 +186,6 @@
         justify-content: center;
         align-items: center;
         overflow: hidden;
-        border: 1px solid #000;
         border-radius: 8px;
         overflow: hidden;
     }

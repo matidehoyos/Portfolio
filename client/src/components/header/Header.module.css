@@ -270,30 +270,33 @@
         }
     
     .subCont {
-        width: 80%;
+        width: 97%;
         height: auto;
         display: flex;
-        border-radius: 6px 25% 25% 6px;
+        border-radius: 6px 25% 6px 6px;
         padding: 10px;
         padding-bottom: 0;
-        padding-left: 0;        overflow: hidden;
-        border: 1px solid rgba(255, 166, 0, 0.203);
-        background-color: rgba(157, 102, 0, 0.064);
+        padding-left: 0;        
+        overflow: hidden;
+        border: 1px solid rgba(255, 166, 0, 0.108);
+        background-color: #050505;
     }
         
         .imgHeader {
-            width: 210px;
+            width: 200px;
             height: auto;
             object-fit: cover;
             margin-top: 0;
-            opacity: .9 !important;
+            opacity: .7 !important;
             padding: 0;
-            padding-top: 20px;
-            filter: grayscale(80%) drop-shadow(0px -20px 20px #ff8e0010) !important;
+            padding-top: 16px;
+            filter: grayscale(80%) drop-shadow(200px -140px 100px rgba(255, 166, 0, 0.73)) !important;
             -webkit-user-drag: none;
             -khtml-user-drag: none;
             -moz-user-drag: none;
             -o-user-drag: none;
+            position: relative;
+            left: -27px;
         }
       
       .texto {
