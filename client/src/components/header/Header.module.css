@@ -273,7 +273,7 @@
         width: 97%;
         height: auto;
         display: flex;
-        border-radius: 6px 25% 6px 6px;
+        border-radius: 6px 6px 6px 6px;
         padding: 10px;
         padding-bottom: 0;
         padding-left: 0;        
@@ -290,7 +290,7 @@
             opacity: .7 !important;
             padding: 0;
             padding-top: 16px;
-            filter: grayscale(80%) drop-shadow(200px -140px 100px rgba(255, 166, 0, 0.73)) !important;
+            filter: grayscale(80%) drop-shadow(140px -100px 80px rgba(255, 166, 0, 0.36)) !important;
             -webkit-user-drag: none;
             -khtml-user-drag: none;
             -moz-user-drag: none;

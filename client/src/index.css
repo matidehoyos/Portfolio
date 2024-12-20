@@ -30,7 +30,7 @@
   background-image: url('/bgMov.png');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   }
 }
 

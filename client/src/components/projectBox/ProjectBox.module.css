@@ -204,11 +204,12 @@
             padding: 25px 18px;
             border: 0.05px solid #aaaaaa50;
             flex-grow: 1;
+            background-color: #040404;
          } 
          
          .boxPc:hover {
             border: 0.01px solid #aaaaaa50;
-            background-color: #17181d;
+            background-color: #040404;
          }
       
          .boxPcLight {
