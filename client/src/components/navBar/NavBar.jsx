@@ -75,7 +75,7 @@ const NavBar = () => {
                     <p style={{color: theme === 'dark' ? '' : '#333', fontWeight: theme === 'dark' ? '' : '500'}}>{t('navbar.developer')}</p>
                 </div>
             </a>
-                <div className={`${style.menu} ${isLightMobile ? style.menuLight : style.menu}`} onClick={ocultarMenu} style={{height: isVisible ? 'auto' : '0'}}>
+                <div className={`${style.menu} ${isLightMobile ? style.menuLight : style.menu}`} onClick={ocultarMenu} style={{maxHeight: isVisible ? '90vh' : '0'}}>
                     <nav>
                         <ul>
                             <li><a href="#about" onClick={handleShowMenu} style={{color: theme === 'dark' ? '' : '#222'}}>{t('navbar.about')}</a></li>

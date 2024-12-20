@@ -295,7 +295,7 @@
             opacity: .7 !important;
             padding: 0;
             padding-top: 16px;
-            filter: grayscale(80%) drop-shadow(140px -100px 80px rgba(255, 166, 0, 0.629)) !important;
+            filter: grayscale(80%) drop-shadow(140px -100px 80px rgba(255, 166, 0, 0.321)) !important;
             -webkit-user-drag: none;
             -khtml-user-drag: none;
             -moz-user-drag: none;
