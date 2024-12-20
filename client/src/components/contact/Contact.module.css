@@ -299,29 +299,29 @@
      }
 
      .box {
-        width: 90%;
+        width: 96%;
         border: none;
-        padding: 10px;
+        padding: 4px;
         margin: 0 auto;
         margin-top: 30px;
         border: none !important;
         display: flex;
         flex-direction: column;
-        border: 1px solid #ffffff10 !important;
-        background-color: transparent;
+        border: 1px solid #ffffff20 !important;
+        background-color: #000;
      }
    
      .boxLight {
-        width: 90%;
+        width: 96%;
         border: none;
-        padding: 10px;
+        padding: 4px;
         margin: 0 auto;
         margin-top: 30px;
         border: none !important;
         display: flex;
         align-items: center;
         flex-direction: column;
-        border: 1px solid #ffffff10 !important;
+        border: 1px solid #00000040 !important;
         background-color: #ddd !important;
      }
     
@@ -411,18 +411,18 @@
     
     .redes a {
         width: 100% !important;
-        font-size: 16px !important;
+        font-size: 18px !important;
         font-weight: 400 !important; 
         letter-spacing: .6px !important;
         margin-top: 0px !important;
         padding: 8px 12px !important;
         text-align: center !important;
         background-color: transparent;
-        color: #ddd;
+        color: #aaa;
         font-weight: 300 !important;
         display: flex;
         justify-content: center;
-        border: 1px solid #ddd;
+        border: 1px solid #aaa;
     }
       
       .redes a:hover {

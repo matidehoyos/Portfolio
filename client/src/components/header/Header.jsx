@@ -20,7 +20,7 @@ const Header = () => {
     return (
         <div className={style.container} id='header' style={{background: theme === 'light' ? "#eee" : ''}} data-aos="fade-left" data-aos-duration="800">
             <div className={style.imgPre} style={{width: '100vw'}} >
-                <div className={style.subCont} style={{backgroundColor: theme === 'dark' ? "" : '#ff8e0080', border: theme === 'dark' ? '' : '1px solid #888'}}>
+                <div className={style.subCont} style={{backgroundColor: theme === 'dark' ? "" : '#aaa', border: theme === 'dark' ? '' : '1px solid #888'}}>
                     <img src="nav.png" alt="Imagen personal" className={style.imgHeader}  />
                 </div>
             </div>

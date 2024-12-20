@@ -204,7 +204,7 @@
             padding: 25px 18px;
             border: 0.05px solid #aaaaaa50;
             flex-grow: 1;
-            background-color: #040404;
+            background-color: #111;
          } 
          
          .boxPc:hover {
@@ -309,10 +309,10 @@
       
          .detalle {
             width: 100%;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 200;
             letter-spacing: .5px;
-            line-height: 17px;
+            line-height: 20px;
             color: #bbb !important;
             margin-top: 8px;
             padding: 0;
@@ -322,10 +322,10 @@
       
          .detalleLight {
             width: 100%;
-            font-size: 16px;
+            font-size: 17px;
             font-weight: 300 !important;
             letter-spacing: .5px;
-            line-height: 17px;
+            line-height: 19px;
             color: #111 !important;
             margin-top: 8px;
             padding: 0;

@@ -11,13 +11,15 @@
     transition: all .5s ease;
     z-index: 6000;
     position: absolute;
-    border-bottom: 1px solid rgba(51, 34, 0, 0.864);
+    background-color: #17181d;
 }
 
 .scrolled {
     position: fixed;
+    top: 0;
     padding-top: 10px;
     box-shadow: 0px 0px 10px #000;
+    border-bottom: 1px solid rgba(51, 34, 0, 0.864);
 }
 
 .link {
@@ -192,6 +194,7 @@
       z-index: 2000;
       top: 0;
       border-bottom: none;
+      background-color: transparent;
     }
 
     .logoImg {
@@ -213,41 +216,42 @@
     }
 
     .link img {
-        width: 45px;
-        height: 45px;
+        width: 44px;
+        height: 44px;
         object-fit: cover;
-        border: 1px solid #cccccc5b;
+        border: 1px solid orange;
+        border-radius: 50%;
     }
 
     .txt h6 {
-        font-size: 18px;
+        font-size: 21px;
         font-weight: 500;
         letter-spacing: .4px;
         line-height: 21px;
     }
     
     .txt p {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 300;
         letter-spacing: .4px;
-        line-height: 18px;
+        line-height: 22px;
     }
 
     .scrolled .txt h6 {
         font-size: 16px;
-        line-height: 20px;
+        line-height: 18px;
     }
 
     .scrolled .txt p {
-        font-size: 13px;
-        line-height: 16px;
+        font-size: 14px;
+        line-height: 15px;
     }
 
     .botonera {
         display: flex;
         align-items: start;
         position: relative;
-        top: 5.5px;
+        top: 2px;
     }
 
     .temaMov {
@@ -261,11 +265,11 @@
     }
     
     .temaIcon {
-        font-size: 28px;
-        color: #fff;
-        border: 1px solid #fff;
+        font-size: 32px;
+        color: #aaa;
+        border: 1px solid #444;
         padding: 3px;
-        background-color: rgb(56, 56, 56);
+        background-color: #555;
         border-radius: 50%;
         transition: all .6s ease;
         position: relative;
@@ -288,30 +292,32 @@
     }
     
     .flagIcon {
-        width: 28px;
+        width: 32px;
         border-radius: 50%;
         transition: all .6s ease;
-        border: 1px solid #fff;
+        border: 1px solid #444;
         margin-left: 0;
         margin-right: 12px;
         position: relative;
-        top: 8.1px;
+        top: 8.3px;
     }
     
     .menu {
       width: 100vw;
-      height: calc(100vh - 80px);
+      height: calc(100vh - 100px);
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: start;
       background-size: cover;
       position: absolute;
-      top: 68px;
-      transition: .6s all ease;
+      top: 75px;
+      left: 0;
       z-index: 2000;
       overflow-x: hidden;
-      background-color: #17181d;
+      background-color: #000;
+      overflow: hidden;
+      transition: transform .6s ease !important;
     }
 
     .menuLight {
@@ -322,8 +328,9 @@
       align-items: center;
       justify-content: start;
       position: absolute;
-      top: 68px;
-      transition: .6s all ease;
+      top: 75px;
+      left: 0;
+      transition: .6s all ease !important;
       z-index: 2000;
       overflow-x: hidden;
       background-color: #eee !important;
@@ -409,10 +416,10 @@
     }
     
     .menuResp button {
-      font-size: 42px;
+      font-size: 46px;
       margin: 0;
       padding: 0;
-      color: #ddd;
+      color: orange;
       background-color: transparent;
       border: none;
       outline: none;   

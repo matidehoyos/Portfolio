@@ -13,6 +13,8 @@ const NavBar = () => {
     const { t, i18n } = useTranslation();
     const [language, setLanguage] = useState('en');
     const isLightMobile = theme === 'light' && isMobile;
+    const [isScrollingDown, setIsScrollingDown] = useState(false);
+    const [lastScrollPosition, setLastScrollPosition] = useState(false);
 
     const handleShowMenu = () => {
         setIsVisible(!isVisible);
@@ -25,13 +27,32 @@ const NavBar = () => {
 
     useEffect(() => {
         const handleScroll = () => {
+          const scrollPosition = window.scrollY;
+          if (scrollPosition > 0) {
+            if (scrollPosition >= lastScrollPosition) {
+              if (!isScrollingDown) {
+                setIsScrollingDown(true);
+              }
+            } else if (isScrollingDown) {
+              setIsScrollingDown(false);
+            }
+          } else {
+            setIsScrollingDown(false);
+          }
+          setLastScrollPosition(scrollPosition);
+        }
+        document.addEventListener("scroll", handleScroll, { passive: true })
+        return () => document.removeEventListener("scroll", handleScroll)
+      })
+
+    useEffect(() => {
+        const handleScroll = () => {
             if (window.scrollY > 360) {
                 setIsScrolled(true);
             } else {
                 setIsScrolled(false);
             }
         };
-
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
@@ -46,15 +67,15 @@ const NavBar = () => {
     };
 
     return (
-        <div className={`${style.container} ${isScrolled ? style.scrolled : ''} }`} style={{ backgroundColor: theme === 'light' ? '#eee' : '#18171d', borderBottom: theme === 'dark' ? '' : '0.3px solid #999'}}>
+        <div className={`${style.container} ${isScrolled ? style.scrolled : ''}`} style={{ backgroundColor: theme === 'light' ? '#eee' : '', transform: isScrollingDown ? 'translateY(-100%)' : 'translateY(0)' }}>
             <a href='#header' className={style.link}>
-                <img src='./nav.png' className={style.logoImg} style={{backgroundColor: theme === 'dark' ? '' : '#ff8e0080', border: theme === 'dark' ? '' : '1px solid #888', opacity: theme === 'dark' ? '' : '1'}} alt="Logo"/>
+                <img src='./nav.png' className={style.logoImg} style={{backgroundColor: theme === 'dark' ? '' : '#ff8e00', border: theme === 'dark' ? '' : '1px solid #aaa', opacity: theme === 'dark' ? '' : '1'}} alt="Logo"/>
                 <div className={style.txt}>
                     <h6 style={{color: theme === 'dark' ? '' : '#222'}}>{t('navbar.name')}</h6>
                     <p style={{color: theme === 'dark' ? '' : '#333', fontWeight: theme === 'dark' ? '' : '500'}}>{t('navbar.developer')}</p>
                 </div>
             </a>
-                <div className={`${style.menu} ${isLightMobile ? style.menuLight : style.menu}`} onClick={ocultarMenu} style={isVisible ? { left: '0px' } : { left: '1200px' }}>
+                <div className={`${style.menu} ${isLightMobile ? style.menuLight : style.menu}`} onClick={ocultarMenu} style={{height: isVisible ? 'auto' : '0'}}>
                     <nav>
                         <ul>
                             <li><a href="#about" onClick={handleShowMenu} style={{color: theme === 'dark' ? '' : '#222'}}>{t('navbar.about')}</a></li>

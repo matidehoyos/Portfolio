@@ -251,13 +251,16 @@
     .container {
         width: auto;  
         height: auto;
-        min-height: 100vh;
+        min-height: auto;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: center;
         padding: 0;
+        padding-bottom: 110px;
         margin: 0;
+        gap: 0;
       }
       
       .imgPre {
@@ -265,6 +268,8 @@
         display: flex;
         justify-items: center;
         justify-content: start;
+        margin: 0;
+        padding: 0;
         padding-top: 100px;
         padding-left: 10px;
         }
@@ -278,8 +283,8 @@
         padding-bottom: 0;
         padding-left: 0;        
         overflow: hidden;
-        border: 1px solid rgba(255, 166, 0, 0.108);
-        background-color: #050505;
+        border: 1px solid #222;
+        background-color: #111;
     }
         
         .imgHeader {
@@ -290,7 +295,7 @@
             opacity: .7 !important;
             padding: 0;
             padding-top: 16px;
-            filter: grayscale(80%) drop-shadow(140px -100px 80px rgba(255, 166, 0, 0.36)) !important;
+            filter: grayscale(80%) drop-shadow(140px -100px 80px rgba(255, 166, 0, 0.629)) !important;
             -webkit-user-drag: none;
             -khtml-user-drag: none;
             -moz-user-drag: none;
@@ -304,33 +309,40 @@
           margin: 0;
           padding: 0;
           padding-left: 10px;
+          padding-top: 7px;
           display: flex;
           flex-direction: column;
           justify-content: center;
           gap: 0;
-      }
-
-      .textoLight {
-          width: auto;
-          margin: 0;
-          padding: 0;
-          padding-left: 10px;
-          position: inherit;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          gap: 0;
+        }
+        
+        .textoLight {
+            width: auto;
+            margin: 0;
+            padding: 0;
+            padding-left: 10px;
+            padding-top: 7px;
+            position: inherit;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0;
       }
 
       .pres {
-        font-size: 18px;
-        color: #aaaaaad8;
+        font-size: 20px;
+        font-weight: 300;
+        color: #bbb;
         padding-bottom: 4px;
+    }
+
+    .textoLight .pres {
+        color: #222 !important;
     }
       
       .rol {
           font-size: 34px;
-          font-weight: 700;
+          font-weight: 600;
           margin: 0;
           padding: 0;
           line-height: 28px;
@@ -340,26 +352,35 @@
       }
       
       .dev {
-        font-size: 26px;
+        font-size: 32px;
         line-height: 18px;
           font-weight: 500;
           margin: 0;
           padding: 0;
           position: relative;
           top: -3px;
-          color: #aaa;
+          color: #bbb;
+      }
+
+      .textoLight .dev {
+        color: #222;
       }
       
       .des {
-          width: 86%;
-          font-size: 22px;
+          width: 97%;
+          font-size: 24px;
           font-weight: 400 !important;
           line-height: 112%;
           letter-spacing: .5px;
           padding: 0;
           margin: 0;
-          margin-top: 20px;
+          margin-top: 15px;
           text-align: left;
-          color: #aaaaaacc;
+          color: #aaa;
+      }
+
+      .textoLight .des {
+        color: #333 !important;
+        font-weight: 500 !important;
       }
 }
